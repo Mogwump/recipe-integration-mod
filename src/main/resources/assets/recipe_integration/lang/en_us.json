@@ -1,0 +1,5 @@
+{
+  "itemGroup.recipe_integration": "Example Mod Tab",
+  "block.recipe_integration.example_block": "Example Block",
+  "item.recipe_integration.example_item": "Example Item"
+}
