@@ -17,7 +17,7 @@
         }
     ],
     "recipe": {
-        "type": "ars_nouveau:scrying",
+        "type": "ars_nouveau:scry_ritual",
         "augment": "c:ores/uranium",
         "highlight": "c:ores/uranium"
     }
