@@ -1,0 +1,30 @@
+{
+    "type": "supermartijn642corelib:conditional",
+    "conditions": [
+        {
+            "type": "supermartijn642corelib:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "supermartijn642corelib:tag_populated",
+            "tag": "c:dusts/chromium",
+            "registry": "minecraft:item"
+        },
+        {
+            "type": "supermartijn642corelib:tag_populated",
+            "tag": "c:raw_materials/chromium",
+            "registry": "minecraft:item"
+        }
+    ],
+    "recipe": {
+        "type": "mekanism:enriching",
+        "input": {
+            "count": 3,
+            "tag": "c:raw_materials/chromium"
+        },
+        "output": {
+            "count": 4,
+            "tag": "c:dusts/chromium"
+        }
+    }
+}
