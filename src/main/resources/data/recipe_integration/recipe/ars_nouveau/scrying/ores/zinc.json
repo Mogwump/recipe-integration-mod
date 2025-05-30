@@ -1,24 +1,28 @@
 {
-    "type": "supermartijn642corelib:conditional",
-    "conditions": [
+    "neoforge:conditions": [
         {
-            "type": "supermartijn642corelib:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "ars_nouveau"
         },
         {
-            "type": "supermartijn642corelib:tag_populated",
-            "tag": "c:ores/zinc",
-            "registry": "minecraft:block"
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:block",
+                "tag": "c:ores/zinc"
+            }
         },
         {
-            "type": "supermartijn642corelib:tag_populated",
-            "tag": "c:ores/zinc",
-            "registry": "minecraft:item"
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/zinc"
+            }
         }
     ],
-    "recipe": {
-        "type": "ars_nouveau:scry_ritual",
-        "augment": "c:ores/zinc",
-        "highlight": "c:ores/zinc"
-    }
+
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/zinc",
+    "highlight": "c:ores/zinc"
 }

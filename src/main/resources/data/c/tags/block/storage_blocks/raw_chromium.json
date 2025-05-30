@@ -1,5 +1,8 @@
 {
     "values": [
-        "electrodynamics:raworeblockchromium"
+        {
+            "id": "electrodynamics:raworeblockchromium",
+            "required": false
+        }
     ]
 }

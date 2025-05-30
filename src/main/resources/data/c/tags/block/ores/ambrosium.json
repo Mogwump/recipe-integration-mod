@@ -1,5 +1,8 @@
 {
     "values": [
-        "aether:ambrosium_ore"
+        {
+            "id": "aether:ambrosium_ore",
+            "required": false
+        }
     ]
 }

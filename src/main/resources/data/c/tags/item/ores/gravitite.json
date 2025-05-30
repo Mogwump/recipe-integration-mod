@@ -1,5 +1,8 @@
 {
     "values": [
-        "aether:gravitite_ore"
+        {
+            "id": "aether:gravitite_ore",
+            "required": false
+        }
     ]
 }

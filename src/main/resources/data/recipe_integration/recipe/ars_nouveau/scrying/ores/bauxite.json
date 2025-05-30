@@ -1,24 +1,28 @@
 {
-    "type": "supermartijn642corelib:conditional",
-    "conditions": [
+    "neoforge:conditions": [
         {
-            "type": "supermartijn642corelib:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "ars_nouveau"
         },
         {
-            "type": "supermartijn642corelib:tag_populated",
-            "tag": "c:ores/bauxite",
-            "registry": "minecraft:block"
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:block",
+                "tag": "c:ores/bauxite"
+            }
         },
         {
-            "type": "supermartijn642corelib:tag_populated",
-            "tag": "c:ores/bauxite",
-            "registry": "minecraft:item"
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/bauxite"
+            }
         }
     ],
-    "recipe": {
-        "type": "ars_nouveau:scry_ritual",
-        "augment": "c:ores/bauxite",
-        "highlight": "c:ores/bauxite"
-    }
+
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/bauxite",
+    "highlight": "c:ores/bauxite"
 }

@@ -1,5 +1,8 @@
 {
     "values": [
-        "electrodynamics:raworeblocktin"
+        {
+            "id": "electrodynamics:raworeblocktin",
+            "required": false
+        }
     ]
 }
