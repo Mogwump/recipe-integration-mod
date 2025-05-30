@@ -1,0 +1,48 @@
+{
+    "type": "supermartijn642corelib:conditional",
+    "conditions": [
+        {
+            "type": "supermartijn642corelib:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "supermartijn642corelib:mod_loaded",
+            "modid": "enderzoology"
+        }
+    ],
+    "recipe": {
+        "entity": "enderzoology:concussion_creeper",
+        "variants": [],
+        "name": {
+            "translate": "entity.enderzoology.concussion_creeper",
+            "color": "#056F73"
+        },
+        "display": {},
+        "sim_cost": 128,
+        "input": {
+            "item": "hostilenetworks:prediction_matrix"
+        },
+        "base_drop": {
+            "id": "hostilenetworks:overworld_prediction"
+        },
+        "trivia": "recipe_integration.hostilenetworks.trivia.enderzoology.concussion_creeper",
+        "fabricator_drops": [
+            {
+                "id": "minecraft:gunpowder",
+                "count": 32
+            },
+            {
+                "id": "enderzoology:confusing_powder",
+                "count": 32
+            },
+            {
+                "id": "minecraft:ender_pearl",
+                "count": 8
+            },
+            {
+                "id": "enderzoology:ender_fragment",
+                "count": 16
+            }
+        ]
+    }
+}

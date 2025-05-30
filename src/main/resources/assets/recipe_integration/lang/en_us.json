@@ -1,5 +1,4 @@
 {
-  "itemGroup.recipe_integration": "Example Mod Tab",
-  "block.recipe_integration.example_block": "Example Block",
-  "item.recipe_integration.example_item": "Example Item"
+  "_comment": "Hostile Neural Networks mob trivia",
+  "recipe_integration.hostilenetworks.trivia.enderzoology.concussion_creeper": "Explodes without wrecking blocks—teleports you instead! Drops Confusing Powder for special TNT variants."
 }
