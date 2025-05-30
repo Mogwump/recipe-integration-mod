@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "gcyr"
+        }
+    ],
+
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/trinaquadalloy"
+        }
+    ],
+    "results": [
+        {
+            "id": "gcyr:trinaquadalloy_plate"
+        }
+    ]
+}

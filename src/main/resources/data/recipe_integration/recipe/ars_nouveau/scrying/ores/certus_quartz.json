@@ -1,0 +1,28 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:block",
+                "tag": "c:ores/certus_quartz"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/certus_quartz"
+            }
+        }
+    ],
+
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/certus_quartz",
+    "highlight": "c:ores/certus_quartz"
+}
