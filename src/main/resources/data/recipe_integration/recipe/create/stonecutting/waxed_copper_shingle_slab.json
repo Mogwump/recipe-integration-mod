@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "create:waxed_copper_shingles"
+    },
+    "result": {
+        "count": 2,
+        "id": "create:waxed_copper_shingle_slab"
+    }
+}

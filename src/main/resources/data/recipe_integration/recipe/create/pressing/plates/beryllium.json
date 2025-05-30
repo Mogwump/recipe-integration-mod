@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/beryllium"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:plates/beryllium"
+            }
+        }
+    ],
+
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/beryllium"
+        }
+    ],
+    "results": [
+        {
+            "tag": "c:plates/beryllium"
+        }
+    ]
+}

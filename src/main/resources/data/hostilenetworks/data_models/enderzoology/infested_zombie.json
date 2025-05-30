@@ -1,0 +1,54 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "enderzoology"
+        }
+    ],
+
+    "entity": "enderzoology:infested_zombie",
+    "variants": [],
+    "name": {
+        "translate": "entity.enderzoology.infested_zombie",
+        "color": "#4E947C"
+    },
+    "display": {},
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "recipe_integration.hostilenetworks.trivia.enderzoology.infested_zombie",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:rotten_flesh",
+            "count": 64
+        },
+        {
+            "id": "minecraft:iron_ingot",
+            "count": 8
+        },
+        {
+            "id": "minecraft:carrot",
+            "count": 16
+        },
+        {
+            "id": "minecraft:potato",
+            "count": 16
+        },
+        {
+            "id": "minecraft:book",
+            "count": 6
+        },
+        {
+            "id": "enderzoology:ender_fragment",
+            "count": 16
+        }
+    ]
+}

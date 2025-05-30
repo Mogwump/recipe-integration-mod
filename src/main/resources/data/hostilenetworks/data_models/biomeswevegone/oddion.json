@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+
+    "entity": "biomeswevegone:oddion",
+    "variants": [],
+    "name": {
+        "translate": "entity.biomeswevegone.oddion",
+        "color": "#F7B345"
+    },
+    "display": {},
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "recipe_integration.hostilenetworks.trivia.biomeswevegone.oddion",
+    "fabricator_drops": [
+        {
+            "id": "biomeswevegone:oddion_bulb",
+            "count": 32
+        }
+    ]
+}

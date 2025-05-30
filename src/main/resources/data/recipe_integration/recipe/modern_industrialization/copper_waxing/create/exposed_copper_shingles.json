@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "create:exposed_copper_shingles"
+        },
+        {
+            "item": "modern_industrialization:wax"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "create:waxed_exposed_copper_shingles"
+    }
+}
