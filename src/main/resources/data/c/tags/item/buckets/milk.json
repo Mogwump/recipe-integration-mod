@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "exdeorum:porcelain_milk_bucket",
+            "required": false
+        },
+        {
+            "id": "forbidden_arcanus:edelwood_milk_bucket",
+            "required": false
+        }
+    ]
+}

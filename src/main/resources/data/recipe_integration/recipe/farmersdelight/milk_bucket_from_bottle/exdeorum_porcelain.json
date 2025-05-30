@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "farmersdelight"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "exdeorum:porcelain_bucket"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        },
+        {
+            "item": "farmersdelight:milk_bottle"
+        }
+    ],
+    "result": {
+        "id": "exdeorum:porcelain_milk_bucket"
+    }
+}

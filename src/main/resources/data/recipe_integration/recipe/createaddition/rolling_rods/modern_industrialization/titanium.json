@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createaddition"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "createaddition:rolling",
+    "input": {
+        "tag": "c:ingots/titanium"
+    },
+    "result": {
+        "id": "modern_industrialization:titanium_rod",
+        "count": 2
+    }
+}

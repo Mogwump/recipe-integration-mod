@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "exdeorum:porcelain_water_bucket",
+            "required": false
+        },
+        {
+            "id": "forbidden_arcanus:edelwood_water_bucket",
+            "required": false
+        }
+    ]
+}

@@ -2,14 +2,14 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "create"
+            "modid": "ars_nouveau"
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "registry": "minecraft:item",
-                "tag": "c:ingots/beryllium"
+                "registry": "minecraft:block",
+                "tag": "c:ores/dolomite"
             }
         },
         {
@@ -17,20 +17,12 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:plates/beryllium"
+                "tag": "c:ores/dolomite"
             }
         }
     ],
 
-    "type": "create:pressing",
-    "ingredients": [
-        {
-            "tag": "c:ingots/beryllium"
-        }
-    ],
-    "results": [
-        {
-            "tag": "c:plates/beryllium"
-        }
-    ]
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/dolomite",
+    "highlight": "c:ores/dolomite"
 }
