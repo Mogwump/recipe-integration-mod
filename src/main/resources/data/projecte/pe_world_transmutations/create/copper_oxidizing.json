@@ -1,0 +1,145 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+
+    "transmutations": [
+        {
+            "alt_result": "create:oxidized_copper_shingles",
+            "origin": "create:copper_shingles",
+            "result": "create:exposed_copper_shingles"
+        },
+        {
+            "alt_result": "create:copper_shingles",
+            "origin": "create:exposed_copper_shingles",
+            "result": "create:weathered_copper_shingles"
+        },
+        {
+            "alt_result": "create:exposed_copper_shingles",
+            "origin": "create:weathered_copper_shingles",
+            "result": "create:oxidized_copper_shingles"
+        },
+        {
+            "alt_result": "create:weathered_copper_shingles",
+            "origin": "create:oxidized_copper_shingles",
+            "result": "create:copper_shingles"
+        },
+
+
+        {
+            "alt_result": "create:oxidized_copper_shingle_slab",
+            "origin": "create:copper_shingle_slab",
+            "result": "create:exposed_copper_shingle_slab"
+        },
+        {
+            "alt_result": "create:copper_shingle_slab",
+            "origin": "create:exposed_copper_shingle_slab",
+            "result": "create:weathered_copper_shingle_slab"
+        },
+        {
+            "alt_result": "create:exposed_copper_shingle_slab",
+            "origin": "create:weathered_copper_shingle_slab",
+            "result": "create:oxidized_copper_shingle_slab"
+        },
+        {
+            "alt_result": "create:weathered_copper_shingle_slab",
+            "origin": "create:oxidized_copper_shingle_slab",
+            "result": "create:copper_shingle_slab"
+        },
+
+
+        {
+            "alt_result": "create:oxidized_copper_shingle_stairs",
+            "origin": "create:copper_shingle_stairs",
+            "result": "create:exposed_copper_shingle_stairs"
+        },
+        {
+            "alt_result": "create:copper_shingle_stairs",
+            "origin": "create:exposed_copper_shingle_stairs",
+            "result": "create:weathered_copper_shingle_stairs"
+        },
+        {
+            "alt_result": "create:exposed_copper_shingle_stairs",
+            "origin": "create:weathered_copper_shingle_stairs",
+            "result": "create:oxidized_copper_shingle_stairs"
+        },
+        {
+            "alt_result": "create:weathered_copper_shingle_stairs",
+            "origin": "create:oxidized_copper_shingle_stairs",
+            "result": "create:copper_shingle_stairs"
+        },
+
+
+        {
+            "alt_result": "create:oxidized_copper_tiles",
+            "origin": "create:copper_tiles",
+            "result": "create:exposed_copper_tiles"
+        },
+        {
+            "alt_result": "create:copper_tiles",
+            "origin": "create:exposed_copper_tiles",
+            "result": "create:weathered_copper_tiles"
+        },
+        {
+            "alt_result": "create:exposed_copper_tiles",
+            "origin": "create:weathered_copper_tiles",
+            "result": "create:oxidized_copper_tiles"
+        },
+        {
+            "alt_result": "create:weathered_copper_tiles",
+            "origin": "create:oxidized_copper_tiles",
+            "result": "create:copper_tiles"
+        },
+
+
+        {
+            "alt_result": "create:oxidized_copper_tile_slab",
+            "origin": "create:copper_tile_slab",
+            "result": "create:exposed_copper_tile_slab"
+        },
+        {
+            "alt_result": "create:copper_tile_slab",
+            "origin": "create:exposed_copper_tile_slab",
+            "result": "create:weathered_copper_tile_slab"
+        },
+        {
+            "alt_result": "create:exposed_copper_tile_slab",
+            "origin": "create:weathered_copper_tile_slab",
+            "result": "create:oxidized_copper_tile_slab"
+        },
+        {
+            "alt_result": "create:weathered_copper_tile_slab",
+            "origin": "create:oxidized_copper_tile_slab",
+            "result": "create:copper_tile_slab"
+        },
+
+
+        {
+            "alt_result": "create:oxidized_copper_tile_stairs",
+            "origin": "create:copper_tile_stairs",
+            "result": "create:exposed_copper_tile_stairs"
+        },
+        {
+            "alt_result": "create:copper_tile_stairs",
+            "origin": "create:exposed_copper_tile_stairs",
+            "result": "create:weathered_copper_tile_stairs"
+        },
+        {
+            "alt_result": "create:exposed_copper_tile_stairs",
+            "origin": "create:weathered_copper_tile_stairs",
+            "result": "create:oxidized_copper_tile_stairs"
+        },
+        {
+            "alt_result": "create:weathered_copper_tile_stairs",
+            "origin": "create:oxidized_copper_tile_stairs",
+            "result": "create:copper_tile_stairs"
+        }
+    ]
+}

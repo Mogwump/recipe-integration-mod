@@ -1,0 +1,319 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ],
+
+    "transmutations": [
+        {
+            "alt_result": "undergarden:smogstem_log",
+            "origin": "undergarden:wigglewood_log",
+            "result": "undergarden:grongle_log"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_log",
+            "origin": "undergarden:grongle_log",
+            "result": "undergarden:smogstem_log"
+        },
+        {
+            "alt_result": "undergarden:grongle_log",
+            "origin": "undergarden:smogstem_log",
+            "result": "undergarden:wigglewood_log"
+        },
+
+
+        {
+            "alt_result": "undergarden:stripped_smogstem_log",
+            "origin": "undergarden:wstripped_igglewood_log",
+            "result": "undergarden:stripped_grongle_log"
+        },
+        {
+            "alt_result": "undergarden:stripped_wigglewood_log",
+            "origin": "undergarden:stripped_grongle_log",
+            "result": "undergarden:stripped_smogstem_log"
+        },
+        {
+            "alt_result": "undergarden:stripped_grongle_log",
+            "origin": "undergarden:stripped_smogstem_log",
+            "result": "undergarden:stripped_wigglewood_log"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_wood",
+            "origin": "undergarden:wigglewood_wood",
+            "result": "undergarden:grongle_wood"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_wood",
+            "origin": "undergarden:grongle_wood",
+            "result": "undergarden:smogstem_wood"
+        },
+        {
+            "alt_result": "undergarden:grongle_wood",
+            "origin": "undergarden:smogstem_wood",
+            "result": "undergarden:wigglewood_wood"
+        },
+
+
+        {
+            "alt_result": "undergarden:stripped_smogstem_wood",
+            "origin": "undergarden:wstripped_igglewood_wood",
+            "result": "undergarden:stripped_grongle_wood"
+        },
+        {
+            "alt_result": "undergarden:stripped_wigglewood_wood",
+            "origin": "undergarden:stripped_grongle_wood",
+            "result": "undergarden:stripped_smogstem_wood"
+        },
+        {
+            "alt_result": "undergarden:stripped_grongle_wood",
+            "origin": "undergarden:stripped_smogstem_wood",
+            "result": "undergarden:stripped_wigglewood_wood"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_leaves",
+            "origin": "undergarden:wigglewood_leaves",
+            "result": "undergarden:grongle_leaves"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_leaves",
+            "origin": "undergarden:grongle_leaves",
+            "result": "undergarden:smogstem_leaves"
+        },
+        {
+            "alt_result": "undergarden:grongle_leaves",
+            "origin": "undergarden:smogstem_leaves",
+            "result": "undergarden:wigglewood_leaves"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_sapling",
+            "origin": "undergarden:wigglewood_sapling",
+            "result": "undergarden:grongle_sapling"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_sapling",
+            "origin": "undergarden:grongle_sapling",
+            "result": "undergarden:smogstem_sapling"
+        },
+        {
+            "alt_result": "undergarden:grongle_sapling",
+            "origin": "undergarden:smogstem_sapling",
+            "result": "undergarden:wigglewood_sapling"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_planks",
+            "origin": "undergarden:wigglewood_planks",
+            "result": "undergarden:grongle_planks"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_planks",
+            "origin": "undergarden:grongle_planks",
+            "result": "undergarden:smogstem_planks"
+        },
+        {
+            "alt_result": "undergarden:grongle_planks",
+            "origin": "undergarden:smogstem_planks",
+            "result": "undergarden:wigglewood_planks"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_slab",
+            "origin": "undergarden:wigglewood_slab",
+            "result": "undergarden:grongle_slab"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_slab",
+            "origin": "undergarden:grongle_slab",
+            "result": "undergarden:smogstem_slab"
+        },
+        {
+            "alt_result": "undergarden:grongle_slab",
+            "origin": "undergarden:smogstem_slab",
+            "result": "undergarden:wigglewood_slab"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_stairs",
+            "origin": "undergarden:wigglewood_stairs",
+            "result": "undergarden:grongle_stairs"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_stairs",
+            "origin": "undergarden:grongle_stairs",
+            "result": "undergarden:smogstem_stairs"
+        },
+        {
+            "alt_result": "undergarden:grongle_stairs",
+            "origin": "undergarden:smogstem_stairs",
+            "result": "undergarden:wigglewood_stairs"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_fence",
+            "origin": "undergarden:wigglewood_fence",
+            "result": "undergarden:grongle_fence"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_fence",
+            "origin": "undergarden:grongle_fence",
+            "result": "undergarden:smogstem_fence"
+        },
+        {
+            "alt_result": "undergarden:grongle_fence",
+            "origin": "undergarden:smogstem_fence",
+            "result": "undergarden:wigglewood_fence"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_pressure_plate",
+            "origin": "undergarden:wigglewood_pressure_plate",
+            "result": "undergarden:grongle_pressure_plate"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_pressure_plate",
+            "origin": "undergarden:grongle_pressure_plate",
+            "result": "undergarden:smogstem_pressure_plate"
+        },
+        {
+            "alt_result": "undergarden:grongle_pressure_plate",
+            "origin": "undergarden:smogstem_pressure_plate",
+            "result": "undergarden:wigglewood_pressure_plate"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_button",
+            "origin": "undergarden:wigglewood_button",
+            "result": "undergarden:grongle_button"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_button",
+            "origin": "undergarden:grongle_button",
+            "result": "undergarden:smogstem_button"
+        },
+        {
+            "alt_result": "undergarden:grongle_button",
+            "origin": "undergarden:smogstem_button",
+            "result": "undergarden:wigglewood_button"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_trapdoor",
+            "origin": "undergarden:wigglewood_trapdoor",
+            "result": "undergarden:grongle_trapdoor"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_trapdoor",
+            "origin": "undergarden:grongle_trapdoor",
+            "result": "undergarden:smogstem_trapdoor"
+        },
+        {
+            "alt_result": "undergarden:grongle_trapdoor",
+            "origin": "undergarden:smogstem_trapdoor",
+            "result": "undergarden:wigglewood_trapdoor"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_door",
+            "origin": "undergarden:wigglewood_door",
+            "result": "undergarden:grongle_door"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_door",
+            "origin": "undergarden:grongle_door",
+            "result": "undergarden:smogstem_door"
+        },
+        {
+            "alt_result": "undergarden:grongle_door",
+            "origin": "undergarden:smogstem_door",
+            "result": "undergarden:wigglewood_door"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_sign",
+            "origin": "undergarden:wigglewood_sign",
+            "result": "undergarden:grongle_sign"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_sign",
+            "origin": "undergarden:grongle_sign",
+            "result": "undergarden:smogstem_sign"
+        },
+        {
+            "alt_result": "undergarden:grongle_sign",
+            "origin": "undergarden:smogstem_sign",
+            "result": "undergarden:wigglewood_sign"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_wall_sign",
+            "origin": "undergarden:wigglewood_wall_sign",
+            "result": "undergarden:grongle_wall_sign"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_wall_sign",
+            "origin": "undergarden:grongle_wall_sign",
+            "result": "undergarden:smogstem_wall_sign"
+        },
+        {
+            "alt_result": "undergarden:grongle_wall_sign",
+            "origin": "undergarden:smogstem_wall_sign",
+            "result": "undergarden:wigglewood_wall_sign"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_wall_hanging_sign",
+            "origin": "undergarden:wigglewood_wall_hanging_sign",
+            "result": "undergarden:grongle_wall_hanging_sign"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_wall_hanging_sign",
+            "origin": "undergarden:grongle_wall_hanging_sign",
+            "result": "undergarden:smogstem_wall_hanging_sign"
+        },
+        {
+            "alt_result": "undergarden:grongle_wall_hanging_sign",
+            "origin": "undergarden:smogstem_wall_hanging_sign",
+            "result": "undergarden:wigglewood_wall_hanging_sign"
+        },
+
+
+        {
+            "alt_result": "undergarden:smogstem_hanging_sign",
+            "origin": "undergarden:wigglewood_hanging_sign",
+            "result": "undergarden:grongle_hanging_sign"
+        },
+        {
+            "alt_result": "undergarden:wigglewood_hanging_sign",
+            "origin": "undergarden:grongle_hanging_sign",
+            "result": "undergarden:smogstem_hanging_sign"
+        },
+        {
+            "alt_result": "undergarden:grongle_hanging_sign",
+            "origin": "undergarden:smogstem_hanging_sign",
+            "result": "undergarden:wigglewood_hanging_sign"
+        }
+    ]
+}

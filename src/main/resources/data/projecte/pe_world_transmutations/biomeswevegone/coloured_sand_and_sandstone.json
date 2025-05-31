@@ -1,0 +1,77 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+
+    "transmutations": [
+        {
+            "alt_result": "biomeswevegone:windswept_sand",
+            "origin": "biomeswevegone:white_sand",
+            "result": "biomeswevegone:pink_sand"
+        },
+        {
+            "alt_result": "biomeswevegone:white_sand",
+            "origin": "biomeswevegone:pink_sand",
+            "result": "biomeswevegone:purple_sand"
+        },
+        {
+            "alt_result": "biomeswevegone:pink_sand",
+            "origin": "biomeswevegone:purple_sand",
+            "result": "biomeswevegone:blue_sand"
+        },
+        {
+            "alt_result": "biomeswevegone:purple_sand",
+            "origin": "biomeswevegone:blue_sand",
+            "result": "biomeswevegone:black_sand"
+        },
+        {
+            "alt_result": "biomeswevegone:blue_sand",
+            "origin": "biomeswevegone:black_sand",
+            "result": "biomeswevegone:windswept_sand"
+        },
+        {
+            "alt_result": "biomeswevegone:black_sand",
+            "origin": "biomeswevegone:windswept_sand",
+            "result": "biomeswevegone:white_sand"
+        },
+
+
+        {
+            "alt_result": "biomeswevegone:windswept_sandstone",
+            "origin": "biomeswevegone:white_sandstone",
+            "result": "biomeswevegone:pink_sandstone"
+        },
+        {
+            "alt_result": "biomeswevegone:white_sandstone",
+            "origin": "biomeswevegone:pink_sandstone",
+            "result": "biomeswevegone:purple_sandstone"
+        },
+        {
+            "alt_result": "biomeswevegone:pink_sandstone",
+            "origin": "biomeswevegone:purple_sandstone",
+            "result": "biomeswevegone:blue_sandstone"
+        },
+        {
+            "alt_result": "biomeswevegone:purple_sandstone",
+            "origin": "biomeswevegone:blue_sandstone",
+            "result": "biomeswevegone:black_sandstone"
+        },
+        {
+            "alt_result": "biomeswevegone:blue_sandstone",
+            "origin": "biomeswevegone:black_sandstone",
+            "result": "biomeswevegone:windswept_sandstone"
+        },
+        {
+            "alt_result": "biomeswevegone:black_sandstone",
+            "origin": "biomeswevegone:windswept_sandstone",
+            "result": "biomeswevegone:white_sandstone"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ],
+
+    "transmutations": [
+        {
+            "origin": "undergarden:depthrock",
+            "result": "undergarden:shiverstone"
+        },
+        {
+            "origin": "undergarden:shiverstone",
+            "result": "undergarden:depthrock"
+        }
+    ]
+}

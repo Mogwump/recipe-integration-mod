@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "create:copper_bars",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
+        }
+    ],
+
+    "transmutations": [
+        {
+            "alt_result": "biomesoplenty:black_sand",
+            "origin": "biomesoplenty:white_sand",
+            "result": "biomesoplenty:orange_sand"
+        },
+        {
+            "alt_result": "biomesoplenty:white_sand",
+            "origin": "biomesoplenty:orange_sand",
+            "result": "biomesoplenty:black_sand"
+        },
+        {
+            "alt_result": "biomesoplenty:orange_sand",
+            "origin": "biomesoplenty:black_sand",
+            "result": "biomesoplenty:white_sand"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:black_sandstone",
+            "origin": "biomesoplenty:white_sandstone",
+            "result": "biomesoplenty:orange_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:white_sandstone",
+            "origin": "biomesoplenty:orange_sandstone",
+            "result": "biomesoplenty:black_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:orange_sandstone",
+            "origin": "biomesoplenty:black_sandstone",
+            "result": "biomesoplenty:white_sandstone"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:cut_black_sandstone",
+            "origin": "biomesoplenty:cut_white_sandstone",
+            "result": "biomesoplenty:cut_orange_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:cut_white_sandstone",
+            "origin": "biomesoplenty:cut_orange_sandstone",
+            "result": "biomesoplenty:cut_black_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:cut_orange_sandstone",
+            "origin": "biomesoplenty:cut_black_sandstone",
+            "result": "biomesoplenty:cut_white_sandstone"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:cut_black_sandstone_slab",
+            "origin": "biomesoplenty:cut_white_sandstone_slab",
+            "result": "biomesoplenty:cut_orange_sandstone_slab"
+        },
+        {
+            "alt_result": "biomesoplenty:cut_white_sandstone_slab",
+            "origin": "biomesoplenty:cut_orange_sandstone_slab",
+            "result": "biomesoplenty:cut_black_sandstone_slab"
+        },
+        {
+            "alt_result": "biomesoplenty:cut_orange_sandstone_slab",
+            "origin": "biomesoplenty:cut_black_sandstone_slab",
+            "result": "biomesoplenty:cut_white_sandstone_slab"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:chiseled_black_sandstone",
+            "origin": "biomesoplenty:chiseled_white_sandstone",
+            "result": "biomesoplenty:chiseled_orange_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:chiseled_white_sandstone",
+            "origin": "biomesoplenty:chiseled_orange_sandstone",
+            "result": "biomesoplenty:chiseled_black_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:chiseled_orange_sandstone",
+            "origin": "biomesoplenty:chiseled_black_sandstone",
+            "result": "biomesoplenty:chiseled_white_sandstone"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:smooth_black_sandstone",
+            "origin": "biomesoplenty:smooth_white_sandstone",
+            "result": "biomesoplenty:smooth_orange_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:smooth_white_sandstone",
+            "origin": "biomesoplenty:smooth_orange_sandstone",
+            "result": "biomesoplenty:smooth_black_sandstone"
+        },
+        {
+            "alt_result": "biomesoplenty:smooth_orange_sandstone",
+            "origin": "biomesoplenty:smooth_black_sandstone",
+            "result": "biomesoplenty:smooth_white_sandstone"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:smooth_black_sandstone_slab",
+            "origin": "biomesoplenty:smooth_white_sandstone_slab",
+            "result": "biomesoplenty:smooth_orange_sandstone_slab"
+        },
+        {
+            "alt_result": "biomesoplenty:smooth_white_sandstone_slab",
+            "origin": "biomesoplenty:smooth_orange_sandstone_slab",
+            "result": "biomesoplenty:smooth_black_sandstone_slab"
+        },
+        {
+            "alt_result": "biomesoplenty:smooth_orange_sandstone_slab",
+            "origin": "biomesoplenty:smooth_black_sandstone_slab",
+            "result": "biomesoplenty:smooth_white_sandstone_slab"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:smooth_black_sandstone_stairs",
+            "origin": "biomesoplenty:smooth_white_sandstone_stairs",
+            "result": "biomesoplenty:smooth_orange_sandstone_stairs"
+        },
+        {
+            "alt_result": "biomesoplenty:smooth_white_sandstone_stairs",
+            "origin": "biomesoplenty:smooth_orange_sandstone_stairs",
+            "result": "biomesoplenty:smooth_black_sandstone_stairs"
+        },
+        {
+            "alt_result": "biomesoplenty:smooth_orange_sandstone_stairs",
+            "origin": "biomesoplenty:smooth_black_sandstone_stairs",
+            "result": "biomesoplenty:smooth_white_sandstone_stairs"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:black_sandstone_slab",
+            "origin": "biomesoplenty:white_sandstone_slab",
+            "result": "biomesoplenty:orange_sandstone_slab"
+        },
+        {
+            "alt_result": "biomesoplenty:white_sandstone_slab",
+            "origin": "biomesoplenty:orange_sandstone_slab",
+            "result": "biomesoplenty:black_sandstone_slab"
+        },
+        {
+            "alt_result": "biomesoplenty:orange_sandstone_slab",
+            "origin": "biomesoplenty:black_sandstone_slab",
+            "result": "biomesoplenty:white_sandstone_slab"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:black_sandstone_stairs",
+            "origin": "biomesoplenty:white_sandstone_stairs",
+            "result": "biomesoplenty:orange_sandstone_stairs"
+        },
+        {
+            "alt_result": "biomesoplenty:white_sandstone_stairs",
+            "origin": "biomesoplenty:orange_sandstone_stairs",
+            "result": "biomesoplenty:black_sandstone_stairs"
+        },
+        {
+            "alt_result": "biomesoplenty:orange_sandstone_stairs",
+            "origin": "biomesoplenty:black_sandstone_stairs",
+            "result": "biomesoplenty:white_sandstone_stairs"
+        },
+
+
+        {
+            "alt_result": "biomesoplenty:black_sandstone_wall",
+            "origin": "biomesoplenty:white_sandstone_wall",
+            "result": "biomesoplenty:orange_sandstone_wall"
+        },
+        {
+            "alt_result": "biomesoplenty:white_sandstone_wall",
+            "origin": "biomesoplenty:orange_sandstone_wall",
+            "result": "biomesoplenty:black_sandstone_wall"
+        },
+        {
+            "alt_result": "biomesoplenty:orange_sandstone_wall",
+            "origin": "biomesoplenty:black_sandstone_wall",
+            "result": "biomesoplenty:white_sandstone_wall"
+        }
+    ]
+}
