@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:rods/duranium"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/duranium"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "tag": "c:ingots/duranium"
+    },
+    "mold": "immersiveengineering:mold_rod",
+    "result": {
+        "basePredicate": {
+            "tag": "c:rods/duranium"
+        },
+        "count": 2
+    }
+}

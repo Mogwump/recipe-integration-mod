@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:rods/nichrome"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/nichrome"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "tag": "c:ingots/nichrome"
+    },
+    "mold": "immersiveengineering:mold_rod",
+    "result": {
+        "basePredicate": {
+            "tag": "c:rods/nichrome"
+        },
+        "count": 2
+    }
+}

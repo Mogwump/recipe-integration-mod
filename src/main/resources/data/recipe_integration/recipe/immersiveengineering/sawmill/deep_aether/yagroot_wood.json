@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 1600,
+    "input": {
+        "item": "deep_aether:yagroot_wood"
+    },
+    "result": {
+        "basePredicate": {
+            "item": "deep_aether:yagroot_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "stripped": {
+        "item": "deep_aether:stripped_yagroot_wood"
+    },
+    "strippingSecondaries": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ]
+}

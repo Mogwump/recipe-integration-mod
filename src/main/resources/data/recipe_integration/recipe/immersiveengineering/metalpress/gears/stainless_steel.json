@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:gears/stainless_steel"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/stainless_steel"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "basePredicate": {
+            "tag": "c:ingots/stainless_steel"
+        },
+        "count": 4
+    },
+    "mold": "immersiveengineering:mold_gear",
+    "result": {
+        "tag": "c:gears/stainless_steel"
+    }
+}

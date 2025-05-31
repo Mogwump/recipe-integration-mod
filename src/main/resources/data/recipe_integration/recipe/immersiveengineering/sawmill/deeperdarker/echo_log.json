@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 1600,
+    "input": {
+        "item": "deeperdarker:echo_log"
+    },
+    "result": {
+        "basePredicate": {
+            "item": "deeperdarker:echo_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "stripped": {
+        "item": "deeperdarker:stripped_echo_log"
+    },
+    "strippingSecondaries": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ]
+}

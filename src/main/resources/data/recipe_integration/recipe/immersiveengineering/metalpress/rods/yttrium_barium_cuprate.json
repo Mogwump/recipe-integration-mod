@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:rods/yttrium_barium_cuprate"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/yttrium_barium_cuprate"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "tag": "c:ingots/yttrium_barium_cuprate"
+    },
+    "mold": "immersiveengineering:mold_rod",
+    "result": {
+        "basePredicate": {
+            "tag": "c:rods/yttrium_barium_cuprate"
+        },
+        "count": 2
+    }
+}
