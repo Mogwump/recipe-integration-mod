@@ -1,0 +1,280 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        }
+    ],
+
+    "comment": "EMC values based on common ratios (eg 1:1 ingot:plate, 1:2 ingot:rod, etc...",
+    "values": {
+        "conversion": [
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/aluminum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/aluminum"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/brass"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/brass"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/bronze"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/bronze"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/constantan"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/constantan"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/copper"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/copper"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/electrum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/electrum"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/gold"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/gold"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/invar"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/invar"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/iron"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/iron"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/lead"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/lead"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/nickel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/nickel"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/osmium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/osmium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/platinum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/platinum"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/silver"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/silver"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tin"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/tin"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tungsten"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/tungsten"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/uranium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/uranium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/zinc"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:wires/zinc"
+                },
+                "propagateTags": true
+            }
+        ]
+    }
+}

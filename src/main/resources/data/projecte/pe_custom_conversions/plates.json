@@ -1,0 +1,443 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        }
+    ],
+
+    "comment": "EMC values based on common ratios (eg 1:1 ingot:plate, 1:2 ingot:rod, etc...",
+    "values": {
+        "conversion": [
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/aluminum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/aluminum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/annealed_copper"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/annealed_copper"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/battery_alloy"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/battery_alloy"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/beryllium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/beryllium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/blastproof_alloy"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/blastproof_alloy"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/bronze"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/bronze"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/cadmium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/cadmium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/chromium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/chromium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/copper"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/copper"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/cupronickel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/cupronickel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/diamond"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:gems/diamond"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/electrum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/electrum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/emerald"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:gems/emerald"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/gold"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/gold"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/hsla_steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/hsla_steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/invar"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/invar"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/iridium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/iridium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/iron"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/iron"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/kanthal"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/kanthal"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/lead"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/lead"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/lithium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/lithium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/nickel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/nickel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/platinum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/platinum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/silicon"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/silicon"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/silver"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/silver"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/stainless_steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/stainless_steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/superconductor"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/superconductor"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tin"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/tin"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/titanium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/titanium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/titanium_carbide"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/titanium_carbide"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tungsten"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/tungsten"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/vanadium_steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/vanadium_steel"
+                },
+                "propagateTags": true
+            }
+        ]
+    }
+}
