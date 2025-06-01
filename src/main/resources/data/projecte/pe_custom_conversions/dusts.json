@@ -18,7 +18,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/aluminum"
+                    "tag": "c:dusts/aluminum"
                 },
                 "propagateTags": true
             },
@@ -31,7 +31,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/annealed_copper"
+                    "tag": "c:dusts/annealed_copper"
                 },
                 "propagateTags": true
             },
@@ -44,7 +44,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/battery_alloy"
+                    "tag": "c:dusts/battery_alloy"
                 },
                 "propagateTags": true
             },
@@ -57,7 +57,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/beryllium"
+                    "tag": "c:dusts/beryllium"
                 },
                 "propagateTags": true
             },
@@ -70,7 +70,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/blastproof_alloy"
+                    "tag": "c:dusts/blastproof_alloy"
                 },
                 "propagateTags": true
             },
@@ -83,7 +83,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/bronze"
+                    "tag": "c:dusts/bronze"
                 },
                 "propagateTags": true
             },
@@ -96,7 +96,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/cadmium"
+                    "tag": "c:dusts/cadmium"
                 },
                 "propagateTags": true
             },
@@ -109,7 +109,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/chromium"
+                    "tag": "c:dusts/chromium"
                 },
                 "propagateTags": true
             },
@@ -122,7 +122,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/copper"
+                    "tag": "c:dusts/copper"
                 },
                 "propagateTags": true
             },
@@ -135,7 +135,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/cupronickel"
+                    "tag": "c:dusts/cupronickel"
                 },
                 "propagateTags": true
             },
@@ -161,7 +161,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/electrum"
+                    "tag": "c:dusts/electrum"
                 },
                 "propagateTags": true
             },
@@ -169,12 +169,12 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
-                        "tag": "c:gems/emerald"
+                        "tag": "c:ingots/emerald"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/emerald"
+                    "tag": "c:dusts/emerald"
                 },
                 "propagateTags": true
             },
@@ -187,7 +187,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/gold"
+                    "tag": "c:dusts/gold"
                 },
                 "propagateTags": true
             },
@@ -200,7 +200,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/hsla_steel"
+                    "tag": "c:dusts/hsla_steel"
                 },
                 "propagateTags": true
             },
@@ -213,7 +213,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/invar"
+                    "tag": "c:dusts/invar"
                 },
                 "propagateTags": true
             },
@@ -226,7 +226,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/iridium"
+                    "tag": "c:dusts/iridium"
                 },
                 "propagateTags": true
             },
@@ -239,7 +239,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/iron"
+                    "tag": "c:dusts/iron"
                 },
                 "propagateTags": true
             },
@@ -252,7 +252,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/kanthal"
+                    "tag": "c:dusts/kanthal"
                 },
                 "propagateTags": true
             },
@@ -265,7 +265,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/lead"
+                    "tag": "c:dusts/lead"
                 },
                 "propagateTags": true
             },
@@ -278,7 +278,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/lithium"
+                    "tag": "c:dusts/lithium"
                 },
                 "propagateTags": true
             },
@@ -291,7 +291,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/nickel"
+                    "tag": "c:dusts/nickel"
                 },
                 "propagateTags": true
             },
@@ -304,7 +304,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/platinum"
+                    "tag": "c:dusts/platinum"
                 },
                 "propagateTags": true
             },
@@ -317,7 +317,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/silicon"
+                    "tag": "c:dusts/silicon"
                 },
                 "propagateTags": true
             },
@@ -330,7 +330,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/silver"
+                    "tag": "c:dusts/silver"
                 },
                 "propagateTags": true
             },
@@ -343,7 +343,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/stainless_steel"
+                    "tag": "c:dusts/stainless_steel"
                 },
                 "propagateTags": true
             },
@@ -356,7 +356,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/steel"
+                    "tag": "c:dusts/steel"
                 },
                 "propagateTags": true
             },
@@ -369,7 +369,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/superconductor"
+                    "tag": "c:dusts/superconductor"
                 },
                 "propagateTags": true
             },
@@ -382,7 +382,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/tin"
+                    "tag": "c:dusts/tin"
                 },
                 "propagateTags": true
             },
@@ -395,7 +395,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/titanium"
+                    "tag": "c:dusts/titanium"
                 },
                 "propagateTags": true
             },
@@ -408,7 +408,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/titanium_carbide"
+                    "tag": "c:dusts/titanium_carbide"
                 },
                 "propagateTags": true
             },
@@ -421,7 +421,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/tungsten"
+                    "tag": "c:dusts/tungsten"
                 },
                 "propagateTags": true
             },
@@ -434,7 +434,7 @@
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:plates/vanadium_steel"
+                    "tag": "c:dusts/vanadium_steel"
                 },
                 "propagateTags": true
             }

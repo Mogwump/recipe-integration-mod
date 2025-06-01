@@ -1,0 +1,231 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ae2"
+        }
+    ],
+
+    "comment": "unambiguous emc values for Applied Energistics 2",
+    "groups": {
+        "base_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:certus_quartz_crystal"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:certus_quartz_dust"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:certus_quartz_crystal"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:charged_certus_quartz_crystal"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "is": "ae2:certus_quartz_crystal"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:redstone"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:quartz"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:fluix_crystal"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:fluix_crystal"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:fluix_dust"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:sky_stone_block"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:sky_stone_dust"
+                    }
+                }
+            ]
+        },
+        "printed_circuits_and_processors": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_calculation_processor"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_silicon"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:redstone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:calculation_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_engineering_processor"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_silicon"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:redstone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:engineering_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_logic_processor"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_silicon"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:redstone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:logic_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:certus_quartz_crystal"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:printed_calculation_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:diamond"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:printed_engineering_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:gold_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:printed_logic_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:silicon"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:printed_silicon"
+                    }
+                }
+            ]
+        },
+        "misc_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:compass"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:meteorite_compass"
+                    }
+                }
+            ]
+        }
+    },
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 16,
+                "id": "ae2:certus_quartz_crystal"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 16,
+                "id": "ae2:sky_stone_block"
+            }
+        ]
+    }
+}

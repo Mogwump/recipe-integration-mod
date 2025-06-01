@@ -12,6 +12,83 @@
 
     "comment": "unambiguous emc values for Modern Industrialization",
     "groups": {
+        "bolts": {
+            "comment": "bolts",
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:rods/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "modern_industrialization:aluminum_bolt"
+                    },
+                    "count": 2
+                }
+            ]
+        },
+        "curved_plates": {
+            "comment": "1 plate : 1 curved plate",
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "modern_industrialization:aluminum_curved_plate"
+                    }
+                }
+            ]
+        },
+        "double_ingots": {
+            "comment": "2 ingots : 1 double ingot",
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "tag": "c:ingots/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "modern_industrialization:aluminum_double_ingot"
+                    }
+                }
+            ]
+        },
+        "dusts": {
+            "comment": "dusts",
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "tag": "c:dusts/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/nickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "c:dusts/invar"
+                    },
+                    "count": 3
+                }
+            ]
+        },
         "rods": {
             "comment": "Rods",
             "conversions": [

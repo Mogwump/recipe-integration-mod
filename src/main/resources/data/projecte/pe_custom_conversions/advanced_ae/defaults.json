@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "advanced_ae"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ae2"
+        }
+    ],
+
+    "comment": "emc values for Advanced AE",
+    "groups": {
+        "base_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:certus_quartz_crystal"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:redstone"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:quartz"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:fluix_crystal"
+                    },
+                    "count": 4
+                }
+            ]
+        }
+    }
+}
