@@ -1,0 +1,294 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        }
+    ],
+
+    "comment": "EMC values based on common ratios (eg 1:1 ingot:plate, 1:2 ingot:rod, etc...",
+    "values": {
+        "conversion": [
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/aluminum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/aluminum"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/bronze"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/bronze"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/constantan"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/constantan"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/cadmium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/cadmium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/copper"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/copper"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/electrum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/electrum"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/gold"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/gold"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/he_mox"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/he_mox"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/he_uranium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/he_uranium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/invar"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/invar"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/iron"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/iron"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/le_mox"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/le_mox"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/le_uranium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/le_uranium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/plutonium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/plutonium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/stainless_steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/stainless_steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/steel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tin"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/tin"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/titanium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/titanium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/uranium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/uranium"
+                },
+                "propagateTags": true
+            },
+            {
+                "count": 2,
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/bronze"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:rods/bronze"
+                },
+                "propagateTags": true
+            }
+        ]
+    }
+}

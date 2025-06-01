@@ -6,40 +6,56 @@
         },
         {
             "type": "neoforge:mod_loaded",
+            "modid": "create_aquatic_ambitions"
+        },
+        {
+            "type": "neoforge:mod_loaded",
             "modid": "create"
         }
     ],
 
-    "comment": "unambiguous emc values for Create",
+    "comment": "unambiguous emc values for Create Aquatic Ambitions",
     "groups": {
-        "default_intermediates": {
+        "default": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "minecraft:logs"
-                        },
-                        {
-                            "type": "projecte:item",
-                            "id": "create:andesite_alloy"
+                            "id": "minecraft:flint"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "create:andesite_casing"
+                        "id": "create_aquatic_ambitions:flint_shard"
                     }
                 },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "id": "create:rose_quartz"
+                            "id": "minecraft:quartz"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "create:polished_rose_quartz"
+                        "id": "create_aquatic_ambitions:polished_quartz_tine"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:prismarine"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/copper"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create_aquatic_ambitions:prismarine_alloy"
                     }
                 }
             ]
