@@ -6,25 +6,24 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "modern_industrialization"
+            "modid": "create"
         }
     ],
 
-    "comment": "unambiguous emc values for Modern Industrialization",
+    "comment": "unambiguous emc values for Create Crafts & Additions",
     "groups": {
-        "rods": {
-            "comment": "Rods",
+        "default_intermediates": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:rods/steel"
+                            "id": "minecraft:bamboo"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "modern_industrialization:steel_rod_magnetic"
+                        "id": "createaddition:straw"
                     }
                 }
             ]

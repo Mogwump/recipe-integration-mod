@@ -6,25 +6,28 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "modern_industrialization"
+            "modid": "create"
         }
     ],
 
-    "comment": "unambiguous emc values for Modern Industrialization",
+    "comment": "Various emc values for items from Create",
     "groups": {
-        "rods": {
-            "comment": "Rods",
+        "default_intermediates": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:rods/steel"
+                            "tag": "c:nuggets/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:andesite"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "modern_industrialization:steel_rod_magnetic"
+                        "id": "create:andesite_alloy"
                     }
                 }
             ]

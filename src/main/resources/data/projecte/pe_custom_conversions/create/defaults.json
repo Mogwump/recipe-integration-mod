@@ -10,7 +10,7 @@
         }
     ],
 
-    "comment": "unambiguous emc values for Create",
+    "comment": "Mostly unambiguous emc values for Create",
     "groups": {
         "default_intermediates": {
             "conversions": [
@@ -18,7 +18,7 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "minecraft:logs"
+                            "tag": "c:stripped_logs"
                         },
                         {
                             "type": "projecte:item",
@@ -34,12 +34,144 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/copper"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/zinc"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:brass_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "create:pulp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:cardboard"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:stripped_logs"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/copper"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:copper_casing"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 16,
+                            "id": "create:andesite_alloy"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "tag": "minecraft:planks"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:stones"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:crushing_wheel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "create:rose_quartz"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
                         "id": "create:polished_rose_quartz"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:obsidian"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:powdered_obsidian"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "tag": "create:pulpifiable"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 250,
+                            "tag": "minecraft:water"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:pulp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "create:powdered_obsidian"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 500,
+                            "tag": "minecraft:lava"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:sturdy_sheet"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "create:brass_casing"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "create:sturdy_sheet"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create:train_casing"
                     }
                 }
             ]
