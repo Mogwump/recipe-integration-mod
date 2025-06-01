@@ -42,7 +42,19 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "is": "ae2:certus_quartz_crystal"
+                            "id": "minecraft:ender_pearl"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ae2:ender_dust"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "is": "ae2:charged_certus_quartz_crystal"
                         },
                         {
                             "type": "projecte:item",
@@ -80,7 +92,7 @@
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "ae2:sky_stone_dust"
+                        "id": "ae2:sky_dust"
                     }
                 }
             ]
@@ -197,6 +209,22 @@
                 }
             ]
         },
+        "presses": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_block"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "ae2:inscriber_presses"
+                    }
+                }
+            ]
+        },
         "misc_items": {
             "conversions": [
                 {
@@ -225,6 +253,11 @@
                 "type": "projecte:item",
                 "emc_value": 16,
                 "id": "ae2:sky_stone_block"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": "free",
+                "id": "ae2:matter_ball"
             }
         ]
     }

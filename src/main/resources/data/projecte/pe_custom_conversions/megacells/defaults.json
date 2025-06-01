@@ -1,0 +1,97 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "megacells"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ae2"
+        }
+    ],
+
+    "comment": "emc values for Advanced AE",
+    "groups": {
+        "base_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:charged_certus_quartz_crystal"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:copper_ingot"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:sky_stone_block"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "megacells:sky_bronze_ingot"
+                    },
+                    "count": 2
+                }
+            ]
+        },
+        "printed_circuits_and_processors": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "megacells:sky_steel_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "megacells:printed_accumulation_processor"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "megacells:printed_accumulation_processor"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:printed_silicon"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:fluix_dust"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "megacells:accumulation_processor"
+                    }
+                }
+            ]
+        },
+        "presses": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_block"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "megacells:accumulation_processor_press"
+                    }
+                }
+            ]
+        }
+    }
+}

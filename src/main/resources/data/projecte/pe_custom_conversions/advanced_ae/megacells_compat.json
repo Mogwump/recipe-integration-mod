@@ -11,12 +11,16 @@
         {
             "type": "neoforge:mod_loaded",
             "modid": "ae2"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "megacells"
         }
     ],
 
-    "comment": "emc values for Advanced AE",
+    "comment": "Project E already does conditional loading, but this is here for readability",
     "groups": {
-        "fix_new_emc_ratios": {
+        "base_items": {
             "conversions": [
                 {
                     "ingredients": [
@@ -26,34 +30,18 @@
                         },
                         {
                             "type": "projecte:item",
-                            "id": "minecraft:redstone"
+                            "id": "minecraft:copper_ingot"
                         },
                         {
                             "type": "projecte:item",
-                            "id": "minecraft:quartz"
+                            "id": "ae2:sky_stone_block"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "ae2:fluix_crystal"
+                        "id": "megacells:sky_bronze_ingot"
                     },
                     "count": 4
-                }
-            ]
-        },
-        "presses": {
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "id": "minecraft:iron_block"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "advanced_ae:quantum_processor_press"
-                    }
                 }
             ]
         }
