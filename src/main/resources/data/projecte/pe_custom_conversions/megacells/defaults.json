@@ -14,7 +14,7 @@
         }
     ],
 
-    "comment": "emc values for Advanced AE",
+    "comment": "emc values for MEGA Cells",
     "groups": {
         "base_items": {
             "conversions": [
@@ -36,6 +36,27 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "megacells:sky_bronze_ingot"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:charged_certus_quartz_crystal"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_ingot"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "ae2:sky_stone_block"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "megacells:sky_steel_ingot"
                     },
                     "count": 2
                 }
