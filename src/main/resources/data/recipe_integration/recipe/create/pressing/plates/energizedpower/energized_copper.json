@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        }
+    ],
+
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/energized_copper"
+        }
+    ],
+    "results": [
+        {
+            "id": "energizedpower:energized_copper_plate"
+        }
+    ]
+}

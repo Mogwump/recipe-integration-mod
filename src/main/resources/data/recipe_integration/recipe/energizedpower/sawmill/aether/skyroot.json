@@ -6,15 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "aether"
         }
     ],
 
-    "type": "energizedpower:compressor",
+    "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "c:ingots/silver"
+        "tag": "aether:crafts_skyroot_planks"
     },
     "output": {
-        "item": "immersiveengineering:plate_silver"
-    }
+        "count": 6,
+        "item": "aether:skyroot_planks"
+    },
+    "sawdustAmount": 1
 }

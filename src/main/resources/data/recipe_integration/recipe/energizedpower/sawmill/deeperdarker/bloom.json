@@ -6,15 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "deeperdarker"
         }
     ],
 
-    "type": "energizedpower:compressor",
+    "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "c:ingots/silver"
+        "tag": "deeperdarker:bloom_stems"
     },
     "output": {
-        "item": "immersiveengineering:plate_silver"
-    }
+        "count": 6,
+        "item": "deeperdarker:bloom_planks"
+    },
+    "sawdustAmount": 1
 }

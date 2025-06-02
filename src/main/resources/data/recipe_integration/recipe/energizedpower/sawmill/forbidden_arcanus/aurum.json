@@ -6,15 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "forbidden_arcanus"
         }
     ],
 
-    "type": "energizedpower:compressor",
+    "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "c:ingots/silver"
+        "tag": "forbidden_arcanus:mysterywood_logs"
     },
     "output": {
-        "item": "immersiveengineering:plate_silver"
-    }
+        "count": 6,
+        "item": "forbidden_arcanus:aurum_planks"
+    },
+    "sawdustAmount": 1
 }

@@ -6,15 +6,15 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "modern_industrialization"
         }
     ],
 
     "type": "energizedpower:compressor",
     "ingredient": {
-        "tag": "c:ingots/silver"
+        "tag": "c:ingots/cadmium"
     },
     "output": {
-        "item": "immersiveengineering:plate_silver"
+        "item": "modern_industrialization:cadmium_plate"
     }
 }

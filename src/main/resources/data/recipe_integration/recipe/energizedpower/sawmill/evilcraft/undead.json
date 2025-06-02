@@ -6,15 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "evilcraft"
         }
     ],
 
-    "type": "energizedpower:compressor",
+    "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "c:ingots/silver"
+        "tag": "evilcraft:undead_logs"
     },
     "output": {
-        "item": "immersiveengineering:plate_silver"
-    }
+        "count": 6,
+        "item": "evilcraft:undead_planks"
+    },
+    "sawdustAmount": 1
 }

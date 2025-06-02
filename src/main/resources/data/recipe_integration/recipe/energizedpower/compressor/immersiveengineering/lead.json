@@ -12,9 +12,9 @@
 
     "type": "energizedpower:compressor",
     "ingredient": {
-        "tag": "c:ingots/silver"
+        "tag": "c:ingots/lead"
     },
     "output": {
-        "item": "immersiveengineering:plate_silver"
+        "item": "immersiveengineering:plate_lead"
     }
 }

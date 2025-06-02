@@ -9,7 +9,7 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:ores/deah"
+                "tag": "c:ores/desh"
             }
         },
         {
@@ -17,32 +17,32 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:raw_materials/deah"
+                "tag": "c:raw_materials/desh"
             }
         }
     ],
 
     "type": "integrateddynamics:mechanical_squeezer",
     "input_item": {
-        "tag": "c:ores/deah"
+        "tag": "c:ores/desh"
     },
     "output_items": [
         {
             "tag": {
-                "tag": "c:raw_materials/deah",
+                "tag": "c:raw_materials/desh",
                 "count": 3
             }
         },
         {
             "tag": {
-                "tag": "c:raw_materials/deah",
+                "tag": "c:raw_materials/desh",
                 "count": 2
             },
             "chance": 0.5
         },
         {
             "tag": {
-                "tag": "c:raw_materials/deah",
+                "tag": "c:raw_materials/desh",
                 "count": 2
             },
             "chance": 0.5

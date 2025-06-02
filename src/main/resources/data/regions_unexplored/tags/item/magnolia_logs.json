@@ -1,0 +1,20 @@
+{
+    "values": [
+        {
+            "id": "regions_unexplored:magnolia_log",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:stripped_magnolia_log",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:magnolia_wood",
+            "required": false
+        },
+        {
+            "id": "regions_unexplored:stripped_magnolia_wood",
+            "required": false
+        }
+    ]
+}
