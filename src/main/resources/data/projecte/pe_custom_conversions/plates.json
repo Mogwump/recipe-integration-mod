@@ -6,7 +6,7 @@
         }
     ],
 
-    "comment": "EMC values based on common ratios (eg 1:1 ingot:plate, 1:2 ingot:rod, etc...",
+    "comment": "EMC values based on 1 ingot : 1 plate",
     "values": {
         "conversion": [
             {

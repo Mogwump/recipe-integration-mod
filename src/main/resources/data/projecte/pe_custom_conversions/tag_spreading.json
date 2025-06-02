@@ -1,0 +1,40 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        }
+    ],
+
+    "comment": "Propagate emc values across tags for modded blocks and items",
+    "groups": {
+        "plants": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:cobblestone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "c:cobblestones/normal"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:red_mushroom"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "c:mushrooms"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        }
+    ],
+
+    "comment": "emc values for Ex Deorum",
+    "groups": {
+        "base_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "exdeorum:porcelain_bucket"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "minecraft:lava"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "exdeorum:porcelain_lava_bucket"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "exdeorum:porcelain_bucket"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "minecraft:milk"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "exdeorum:porcelain_milk_bucket"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "exdeorum:porcelain_bucket"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "minecraft:water"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "exdeorum:porcelain_water_bucket"
+                    }
+                }
+            ]
+        }
+    }
+}

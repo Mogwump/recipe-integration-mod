@@ -6,119 +6,114 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "modern_industrialization"
+            "modid": "bigreactors"
         }
     ],
 
-    "comment": "unambiguous emc values for Modern Industrialization",
+    "comment": "emc values for Extreme Reactors",
     "groups": {
-        "bolts": {
-            "comment": "bolts",
+        "items_to_fluids": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/aluminum"
+                            "id": "bigreactors:cyanite_ingot"
                         }
                     ],
                     "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_bolt"
+                        "type": "projecte:fluid",
+                        "id": "bigreactors:cyanite"
                     },
-                    "count": 2
-                }
-            ]
-        },
-        "curved_plates": {
-            "comment": "1 plate : 1 curved plate",
-            "conversions": [
+                    "count": 1000
+                },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:plates/aluminum"
+                            "id": "bigreactors:magentite_ingot"
                         }
                     ],
                     "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_curved_plate"
-                    }
+                        "type": "projecte:fluid",
+                        "id": "bigreactors:magentite"
+                    },
+                    "count": 1000
                 }
             ]
         },
-        "double_ingots": {
-            "comment": "2 ingots : 1 double ingot",
+        "reprocessor": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
                             "amount": 2,
-                            "tag": "c:ingots/aluminum"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_double_ingot"
-                    }
-                }
-            ]
-        },
-        "dusts": {
-            "comment": "dusts",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/gold"
+                            "id": "bigreactors:cyanite_ingot"
                         },
                         {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/silver"
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "minecraft:water"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:dusts/electrum"
-                    },
-                    "count": 2
+                        "id": "bigreactors:blutonium_ingot"
+                    }
                 },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
                             "amount": 2,
-                            "tag": "c:dusts/iron"
+                            "id": "bigreactors:blutonium_ingot"
                         },
                         {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/nickel"
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "bigreactors:cyanite"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:dusts/invar"
-                    },
-                    "count": 3
-                }
-            ]
-        },
-        "rods": {
-            "comment": "Rods",
-            "conversions": [
+                        "id": "bigreactors:ludicrite_ingot"
+                    }
+                },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:rods/steel"
+                            "amount": 2,
+                            "id": "bigreactors:ludicrite_ingot"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "bigreactors:magentite"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "modern_industrialization:steel_rod_magnetic"
+                        "id": "bigreactors:ridiculite_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "bigreactors:ridiculite_ingot"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 1000,
+                            "id": "bigreactors:rossinite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "bigreactors:inanite_ingot"
                     }
                 }
             ]

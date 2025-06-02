@@ -6,120 +6,107 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "modern_industrialization"
+            "modid": "powah"
         }
     ],
 
-    "comment": "unambiguous emc values for Modern Industrialization",
+    "comment": "unambiguous emc values for Powah using default recipes",
     "groups": {
-        "bolts": {
-            "comment": "bolts",
+        "base_items": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/aluminum"
+                            "id": "minecraft:blaze_rod"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_bolt"
-                    },
-                    "count": 2
-                }
-            ]
-        },
-        "curved_plates": {
-            "comment": "1 plate : 1 curved plate",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:plates/aluminum"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_curved_plate"
+                        "id": "powah:crystal_blazing"
                     }
-                }
-            ]
-        },
-        "double_ingots": {
-            "comment": "2 ingots : 1 double ingot",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 2,
-                            "tag": "c:ingots/aluminum"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_double_ingot"
-                    }
-                }
-            ]
-        },
-        "dusts": {
-            "comment": "dusts",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/gold"
-                        },
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/silver"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "tag": "c:dusts/electrum"
-                    },
-                    "count": 2
                 },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "amount": 2,
-                            "tag": "c:dusts/iron"
-                        },
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/nickel"
+                            "id": "minecraft:diamond"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:dusts/invar"
-                    },
-                    "count": 3
-                }
-            ]
-        },
-        "rods": {
-            "comment": "Rods",
-            "conversions": [
+                        "id": "powah:crystal_niotic"
+                    }
+                },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:rods/steel"
+                            "id": "minecraft:nether_star"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "minecraft:redstone_block"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "powah:blazing_crystal_block"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "modern_industrialization:steel_rod_magnetic"
+                        "id": "powah:crystal_nitro"
                     }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:emerald"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "powah:crystal_spirited"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:ender_eye"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "powah:dielectric_casing"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "powah:capacitor_basic_tiny"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "powah:ender_core"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_ingot"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:gold_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "powah:steel_energized"
+                    },
+                    "count": 2
                 }
             ]
         }

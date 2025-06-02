@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/silver"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:plates/silver"
+            }
+        }
+    ],
+
+    "type": "energizedpower:compressor",
+    "ingredient": {
+        "tag": "c:ingots/silver"
+    },
+    "output": {
+        "tag": "c:plates/silver"
+    }
+}

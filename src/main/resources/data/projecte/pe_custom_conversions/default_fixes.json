@@ -1,0 +1,46 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        }
+    ],
+
+    "comment": "In the default Project E config, you can use the Philosopher's stone on terracotta to change its colour, but they have different emc values and some of them don't have any.",
+    "groups": {
+        "terracotta": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:terracotta"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "minecraft:terracotta"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "minecraft:sand"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "minecraft:gravel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "c:concrete_powders"
+                    }
+                }
+            ]
+        }
+    }
+}

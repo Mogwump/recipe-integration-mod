@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternalnether"
+        }
+    ],
+
+    "entity": "eternalnether:warped_enderman",
+    "variants": [],
+    "name": {
+        "translate": "entity.eternalnether.warped_enderman",
+        "color": "#298A72"
+    },
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "recipe_integration.hostilenetworks.trivia.eternalnether.warped_enderman",
+    "fabricator_drops": [
+        {
+            "id": "eternalnether:warped_ender_pearl",
+            "count": 12
+        }
+    ]
+}

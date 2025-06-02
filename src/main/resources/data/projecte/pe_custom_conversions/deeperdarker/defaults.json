@@ -1,0 +1,48 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ],
+
+    "comment": "emc values for Deeper and Darker",
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 32,
+                "id": "deeperdarker:blooming_stem"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 32,
+                "id": "deeperdarker:stripped_blooming_stem"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 1,
+                "id": "deeperdarker:cobbled_sculk_stone"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 1,
+                "id": "deeperdarker:cobbled_gloomslate"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 32,
+                "id": "deeperdarker:echo_log"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 32,
+                "id": "deeperdarker:stripped_echo_log"
+            }
+        ]
+    }
+}

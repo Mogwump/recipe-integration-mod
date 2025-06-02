@@ -1,0 +1,98 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create_deep_dark"
+        }
+    ],
+
+    "comment": "unambiguous emc values for Create: Deep Dark",
+    "groups": {
+        "default": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "create_deep_dark:echo_cake_base"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 250,
+                            "id": "create_deep_dark:molten_echo"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create_deep_dark:echo_cake_base"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:egg"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:sugar"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "create_deep_dark:sculk_flour"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create_deep_dark:echo_cake"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:netherite_ingot"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 100,
+                            "id": "create_deep_dark:molten_echo"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "create_deep_dark:echo_ingot"
+                    }
+                },
+                
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "minecraft:echo_shard"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "create_deep_dark:molten_echo"
+                    },
+                    "count": 100
+                }
+            ]
+        }
+    },
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 4,
+                "id": "create_deep_dark:sculk_flour"
+            }
+        ]
+    }
+}

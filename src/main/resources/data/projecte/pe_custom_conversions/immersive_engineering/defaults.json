@@ -1,0 +1,41 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersive_engineering"
+        }
+    ],
+
+    "comment": "emc values for Immersive Engineering",
+    "groups": {
+        "base_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "immersive_engineering:steel_ingot"
+                    }
+                }
+            ]
+        }
+    },
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": "free",
+                "id": "immersive_engineering:slag"
+            }
+        ]
+    }
+}

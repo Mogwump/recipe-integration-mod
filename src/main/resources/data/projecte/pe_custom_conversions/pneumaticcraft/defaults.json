@@ -1,0 +1,49 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "pneumaticcraft"
+        }
+    ],
+
+    "comment": "mostly unambiguous emc values for PneumaticCraft: Repressurized",
+    "groups": {
+        "default": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "pneumaticcraft:iron_ingot_compressed"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:gold_ingot"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "minecraft:redstone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "pneumaticcraft:turbine_blade"
+                    }
+                }
+            ]
+        }
+    }
+}

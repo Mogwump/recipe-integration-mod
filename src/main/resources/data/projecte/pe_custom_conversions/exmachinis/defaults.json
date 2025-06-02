@@ -1,0 +1,46 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exmachinis"
+        }
+    ],
+
+    "comment": "emc values for Ex Machinis: Divitae Deorum",
+    "groups": {
+        "default": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "minecraft:cyan_terracotta"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:green_dye"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 5,
+                            "tag": "c:glass_blocks"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:gold_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "exmachinis:gold_upgrade"
+                    }
+                }
+            ]
+        }
+    }
+}
