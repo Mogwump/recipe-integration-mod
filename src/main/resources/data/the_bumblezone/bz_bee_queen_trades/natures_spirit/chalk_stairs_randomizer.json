@@ -1,0 +1,20 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "the_bumblezone"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "natures_spirit"
+        }
+    ],
+
+    "is_color_randomizer_trade": true,
+    "randomizes": [
+        {
+            "id": "#natures_spirit:chalk_stairs",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "values": [
+        {
+            "id": "powah:dry_ice",
+            "required": false
+        },
+
+        {
+            "id": "rechiseled:blue_ice_bordered",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_bordered_connecting",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_bricks_connecting",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_chiseled",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_chiseled_connecting",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_cone",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_cracked",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_patterned",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_patterned_connecting",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_pillar",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_pillar_connecting",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_rocky",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_slanted_tiles",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_slanted_tiles_connecting",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_tiles",
+            "required": false
+        },
+        {
+            "id": "rechiseled:blue_ice_tiles_connecting",
+            "required": false
+        }
+    ]
+}

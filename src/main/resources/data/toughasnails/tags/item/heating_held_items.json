@@ -1,0 +1,14 @@
+{
+    "values": [
+        "#c:hot_ingots",
+        
+        {
+            "id": "exdeorum:porcelain_lava_bucket",
+            "required": false
+        },
+        {
+            "id": "forbidden_arcanus:edelwood_lava_bucket",
+            "required": false
+        }
+    ]
+}

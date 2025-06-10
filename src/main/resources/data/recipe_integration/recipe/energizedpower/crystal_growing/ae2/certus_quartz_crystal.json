@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "ae2"
+        }
+    ],
+
+    "type": "energizedpower:crystal_growth_chamber",
+    "ingredient": {
+        "tag": "c:gems/certus_quartz"
+    },
+    "output": {
+        "output": {
+            "item": "ae2:certus_quartz_crystal"
+        },
+        "percentages": [
+            1.0,
+            1.0,
+            0.67,
+            0.5,
+            0.25,
+            0.125
+        ]
+    },
+    "ticks": 16000
+}

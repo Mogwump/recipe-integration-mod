@@ -42,6 +42,19 @@
                         "type": "projecte:item",
                         "id": "pneumaticcraft:turbine_blade"
                     }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:wheat"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "pneumaticcraft:wheat_flower"
+                    },
+                    "count": 3
                 }
             ]
         }

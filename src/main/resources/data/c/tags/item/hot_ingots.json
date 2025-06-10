@@ -1,0 +1,32 @@
+{
+    "values": [
+        {
+            "id": "modern_industrialization:annealed_copper_hot_ingot",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:chromium_hot_ingot",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:kanthal_hot_ingot",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:platinum_hot_ingot",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:stainless_steel_hot_ingot",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:superconductor_hot_ingot",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:titanium_hot_ingot",
+            "required": false
+        }
+    ]
+}

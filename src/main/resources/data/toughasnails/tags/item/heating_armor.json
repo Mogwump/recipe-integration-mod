@@ -1,0 +1,20 @@
+{
+    "values": [
+        {
+            "id": "twilightforest:fiery_helmet",
+            "required": false
+        },
+        {
+            "id": "twilightforest:fiery_chestplate",
+            "required": false
+        },
+        {
+            "id": "twilightforest:fiery_leggings",
+            "required": false
+        },
+        {
+            "id": "twilightforest:fiery_boots",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "undergarden:grongle_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "undergarden:grongle_planks"
+    },
+    "sawdustAmount": 1
+}

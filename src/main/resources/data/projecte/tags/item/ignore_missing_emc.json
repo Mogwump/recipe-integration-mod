@@ -1,0 +1,118 @@
+{
+    "values": [
+        {
+            "id": "ae2:creative_energy_cell",
+            "required": false
+        },
+        {
+            "id": "ae2:creative_storage_cell",
+            "required": false
+        },
+
+
+        {
+            "id": "ars_nouveau:creative_source_jar",
+            "required": false
+        },
+        {
+            "id": "ars_nouveau:creative_spell_book",
+            "required": false
+        },
+
+
+        {
+            "id": "create:creative_blaze_cake",
+            "required": false
+        },
+        {
+            "id": "create:creative_crate",
+            "required": false
+        },
+        {
+            "id": "create:creative_fluid_tank",
+            "required": false
+        },
+        {
+            "id": "create:creative_motor",
+            "required": false
+        },
+        {
+            "id": "create:handheld_worldshaper",
+            "required": false
+        },
+
+
+        {
+            "id": "energizedpower:creative_battery_box",
+            "required": false
+        },
+        {
+            "id": "energizedpower:creative_battery",
+            "required": false
+        },
+        {
+            "id": "energizedpower:creative_fluid_tank",
+            "required": false
+        },
+
+
+        {
+            "id": "evilcraft:creative_blood_drop",
+            "required": false
+        },
+
+
+        {
+            "id": "integrateddynamics:energy_battery_creative",
+            "required": false
+        },
+
+
+        {
+            "id": "mekanism:creative_bin",
+            "required": false
+        },
+        {
+            "id": "mekanism:creative_energy_cube",
+            "required": false
+        },
+        {
+            "id": "mekanism:creative_fluid_tank",
+            "required": false
+        },
+
+
+        {
+            "id": "modern_industrialization:creative_barrel",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:creative_tank",
+            "required": false
+        },
+
+
+        {
+            "id": "pneumaticcraft:creative_compressed_iron_block",
+            "required": false
+        },
+        {
+            "id": "pneumaticcraft:creative_compressor",
+            "required": false
+        },
+        {
+            "id": "pneumaticcraft:creative_upgrade",
+            "required": false
+        },
+
+
+        {
+            "id": "xycraft_machines:fluid_selector",
+            "required": false
+        },
+        {
+            "id": "xycraft_machines:item_selector",
+            "required": false
+        }
+    ]
+}

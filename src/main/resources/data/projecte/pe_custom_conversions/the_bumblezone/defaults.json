@@ -3,23 +3,28 @@
         {
             "type": "neoforge:mod_loaded",
             "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "the_bumblezone"
         }
     ],
 
-    "comment": "In the default Project E config, you can use the Philosopher's stone on terracotta to change its colour, but they have different emc values and some of them don't have any. This fixes that and various other minor things",
+    "comment": "emc values for The Bumblezone",
     "groups": {
-        "terracotta": {
+        "default": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "id": "minecraft:terracotta"
+                            "amount": 4,
+                            "id": "the_bumblezone:super_candle"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "minecraft:terracotta"
+                        "tag": "the_bumblezone:super_candles"
                     }
                 },
                 {
@@ -27,29 +32,15 @@
                         {
                             "type": "projecte:item",
                             "amount": 4,
-                            "id": "minecraft:sand"
-                        },
-                        {
-                            "type": "projecte:item",
-                            "amount": 4,
-                            "id": "minecraft:gravel"
+                            "id": "the_bumblezone:string_curtain_white"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:concrete_powders"
+                        "tag": "the_bumblezone:string_curtains"
                     }
                 }
             ]
         }
-    },
-    "values": {
-        "before": [
-            {
-                "type": "projecte:item",
-                "emc_value": "free",
-                "tag": "c:dyes"
-            }
-        ]
     }
 }

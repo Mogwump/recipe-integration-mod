@@ -1,0 +1,38 @@
+{
+    "values": [
+        {
+            "id": "divinerpg:frozen_helmet",
+            "required": false
+        },
+        {
+            "id": "divinerpg:frozen_chestplate",
+            "required": false
+        },
+        {
+            "id": "divinerpg:frozen_leggings",
+            "required": false
+        },
+        {
+            "id": "divinerpg:frozen_boots",
+            "required": false
+        },
+
+
+        {
+            "id": "undergarden:froststeel_helmet",
+            "required": false
+        },
+        {
+            "id": "undergarden:froststeel_chestplate",
+            "required": false
+        },
+        {
+            "id": "undergarden:froststeel_leggings",
+            "required": false
+        },
+        {
+            "id": "undergarden:froststeel_boots",
+            "required": false
+        }
+    ]
+}

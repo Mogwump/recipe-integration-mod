@@ -1,0 +1,30 @@
+{
+    "values": [
+
+        "#c:foods/soup",
+
+
+        {
+            "id": "divinerpg:fruit_cake",
+            "required": false
+        },
+        
+
+        {
+            "id": "exdeorum:end_cake",
+            "required": false
+        },
+
+
+        {
+            "id": "minecraft:experience_bottle",
+            "required": false
+        },
+
+
+        {
+            "id": "productivebees:milk_bottle",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "luminax"
+        }
+    ],
+
+    "comment": "emc values for Luminax",
+    "groups": {
+        "default": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "minecraft:stone"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "minecraft:glowstone_dust"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "luminax:blocks"
+                    }
+                }
+            ]
+        }
+    }
+}
