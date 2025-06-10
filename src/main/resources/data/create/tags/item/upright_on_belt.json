@@ -16,10 +16,8 @@
         },
 
 
-        {
-            "id": "minecraft:experience_bottle",
-            "required": false
-        },
+        
+        "minecraft:experience_bottle",
 
 
         {
