@@ -1,4 +1,18 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "create:upright_on_belt"
+            }
+        }
+    ],
     "values": [
 
         "#c:foods/soup",
@@ -14,7 +28,6 @@
             "id": "exdeorum:end_cake",
             "required": false
         },
-
 
         
         "minecraft:experience_bottle",

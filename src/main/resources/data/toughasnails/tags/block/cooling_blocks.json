@@ -1,4 +1,18 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "toughasnails"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:block",
+                "tag": "toughasnails:cooling_blocks"
+            }
+        }
+    ],
     "values": [
         {
             "id": "powah:dry_ice",
