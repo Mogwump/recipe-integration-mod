@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 1,
+        "tag": "c:ores/iesnium"
+    },
+    "output": {
+        "count": 2,
+        "id": "occultism:iesnium_dust"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+    "type": "mekanism:crushing",
+    "input": {
+        "count": 1,
+        "tag": "c:ingots/iesnium"
+    },
+    "output": {
+        "count": 1,
+        "id": "occultism:iesnium_dust"
+    }
+}

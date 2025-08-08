@@ -17,6 +17,10 @@
         {
             "id": "create:copper_bars",
             "required": false
+        },
+        {
+            "id": "#chipped:iron_bars",
+            "required": false
         }
     ]
 }

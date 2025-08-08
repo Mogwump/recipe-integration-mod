@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "confluence"
+        }
+    ],
+    "values": {
+        "#c:gems/certus_quartz": 120,
+        "#c:ingots/lead": 450,
+        "#c:ingots/nickel": 300,
+        "#c:ingots/orichalcum": 5200,
+        "#c:ingots/osmium": 350,
+        "#c:ingots/platinum": 1800,
+        "#c:ingots/silver": 600,
+        "#c:ingots/steel": 400,
+        "#c:ingots/tin": 225,
+        "#c:ingots/titanium": 6800,
+        "#c:ingots/tungsten": 900,
+
+        "aether:ambrosium_shard": 230,
+        "aether:golden_amber": 20,
+        "aether:swet_ball": 15,
+
+        "deep_aether:golden_swet_ball": 40
+    }
+}

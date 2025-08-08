@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "divinerpg"
+        }
+    ],
+    "type": "exdeorum:hammer",
+    "ingredient": [
+        {
+            "item": "divinerpg:cobbled_frozen_stone"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "divinerpg:frozen_gravel"
+    },
+    "result_amount": 1.0
+}
