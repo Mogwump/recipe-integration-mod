@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "industrialupgrade"
+        }
+    ],
+
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/tungsten"
+        }
+    ],
+    "results": [
+        {
+            "id": "industrialupgrade:itemplates/wolfram_plate"
+        }
+    ]
+}

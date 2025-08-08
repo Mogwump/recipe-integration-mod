@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+    "type": "aether:freezing",
+    "category": "freezable_blocks",
+    "cookingtime": 300,
+    "experience": 0.1,
+    "ingredient": {
+        "item": "biomeswevegone:borealis_ice"
+    },
+    "result": {
+        "count": 1,
+        "id": "biomeswevegone:packed_borealis_ice"
+    }
+}

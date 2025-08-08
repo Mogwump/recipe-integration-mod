@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "actuallyadditions"
+        }
+    ],
+    "type": "aether:block_placement_ban",
+    "biome": "#aether:ultracold",
+    "ingredient": {
+        "block": "actuallyadditions:tiny_torch"
+    }
+}

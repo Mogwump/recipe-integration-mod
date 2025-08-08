@@ -2,7 +2,7 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "projecte"
+            "modid": "randomium"
         }
     ],
     "values": [
@@ -22,28 +22,6 @@
         },
         {
             "id": "ars_nouveau:creative_spell_book",
-            "required": false
-        },
-
-
-        {
-            "id": "create:creative_blaze_cake",
-            "required": false
-        },
-        {
-            "id": "create:creative_crate",
-            "required": false
-        },
-        {
-            "id": "create:creative_fluid_tank",
-            "required": false
-        },
-        {
-            "id": "create:creative_motor",
-            "required": false
-        },
-        {
-            "id": "create:handheld_worldshaper",
             "required": false
         },
 

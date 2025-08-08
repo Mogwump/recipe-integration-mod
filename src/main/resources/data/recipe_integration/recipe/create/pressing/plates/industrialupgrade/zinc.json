@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "industrialupgrade"
+        }
+    ],
+
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:ingots/zinc"
+        }
+    ],
+    "results": [
+        {
+            "id": "industrialupgrade:itemplates/zinc_plate"
+        }
+    ]
+}

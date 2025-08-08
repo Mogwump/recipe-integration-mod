@@ -1,0 +1,52 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/bornite"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/bornite"
+            }
+        }
+    ],
+
+    "type": "integrateddynamics:mechanical_squeezer",
+    "input_item": {
+        "tag": "c:ores/bornite"
+    },
+    "output_items": [
+        {
+            "tag": {
+                "tag": "c:raw_materials/bornite",
+                "count": 3
+            }
+        },
+        {
+            "tag": {
+                "tag": "c:raw_materials/bornite",
+                "count": 2
+            },
+            "chance": 0.5
+        },
+        {
+            "tag": {
+                "tag": "c:raw_materials/bornite",
+                "count": 2
+            },
+            "chance": 0.5
+        }
+    ],
+    "duration": 40
+}

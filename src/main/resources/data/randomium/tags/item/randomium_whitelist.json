@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "randomium"
+        }
+    ],
+    "values": [
+        {
+            "id": "#c:ingots/lead",
+            "required": false
+        },
+        {
+            "id": "#c:ingots/nickel",
+            "required": false
+        },
+        {
+            "id": "#c:ingots/silver",
+            "required": false
+        },
+        {
+            "id": "#c:ingots/tin",
+            "required": false
+        },
+        {
+            "id": "#c:ingots/zinc",
+            "required": false
+        }
+    ]
+}

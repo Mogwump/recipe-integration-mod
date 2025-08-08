@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "ars_nouveau:water_essence"
+        },
+        {
+            "item": "forbidden_arcanus:edelwood_bucket"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "forbidden_arcanus:edelwood_water_bucket"
+    }
+}
