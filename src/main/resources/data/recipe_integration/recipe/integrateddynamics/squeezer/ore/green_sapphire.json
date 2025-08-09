@@ -1,0 +1,43 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/green_sapphire"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/green_sapphire"
+            }
+        }
+    ],
+    "type": "integrateddynamics:squeezer",
+    "input_item": {
+        "tag": "c:ores/green_sapphire"
+    },
+    "output_items": [
+        {
+            "tag": {
+                "tag": "c:raw_materials/green_sapphire",
+                "count": 2
+            }
+        },
+        {
+            "tag": {
+                "tag": "c:raw_materials/green_sapphire"
+            },
+            "chance": 0.75
+        }
+    ],
+    "duration": 40
+}

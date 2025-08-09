@@ -1,0 +1,43 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/arlemite"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/arlemite"
+            }
+        }
+    ],
+    "type": "integrateddynamics:squeezer",
+    "input_item": {
+        "tag": "c:ores/arlemite"
+    },
+    "output_items": [
+        {
+            "tag": {
+                "tag": "c:raw_materials/arlemite",
+                "count": 2
+            }
+        },
+        {
+            "tag": {
+                "tag": "c:raw_materials/arlemite"
+            },
+            "chance": 0.75
+        }
+    ],
+    "duration": 40
+}

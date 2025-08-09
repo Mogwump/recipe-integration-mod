@@ -1,0 +1,43 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/yellow_limonite"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/yellow_limonite"
+            }
+        }
+    ],
+    "type": "integrateddynamics:squeezer",
+    "input_item": {
+        "tag": "c:ores/yellow_limonite"
+    },
+    "output_items": [
+        {
+            "tag": {
+                "tag": "c:raw_materials/yellow_limonite",
+                "count": 2
+            }
+        },
+        {
+            "tag": {
+                "tag": "c:raw_materials/yellow_limonite"
+            },
+            "chance": 0.75
+        }
+    ],
+    "duration": 40
+}
