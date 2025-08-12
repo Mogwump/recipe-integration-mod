@@ -117,6 +117,19 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:gems/coal"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/coal"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/copper"
                     }
                 ],
@@ -292,6 +305,19 @@
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:dusts/nickel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:obsidians/normal"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/obsidian"
                 },
                 "propagateTags": true
             },

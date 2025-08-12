@@ -1,0 +1,84 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        }
+    ],
+
+    "comment": "emc values for more modded ingots",
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 256,
+                "tag": "c:ingots/barium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/beryllium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/chromium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 256,
+                "tag": "c:ingots/cobalt"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 4096,
+                "tag": "c:ingots/gadolinium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 128,
+                "tag": "c:ingots/lithium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 256,
+                "tag": "c:ingots/manganese"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/neodymium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 8192,
+                "tag": "c:ingots/orichalcum"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 16384,
+                "tag": "c:ingots/polonium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 4096,
+                "tag": "c:ingots/titanium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 2048,
+                "tag": "c:ingots/tungsten"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 256,
+                "tag": "c:ingots/zinc"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 2048,
+                "tag": "c:ingots/zirconium"
+            }
+        ]
+    }
+}

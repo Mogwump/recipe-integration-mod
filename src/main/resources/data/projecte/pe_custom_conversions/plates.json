@@ -13,6 +13,71 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/adamantium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/adamantium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/alcled"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/alcled"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/alumel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/alumel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/aluminium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/aluminium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/aluminiumlithium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/aluminiumlithium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/aluminum"
                     }
                 ],
@@ -26,12 +91,64 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/aluminumbronze"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/aluminumbronze"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/aluminiumsilicon"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/aluminiumsilicon"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/annealed_copper"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/annealed_copper"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/arsenic"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/arsenic"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/barium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/barium"
                 },
                 "propagateTags": true
             },
@@ -65,12 +182,51 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/berylliumbronze"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/berylliumbronze"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/bismuth"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/bismuth"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/blastproof_alloy"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/blastproof_alloy"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/bloodstone"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/bloodstone"
                 },
                 "propagateTags": true
             },
@@ -104,12 +260,51 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/caravky"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/caravky"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/chromium"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/chromium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/cobalt"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/cobalt"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/cobaltchrome"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/cobaltchrome"
                 },
                 "propagateTags": true
             },
@@ -143,12 +338,38 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
-                        "tag": "c:ingots/diamond"
+                        "tag": "c:gems/diamond"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:gems/diamond"
+                    "tag": "c:plates/diamond"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/draconid"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/draconid"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/duralumin"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/duralumin"
                 },
                 "propagateTags": true
             },
@@ -182,6 +403,97 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/ferromanganese"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/ferromanganese"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/hafnium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/hafnium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/hafniumboride"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/hafniumboride"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/gadolinium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/gadolinium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/gallium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/gallium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/galliumarsenic"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/galliumarsenic"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/germanium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/germanium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/gold"
                     }
                 ],
@@ -195,12 +507,38 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/hafniumcarbide"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/hafniumcarbide"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/hsla_steel"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/hsla_steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/inconel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/inconel"
                 },
                 "propagateTags": true
             },
@@ -260,6 +598,19 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:gems/lapis"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/lapis"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/lead"
                     }
                 ],
@@ -286,6 +637,136 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/magnesium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/magnesium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/manganese"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/manganese"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/meteoric"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/meteoric"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/mikhail"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/mikhail"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/mithril"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/mithril"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/molybdenum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/molybdenum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/molybdenumsteel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/molybdenumsteel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/muntsa"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/muntsa"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/neodymium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/neodymium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/nichrome"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/nichrome"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/nickel"
                     }
                 ],
@@ -299,12 +780,168 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/nimonic"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/nimonic"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/niobium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/niobium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/niobiumtitanium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/niobiumtitanium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/nitenol"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/nitenol"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:dusts/obsidian"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/obsidian"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/orichalcum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/orichalcum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/osmiridium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/osmiridium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/osmium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/osmium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/palladium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/palladium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/permalloy"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/permalloy"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/platinum"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/platinum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/polonium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/polonium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/redbrass"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/redbrass"
                 },
                 "propagateTags": true
             },
@@ -338,12 +975,38 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/spinel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/spinel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/stainless_steel"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/stainless_steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/stainlesssteel"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/stainlesssteel"
                 },
                 "propagateTags": true
             },
@@ -364,12 +1027,103 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/stellite"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/stellite"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/strontium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/strontium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/superalloyhaynes"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/superalloyhaynes"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/superalloyrene"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/superalloyrene"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/superconductor"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/superconductor"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tantalum"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/tantalum"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/tantalumtungstenhafnium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/tantalumtungstenhafnium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/thallium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/thallium"
                 },
                 "propagateTags": true
             },
@@ -435,6 +1189,123 @@
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:plates/vanadium_steel"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/vanadoalumite"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/vanadoalumite"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/vanady"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/vanady"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/vitalium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/vitalium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/woods"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/woods"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/yttrium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/yttrium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/yttriumaluminiumgarnet"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/yttriumaluminiumgarnet"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/zeliber"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/zeliber"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/zinc"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/zinc"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/zirconium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/zirconium"
                 },
                 "propagateTags": true
             }

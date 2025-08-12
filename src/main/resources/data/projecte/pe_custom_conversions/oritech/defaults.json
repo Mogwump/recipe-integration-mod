@@ -6,262 +6,217 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "modern_industrialization"
+            "modid": "oritech"
         }
     ],
 
-    "comment": "unambiguous emc values for Modern Industrialization",
+    "comment": "emc values for Oritech",
     "groups": {
-        "bolts": {
-            "comment": "1 rod -> 2 bolts",
+        "default": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
                             "amount": 1,
-                            "tag": "c:rods/aluminum"
+                            "tag": "oritech:biomatter"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:biomass"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:ingots/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "oritech:raw_biopolymer"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:biosteel_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:dusts/coal"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:carbon_fibre_strands"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "minecraft:coals"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:coal_dust"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:ingots/platinum"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:ingots/netherite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:duratim_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:dusts/redstone"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:ingots/gold"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:electrum_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "minecraft:ender_pearl"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:enderic_compound"
+                    },
+                    "count": 12
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "minecraft:end_stone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:enderic_compound"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "minecraft:sculk"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:enderic_compound"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "minecraft:redstone"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "minecraft:rotten_flesh"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:enderic_compound"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "tag": "c:ingots/nickel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "oritech:fluxite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "oritech:energite_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "oritech:raw_biopolymer"
                         },
                         {
                             "type": "projecte:fluid",
-                            "amount": 1,
-                            "id": "modern_industrialization:lubricant"
+                            "amount": 500,
+                            "id": "minecraft:water"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/bronze"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:bronze_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/copper"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:copper_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/gold"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:gold_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/invar"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:invar_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/iron"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:iron_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/stainless_steel"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:stainless_steel_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/steel"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:steel_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/tin"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:tin_bolt"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 1,
-                            "tag": "c:rods/titanium"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:titanium_bolt"
-                    },
-                    "count": 2
-                }
-            ]
-        },
-        "curved_plates": {
-            "comment": "1 plate : 1 curved plate",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:plates/aluminum"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_curved_plate"
-                    }
-                }
-            ]
-        },
-        "double_ingots": {
-            "comment": "2 ingots : 1 double ingot",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 2,
-                            "tag": "c:ingots/aluminum"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:aluminum_double_ingot"
-                    }
-                }
-            ]
-        },
-        "dusts": {
-            "comment": "dusts",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "id": "minecraft:coal"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:coal_dust"
+                        "id": "oritech:plastic_sheet"
                     }
                 },
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:dusts/gold"
+                            "amount": 1,
+                            "id": "oritech:polymer_resin"
                         },
                         {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/silver"
+                            "type": "projecte:fluid",
+                            "amount": 500,
+                            "id": "minecraft:water"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:dusts/electrum"
-                    },
-                    "count": 2
-                },
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "amount": 2,
-                            "tag": "c:dusts/iron"
-                        },
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:dusts/nickel"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "tag": "c:dusts/invar"
-                    },
-                    "count": 3
-                }
-            ]
-        },
-        "rods": {
-            "comment": "Rods",
-            "conversions": [
-                {
-                    "ingredients": [
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:rods/steel"
-                        }
-                    ],
-                    "output": {
-                        "type": "projecte:item",
-                        "id": "modern_industrialization:steel_rod_magnetic"
+                        "id": "oritech:plastic_sheet"
                     }
                 }
             ]

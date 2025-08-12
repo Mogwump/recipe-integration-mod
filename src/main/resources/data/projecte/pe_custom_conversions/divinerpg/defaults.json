@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ],
+
+    "comment": "emc values for Deeper and Darker",
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 128,
+                "id": "divinerpg:anthractie"
+            }
+        ]
+    }
+}

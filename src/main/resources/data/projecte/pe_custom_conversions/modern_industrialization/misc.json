@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "comment": "miscellaneous emc values for Modern Industrialization",
+    "groups": {
+        "misc": {
+            "comment": "misc",
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 1,
+                            "id": "minecraft:honeycomb"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "modern_industrialization:wax"
+                    }
+                }
+            ]
+        }
+    }
+}

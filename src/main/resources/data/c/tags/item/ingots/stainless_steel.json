@@ -3,6 +3,11 @@
         {
             "id": "electrodynamics:ingotstainlesssteel",
             "required": false
+        },
+
+        {
+            "id": "industrialupgrade:alloyingot/stainless_steel",
+            "required": false
         }
     ]
 }
