@@ -11,6 +11,11 @@
         "before": [
             {
                 "type": "projecte:item",
+                "emc_value": 128,
+                "tag": "c:ingots/aluminium"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 256,
                 "tag": "c:ingots/barium"
             },
@@ -36,13 +41,28 @@
             },
             {
                 "type": "projecte:item",
+                "emc_value": 4096,
+                "tag": "c:ingots/iridium"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 128,
                 "tag": "c:ingots/lithium"
             },
             {
                 "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/magnesium"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 256,
                 "tag": "c:ingots/manganese"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/mikhail"
             },
             {
                 "type": "projecte:item",
@@ -58,6 +78,11 @@
                 "type": "projecte:item",
                 "emc_value": 16384,
                 "tag": "c:ingots/polonium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/thallium"
             },
             {
                 "type": "projecte:item",

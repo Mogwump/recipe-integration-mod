@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:gears/silicone_rubber"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/silicone_rubber"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "basePredicate": {
+            "tag": "c:ingots/silicone_rubber"
+        },
+        "count": 4
+    },
+    "mold": "immersiveengineering:mold_gear",
+    "result": {
+        "tag": "c:gears/silicone_rubber"
+    }
+}

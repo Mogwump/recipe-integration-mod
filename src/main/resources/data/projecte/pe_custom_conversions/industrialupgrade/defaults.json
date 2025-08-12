@@ -876,6 +876,26 @@
                         "type": "projecte:item",
                         "id": "industrialupgrade:alloyingot/woods"
                     }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/aluminium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/yttrium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/neodymium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/yttrium_aluminium_garnet"
+                    }
                 }
             ]
         },
@@ -1058,7 +1078,7 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "id": "industrialupgrade:itemingots/alloyingotx"
+                            "id": "industrialupgrade:itemingots/alloy_ingot"
                         }
                     ],
                     "output": {
@@ -1119,6 +1139,122 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:nuggets/vanady"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/vanady"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_301_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/adspp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_303_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/silver"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_306_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/bsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_308_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/hsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_312_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/platinum"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/platinum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_314_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/vitalium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/vitalium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_315_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/gsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_317_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "tag": "c:gems/coal"
                         },
                         {
@@ -1157,6 +1293,167 @@
                 {
                     "ingredients": [
                         {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/manganese"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/manganese"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_329_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/admsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_331_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:rods/titanium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/iron"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_338_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/chromium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/chromium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_345_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/qsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_347_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/caravky"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/caravky"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_349_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/ksp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_351_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/nickel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/nickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_358_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/nsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_360_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/magnesium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/magnesium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_381_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/psp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_383_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
                             "type": "projecte:fluid",
                             "amount": 5000,
                             "id": "industrialupgrade:iufluidneft"
@@ -1175,6 +1472,151 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:crafting_elements/crafting_386_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/ssp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_390_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/zinc"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/zinc"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_391_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/usp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_400_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/mikhail"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/mikhail"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_401_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/electrum"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/electrum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_406_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/spsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_408_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnarium/sunnariumpart"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnarium/sunnarium2"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_416_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnarium/sunnarium_plate"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_422_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:nuggets/cobalt"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/cobalt"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_429_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 4,
+                            "id": "industrialupgrade:itemsunnariumpanel/phsp"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_431_element"
                     }
                 },
                 {
@@ -1804,22 +2246,38 @@
                 }
             ]
         },
-        "itemiucrafting": {
+        "itemingots": {
             "conversions": [
                 {
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "id": "minecraft:glowstone"
-                        },
-                        {
-                            "type": "projecte:item",
-                            "tag": "c:ingots/uranium"
+                            "id": "industrialupgrade:crafting_elements/crafting_504_element"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "industrialupgrade:itemiucrafting/itemirradianturanium"
+                        "id": "industrialupgrade:crafting_elements/crafting_501_element"
+                    }
+                }
+            ]
+        },
+        "itemiucrafring": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/electrum"
                     }
                 }
             ]

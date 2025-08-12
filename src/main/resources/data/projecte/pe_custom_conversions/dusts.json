@@ -156,12 +156,12 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
-                        "tag": "c:ingots/diamond"
+                        "tag": "c:gems/diamond"
                     }
                 ],
                 "output": {
                     "type": "projecte:item",
-                    "tag": "c:gems/diamond"
+                    "tag": "c:dusts/diamond"
                 },
                 "propagateTags": true
             },
@@ -182,7 +182,7 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
-                        "tag": "c:ingots/emerald"
+                        "tag": "c:gems/emerald"
                     }
                 ],
                 "output": {

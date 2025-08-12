@@ -1,0 +1,278 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "gtceu"
+        }
+    ],
+
+    "comment": "emc values for Gregtech",
+    "groups": {
+        "dusts": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/gallium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/arsenic"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "gtceu:gallium_arsenide_dust"
+                    }
+                }
+            ]
+        },
+        "fluids": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/aluminium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:aluminium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/americium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:americium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/antimony"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:antimony"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/beryllium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:beryllium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/bismuth"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:bismuth"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/carbon"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:carbon"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/cerium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:cerium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/chromium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:chromium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/cobalt"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:cobalt"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/copper"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:copper"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/darmstadtium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:darmstadtium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/europium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:europium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gallium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:gallium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:gold"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/indium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:indium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/iridium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:iridium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/titanium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "gtceu:titanium"
+                    },
+                    "count": 144
+                }
+            ]
+        },
+        "wire": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/copper"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "gtceu:copper_single_wire"
+                    },
+                    "count": 2
+                }
+            ]
+        }
+    }
+}

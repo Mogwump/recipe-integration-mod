@@ -234,6 +234,19 @@
                 "ingredients": [
                     {
                         "type": "projecte:item",
+                        "tag": "c:ingots/brass"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:plates/brass"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
                         "tag": "c:ingots/bronze"
                     }
                 ],

@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createaddition"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "createaddition:rolling",
+    "input": {
+        "tag": "c:ingots/stainless_steel"
+    },
+    "result": {
+        "id": "modern_industrialization:stainless_steel_rod",
+        "count": 2
+    }
+}
