@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "energizedpower:pulverizer",
+    "ingredient": {
+        "tag": "c:ores/titanium"
+    },
+    "output": {
+        "output": {
+            "item": "modern_industrialization:titanium_dust"
+        },
+        "percentages": [
+            1.0,
+            1.0,
+            0.25
+        ],
+        "percentagesAdvanced": [
+            1.0,
+            1.0,
+            0.5,
+            0.25
+        ]
+    }
+}

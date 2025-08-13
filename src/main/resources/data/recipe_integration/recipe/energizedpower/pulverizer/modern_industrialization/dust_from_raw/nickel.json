@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "energizedpower:pulverizer",
+    "ingredient": {
+        "tag": "c:raw_materials/nickel"
+    },
+    "output": {
+        "output": {
+            "item": "modern_industrialization:nickel_dust"
+        },
+        "percentages": [
+            1.0,
+            0.25
+        ],
+        "percentagesAdvanced": [
+            1.0,
+            0.5
+        ]
+    }
+}

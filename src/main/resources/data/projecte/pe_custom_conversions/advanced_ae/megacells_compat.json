@@ -18,7 +18,7 @@
         }
     ],
 
-    "comment": "Project E already does conditional loading, but this is here for readability",
+    "comment": "Project E already does conditional loading, but this is separate with load conditions mostly for readability",
     "groups": {
         "base_items": {
             "conversions": [

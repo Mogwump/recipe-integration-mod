@@ -463,6 +463,45 @@
                     "tag": "c:dusts/vanadium_steel"
                 },
                 "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/yttrium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/yttrium"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/zinc"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/zinc"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "tag": "c:ingots/zirconium"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/zirconium"
+                },
+                "propagateTags": true
             }
         ]
     }

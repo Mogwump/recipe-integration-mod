@@ -1,0 +1,13 @@
+{
+    "values": [
+        {
+            "id": "gtceu:aluminium_ingot",
+            "required": false
+        },
+
+        {
+            "id": "industrialupgrade:itemingots/aluminium_ingot",
+            "required": false
+        }
+    ]
+}

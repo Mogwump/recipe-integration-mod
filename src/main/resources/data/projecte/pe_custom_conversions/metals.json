@@ -41,6 +41,11 @@
             },
             {
                 "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/hafnium"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 4096,
                 "tag": "c:ingots/iridium"
             },
@@ -93,6 +98,11 @@
                 "type": "projecte:item",
                 "emc_value": 2048,
                 "tag": "c:ingots/tungsten"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 1024,
+                "tag": "c:ingots/yttrium"
             },
             {
                 "type": "projecte:item",

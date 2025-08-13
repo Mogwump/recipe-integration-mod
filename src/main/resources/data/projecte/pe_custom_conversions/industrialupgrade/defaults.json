@@ -656,6 +656,22 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/nickel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/chromium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/nichrome"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "tag": "c:ingots/cobalt"
                         },
                         {
@@ -923,6 +939,19 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:coal_chunk"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 9,
+                            "id": "industrialupgrade:crafting_elements/crafting_282_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:compresscarbon"
                     }
                 },
                 {
