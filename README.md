@@ -16,79 +16,8 @@ For now, all recipes are in the data folder of the mod, and can thus be changed 
 
 This mod doesn't add any ticking functions, so it shouldn't hurt performance any more than just using a few more kilo/megabytes of RAM.
 
-## Current mods + features
+## List of features
 
-<details>
-<summary>Current list of supported mods</summary>
-
-**Bold** mods have features implemented by this mod.
-
-Regular mods are fully compatible with one or more features
-
-_Italic_ mods are partially compatible with one or more features or only have very minor compatability features, for example Randomium blacklist/whitelist tags.
-
-- [A Cold Day In The Nether](https://modrinth.com/mod/a-cold-day-in-the-nether)
-- [Actually Additions](https://modrinth.com/mod/actually-additions)
-- [_Advanced AE_](https://modrinth.com/mod/advancedae)
-- [Advent Of Ascension](https://modrinth.com/mod/adventofascension)
-- [**The Aether**](https://modrinth.com/mod/aether)
-- [Allthemodium](https://www.curseforge.com/minecraft/mc-mods/allthemodium)
-- [_Applied Energistics 2_](https://modrinth.com/mod/ae2)
-- [Ars Elemental](https://www.curseforge.com/minecraft/mc-mods/ars-elemental)
-- [**Ars Nouveau**](https://modrinth.com/mod/ars-nouveau)
-- [_Biomes O Plenty_](https://modrinth.com/mod/biomes-o-plenty)
-- [**Confluence**](https://modrinth.com/mod/confluence)
-- [**Create**](https://modrinth.com/mod/create)
-- [Create: Aquatic Ambitions](https://modrinth.com/mod/create-aquatic-ambitions)
-- [**Create Crafts & Additions**](https://modrinth.com/mod/createaddition)
-- [Create: Deep Dark](https://modrinth.com/mod/create-deep-dark)
-- [Create: Garnished](https://modrinth.com/mod/create-garnished)
-- [Deep Aether](https://modrinth.com/mod/deep-aether)
-- [Deeper And Darker](https://modrinth.com/mod/deeperdarker)
-- [DivineRPG](https://modrinth.com/mod/divinerpg)
-- [**Electrodynamics**](https://modrinth.com/mod/electrodynamics)
-- [_End's Phantasm_](https://modrinth.com/mod/ends-phantasm)
-- [_Ender Zoology_](https://modrinth.com/mod/ender-zoology)
-- [**Energized Power**](https://modrinth.com/mod/energized-power)
-- [_Eternal Nether_](https://modrinth.com/mod/eternal-nether)
-- [Eternal Starlight](https://modrinth.com/mod/eternal-starlight)
-- [Evilcraft](https://modrinth.com/mod/evilcraft)
-- [**Ex Deorum**](https://modrinth.com/mod/ex-deorum)
-- [Extreme Reactors](https://modrinth.com/mod/extreme-reactors)
-- [**Farmer's Delight**](https://modrinth.com/mod/farmers-delight)
-- [Forbidden And Arcanus](https://modrinth.com/mod/forbidden-arcanus)
-- [GTCEu Modern](https://modrinth.com/mod/gregtechceu-modern)
-- [Gregicality Rocketry](https://modrinth.com/mod/gcyr)
-- [**Hostile Neural Networks**](https://www.curseforge.com/minecraft/mc-mods/hostile-neural-networks)
-- [**Immersive Engineering**](https://modrinth.com/mod/immersiveengineering)
-- [Industrial Upgrade](https://modrinth.com/mod/industrialupgrade)
-- [**Integrated Dynamics**](https://modrinth.com/mod/integrated-dynamics)
-- [Lands Of Icaria](https://modrinth.com/mod/lands-of-icaria)
-- [Luminax](https://modrinth.com/mod/luminax)
-- [_MEGA Cells_](https://modrinth.com/mod/mega)
-- [**Mekanism**](https://modrinth.com/mod/mekanism)
-- [**Modern Industrialization**](https://modrinth.com/mod/modern-industrialization)
-- [**Mystical Agriculture**](https://modrinth.com/mod/mystical-agriculture)
-- [Occultism](https://modrinth.com/mod/occultism)
-- [_Oh The Biomes We've Gone_](https://modrinth.com/mod/oh-the-biomes-weve-gone)
-- [**PneumaticCraft: Repressurized**](https://modrinth.com/mod/pneumaticcraft-repressurized)
-- [Powah](https://modrinth.com/mod/powah)
-- [_Productive Trees_](https://modrinth.com/mod/productivetrees)
-- [**Project E**](https://www.curseforge.com/minecraft/mc-mods/projecte)
-- [**Randomium**](https://modrinth.com/mod/randomium-ore)
-- [Regions Unexplored](https://modrinth.com/mod/regions-unexplored)
-- [RFTools Base](https://modrinth.com/mod/rftools-base)
-- [Silent's Gems](https://modrinth.com/mod/silents-gems)
-- [Stellaris](https://modrinth.com/mod/stellaris)
-- [**The Bumblezone**](https://modrinth.com/mod/the-bumblezone)
-- [The Undergarden](https://modrinth.com/mod/the-undergarden)
-- [**Tough As Nails**](https://modrinth.com/mod/tough-as-nails)
-- [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
-
-</details>
-
-<details>
-<summary>Current list of features</summary>
 
 Note that some features use tags, whereas others use items so certain features may only be for select mods. For more info, check out the wiki (coming soon).
 

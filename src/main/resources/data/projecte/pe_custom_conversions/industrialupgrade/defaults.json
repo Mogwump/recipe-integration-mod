@@ -2297,16 +2297,16 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/gold"
+                            "id": "minecraft:glowstone"
                         },
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/silver"
+                            "tag": "c:ingots/uranium"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:ingots/electrum"
+                        "id": "industrialupgrade:itemiucrafring/itemirradianturanium"
                     }
                 }
             ]
@@ -2346,7 +2346,7 @@
                         },
                         {
                             "type": "projecte:item",
-                            "id": "industrialupgrade:itemiucrafting/itemirradianturanium"
+                            "id": "industrialupgrade:itemiucrafring/itemirradianturanium"
                         }
                     ],
                     "output": {
