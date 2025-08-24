@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "evilcraft"
+        }
+    ],
+    "type": "aether:block_placement_ban",
+    "biome": "#aether:ultracold",
+    "ingredient": {
+        "block": "evilcraft:gem_stone_torch"
+    }
+}

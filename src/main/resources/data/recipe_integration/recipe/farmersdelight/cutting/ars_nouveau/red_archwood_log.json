@@ -6,21 +6,21 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "ars_elemental"
+            "modid": "ars_nouveau"
         }
     ],
 
     "type": "farmersdelight:cutting",
     "ingredients": [
         {
-            "item": "ars_elemental:red_archwood_log"
+            "item": "ars_nouveau:red_archwood_log"
         }
     ],
     "result": [
         {
             "item": {
                 "count": 1,
-                "id": "ars_elemental:stripped_red_archwood_log"
+                "id": "ars_nouveau:stripped_red_archwood_log"
             }
         },
         {
