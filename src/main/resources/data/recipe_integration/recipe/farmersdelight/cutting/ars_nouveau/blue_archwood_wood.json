@@ -6,21 +6,21 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "ars_elemental"
+            "modid": "ars_nouveau"
         }
     ],
 
     "type": "farmersdelight:cutting",
     "ingredients": [
         {
-            "item": "ars_elemental:blue_archwood_wood"
+            "item": "ars_nouveau:blue_archwood_wood"
         }
     ],
     "result": [
         {
             "item": {
                 "count": 1,
-                "id": "ars_elemental:stripped_blue_archwood_wood"
+                "id": "ars_nouveau:stripped_blue_archwood_wood"
             }
         },
         {

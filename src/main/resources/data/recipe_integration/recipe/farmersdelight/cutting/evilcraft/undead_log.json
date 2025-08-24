@@ -6,21 +6,21 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "integrateddynamics"
+            "modid": "evilcraft"
         }
     ],
 
     "type": "farmersdelight:cutting",
     "ingredients": [
         {
-            "item": "integrateddynamics:menril_log"
+            "item": "evilcraft:undead_log"
         }
     ],
     "result": [
         {
             "item": {
                 "count": 1,
-                "id": "integrateddynamics:menril_log_stripped"
+                "id": "evilcraft:undead_log_stripped"
             }
         },
         {

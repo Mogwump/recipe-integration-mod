@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "natures_spirit"
+        }
+    ],
+
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "tag": "natures_spirit:ancient_logs"
+    },
+    "main_output": {
+        "count": 3,
+        "id": "natures_spirit:ancient_planks"
+    },
+    "secondary_chance": 0.25,
+    "secondary_output": {
+        "count": 1,
+        "id": "mekanism:sawdust"
+    }
+}
