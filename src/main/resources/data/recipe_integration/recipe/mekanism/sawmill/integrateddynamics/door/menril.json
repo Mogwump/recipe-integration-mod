@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        }
+    ],
+
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "item": "integrateddynamics:menril_door"
+    },
+    "main_output": {
+        "count": 2,
+        "id": "integrateddynamics:menril_planks"
+    }
+}

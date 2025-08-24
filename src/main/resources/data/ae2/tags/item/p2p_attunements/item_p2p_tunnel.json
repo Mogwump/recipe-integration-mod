@@ -1,0 +1,14 @@
+{
+    "values": [
+        {
+            "id": "gtceu:lv_conveyor_module",
+            "required": false
+        },
+
+
+        {
+            "id": "immersiveengineering:conveyor_basic",
+            "required": false
+        }
+    ]
+}

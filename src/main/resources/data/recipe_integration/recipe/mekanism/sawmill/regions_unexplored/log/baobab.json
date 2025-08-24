@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "regions_unexplored"
+        }
+    ],
+
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "tag": "regions_unexplored:baobab_logs"
+    },
+    "main_output": {
+        "count": 6,
+        "id": "regions_unexplored:baobab_planks"
+    },
+    "secondary_chance": 0.25,
+    "secondary_output": {
+        "count": 1,
+        "id": "mekanism:sawdust"
+    }
+}

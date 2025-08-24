@@ -34,21 +34,13 @@
     "output_items": [
         {
             "tag": {
-                "tag": "c:gems/ruby",
-                "count": 3
-            }
-        },
-        {
-            "tag": {
-                "tag": "c:gems/ruby",
-                "count": 2
+                "tag": "c:gems/ruby"
             },
-            "chance": 0.5
+            "count": 2
         },
         {
             "tag": {
-                "tag": "c:gems/ruby",
-                "count": 2
+                "tag": "c:gems/ruby"
             },
             "chance": 0.5
         }

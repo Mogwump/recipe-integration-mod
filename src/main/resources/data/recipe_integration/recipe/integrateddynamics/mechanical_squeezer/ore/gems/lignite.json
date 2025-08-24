@@ -9,7 +9,7 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:ores/ruby"
+                "tag": "c:ores/lignite"
             }
         },
         {
@@ -17,37 +17,37 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:gems/ruby"
+                "tag": "c:gems/lignite"
             }
         },
         {
             "type": "neoforge:tag_empty",
             "registry": "minecraft:item",
-            "tag": "c:raw_materials/ruby"
+            "tag": "c:raw_materials/lignite"
         }
     ],
 
     "type": "integrateddynamics:mechanical_squeezer",
     "input_item": {
-        "tag": "c:ores/ruby"
+        "tag": "c:ores/lignite"
     },
     "output_items": [
         {
             "tag": {
-                "tag": "c:gems/ruby",
+                "tag": "c:gems/lignite",
                 "count": 3
             }
         },
         {
             "tag": {
-                "tag": "c:gems/ruby",
+                "tag": "c:gems/lignite",
                 "count": 2
             },
             "chance": 0.5
         },
         {
             "tag": {
-                "tag": "c:gems/ruby",
+                "tag": "c:gems/lignite",
                 "count": 2
             },
             "chance": 0.5

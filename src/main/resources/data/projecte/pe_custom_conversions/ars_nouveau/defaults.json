@@ -1,0 +1,44 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+
+    "comment": "unambiguous emc values for Ars Nouveau",
+    "groups": {
+        "base_items": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:gems/amethyst"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ars_nouveau:source_gem"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:gems/lapis"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "ars_nouveau:source_gem"
+                    }
+                }
+            ]
+        }
+    }
+}

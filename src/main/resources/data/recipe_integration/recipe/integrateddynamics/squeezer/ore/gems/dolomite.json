@@ -9,7 +9,7 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:ores/ruby"
+                "tag": "c:ores/dolomite"
             }
         },
         {
@@ -17,38 +17,30 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:gems/ruby"
+                "tag": "c:gems/dolomite"
             }
         },
         {
             "type": "neoforge:tag_empty",
             "registry": "minecraft:item",
-            "tag": "c:raw_materials/ruby"
+            "tag": "c:raw_materials/dolomite"
         }
     ],
 
     "type": "integrateddynamics:mechanical_squeezer",
     "input_item": {
-        "tag": "c:ores/ruby"
+        "tag": "c:ores/dolomite"
     },
     "output_items": [
         {
             "tag": {
-                "tag": "c:gems/ruby",
-                "count": 3
-            }
-        },
-        {
-            "tag": {
-                "tag": "c:gems/ruby",
-                "count": 2
+                "tag": "c:gems/dolomite"
             },
-            "chance": 0.5
+            "count": 2
         },
         {
             "tag": {
-                "tag": "c:gems/ruby",
-                "count": 2
+                "tag": "c:gems/dolomite"
             },
             "chance": 0.5
         }

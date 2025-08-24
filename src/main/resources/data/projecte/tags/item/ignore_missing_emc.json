@@ -49,6 +49,12 @@
 
 
         {
+            "id": "createaddition:creative_energy",
+            "required": false
+        },
+
+
+        {
             "id": "energizedpower:creative_battery_box",
             "required": false
         },
@@ -69,6 +75,34 @@
 
 
         {
+            "id": "gtceu:creative_chest",
+            "required": false
+        },
+        {
+            "id": "gtceu:creative_computation_provider",
+            "required": false
+        },
+        {
+            "id": "gtceu:creative_data_access_hatch",
+            "required": false
+        },
+        {
+            "id": "gtceu:creative_energy",
+            "required": false
+        },
+        {
+            "id": "gtceu:creative_tank",
+            "required": false
+        },
+
+
+        {
+            "id": "immersiveengineering:capacitor_creative",
+            "required": false
+        },
+
+
+        {
             "id": "integrateddynamics:energy_battery_creative",
             "required": false
         },
@@ -76,6 +110,10 @@
 
         {
             "id": "mekanism:creative_bin",
+            "required": false
+        },
+        {
+            "id": "mekanism:creative_chemical_tank",
             "required": false
         },
         {
@@ -90,6 +128,10 @@
 
         {
             "id": "modern_industrialization:creative_barrel",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:creative_storage_unit",
             "required": false
         },
         {

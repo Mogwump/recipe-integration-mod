@@ -614,6 +614,23 @@
                 }
             ]
         },
+        "alloycasing": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/zeliber"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/zeliber"
+                    },
+                    "count": 2
+                }
+            ]
+        },
         "alloyingot": {
             "conversions": [
                 {
@@ -650,6 +667,22 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:alloyingot/cobalt_chrome"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/manganese"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/ferromanganese"
                     }
                 },
                 {
@@ -711,6 +744,22 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:alloyingot/niobium_titanium"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/nickel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/titanium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/nitenol"
                     }
                 },
                 {
@@ -933,6 +982,7 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "amount": 9,
                             "id": "industrialupgrade:crafting_elements/crafting_286_element"
                         }
                     ],
@@ -1010,6 +1060,22 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_448_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:nether_star"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:nether_star_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "industrialupgrade:crafting_elements/crafting_275_element"
                         }
                     ],
@@ -1068,6 +1134,23 @@
                         "id": "industrialupgrade:raw_latex"
                     },
                     "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "tag": "c:ingots/tungsten"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/nickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wolframite"
+                    }
                 }
             ]
         },
@@ -1084,6 +1167,38 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:battery/energy_crystal"
+                    }
+                }
+            ]
+        },
+        "circuit": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:flint"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:gems/lapis"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/chromium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/zinc"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:circuit/nanocircuit_part1"
                     }
                 }
             ]
@@ -1669,12 +1784,144 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_489_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_487_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_487_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_488_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:flint"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/coal"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 3,
+                            "tag": "c:dusts/silicon"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_492_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_492_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_493_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_495_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_494_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_493_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_495_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "industrialupgrade:crafting_elements/crafting_504_element"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:crafting_elements/crafting_501_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/barium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/titanium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "tag": "c:ingots/steel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_504_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_578_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_573_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_593_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_595_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_577_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_535_element"
                     }
                 },
                 {
@@ -1703,6 +1950,18 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:crafting_elements/crafting_538_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:wolframite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_655_element"
                     }
                 }
             ]
@@ -2281,13 +2540,19 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "id": "industrialupgrade:crafting_elements/crafting_504_element"
+                            "tag": "c:ingots/nickel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "tag": "c:ingots/iron"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "id": "industrialupgrade:crafting_elements/crafting_501_element"
-                    }
+                        "id": "industrialupgrade:itemingots/invar_ingot"
+                    },
+                    "count": 4
                 }
             ]
         },
