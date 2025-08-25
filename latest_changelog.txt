@@ -1,0 +1,4 @@
+This is mostly for me to keep track of what commits I have made between versions.
+
+* Added Astral Dimension to Farmer's Delight stripping
+* Added Advent Of Ascension, Ars Nouveau, BOP, DivineRPG, GTCEU, Nature's Aura, Nature's Spirit, Occultism to Immersive Engineering Sawmill

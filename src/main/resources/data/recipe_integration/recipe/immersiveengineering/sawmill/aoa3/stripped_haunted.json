@@ -1,0 +1,59 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aoa3"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "aoa3:stripped_haunted_log"
+        },
+        {
+            "item": "aoa3:stripped_haunted_wood"
+        },
+        {
+            "item": "aoa3:stripped_haunted_eye_log"
+        },
+        {
+            "item": "aoa3:stripped_haunted_eye_wood"
+        },
+        {
+            "item": "aoa3:stripped_haunted_eyes_log"
+        },
+        {
+            "item": "aoa3:stripped_haunted_eyes_wood"
+        },
+        {
+            "item": "aoa3:stripped_haunted_flashing_log"
+        },
+        {
+            "item": "aoa3:stripped_haunted_flashing_wood"
+        },
+        {
+            "item": "aoa3:stripped_haunted_purpling_log"
+        },
+        {
+            "item": "aoa3:stripped_haunted_purpling_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "aoa3:hauntedwood_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}

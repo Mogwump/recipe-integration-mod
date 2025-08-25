@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "biomesoplenty:stripped_mahogany_log"
+        },
+        {
+            "item": "biomesoplenty:stripped_mahogany_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "biomesoplenty:mahogany_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}
