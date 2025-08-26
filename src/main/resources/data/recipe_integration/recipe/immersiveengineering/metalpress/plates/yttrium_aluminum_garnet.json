@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:plates/yttrium_aluminum_garnet"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/yttrium_aluminum_garnet"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:metal_press",
+    "energy": 2400,
+    "input": {
+        "tag": "c:ingots/yttrium_aluminum_garnet"
+    },
+    "mold": "immersiveengineering:mold_plate",
+    "result": {
+        "tag": "c:plates/yttrium_aluminum_garnet"
+    }
+}
