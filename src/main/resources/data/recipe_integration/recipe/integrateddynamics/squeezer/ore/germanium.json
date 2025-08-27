@@ -1,0 +1,43 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ores/germanium"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/germanium"
+            }
+        }
+    ],
+    "type": "integrateddynamics:squeezer",
+    "input_item": {
+        "tag": "c:ores/germanium"
+    },
+    "output_items": [
+        {
+            "tag": {
+                "tag": "c:raw_materials/germanium",
+                "count": 2
+            }
+        },
+        {
+            "tag": {
+                "tag": "c:raw_materials/germanium"
+            },
+            "chance": 0.75
+        }
+    ],
+    "duration": 40
+}

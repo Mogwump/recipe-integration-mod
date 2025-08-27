@@ -3,21 +3,24 @@
         {
             "type": "neoforge:mod_loaded",
             "modid": "toughasnails"
-        },
-        {
-            "type": "neoforge:not",
-            "value": {
-                "type": "neoforge:tag_empty",
-                "registry": "minecraft:block",
-                "tag": "toughasnails:cooling_blocks"
-            }
         }
     ],
     "values": [
         {
+            "id": "biomesevegone:packed_black_ice",
+            "required": false
+        },
+        {
+            "id": "biomesevegone:packed_borealis_ice",
+            "required": false
+        },
+
+
+        {
             "id": "powah:dry_ice",
             "required": false
         },
+
 
         {
             "id": "rechiseled:blue_ice_bordered",

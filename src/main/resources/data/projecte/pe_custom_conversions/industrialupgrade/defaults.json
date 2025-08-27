@@ -45,12 +45,12 @@
                         {
                             "type": "projecte:item",
                             "amount": 9,
-                            "tag": "c:plates/aluminium"
+                            "tag": "c:plates/aluminum"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:doubleplate/aluminium"
+                        "tag": "c:doubleplate/aluminum"
                     }
                 },
                 {
@@ -71,12 +71,12 @@
                         {
                             "type": "projecte:item",
                             "amount": 9,
-                            "tag": "c:plates/aluminiumlithium"
+                            "tag": "c:plates/aluminum_lithium"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:doubleplate/aluminiumlithium"
+                        "tag": "c:doubleplate/aluminum_lithium"
                     }
                 },
                 {
@@ -84,12 +84,12 @@
                         {
                             "type": "projecte:item",
                             "amount": 9,
-                            "tag": "c:plates/aluminiumsilicon"
+                            "tag": "c:plates/aluminum_silicon"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:doubleplate/aluminiumsilicon"
+                        "tag": "c:doubleplate/aluminum_silicon"
                     }
                 },
                 {
@@ -591,12 +591,12 @@
                         {
                             "type": "projecte:item",
                             "amount": 9,
-                            "tag": "c:plates/yttriumaluminiumgarnet"
+                            "tag": "c:plates/yttrium_aluminum_garnet"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
-                        "tag": "c:doubleplate/yttriumaluminiumgarnet"
+                        "tag": "c:doubleplate/yttrium_aluminum_garnet"
                     }
                 },
                 {
@@ -616,6 +616,409 @@
         },
         "alloycasing": {
             "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/alcled"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/alcled"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/alumel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/alumel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/aluminum_bronze"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/aluminum_bronze"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/aluminum_lithium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/aluminium_lithium_alloy"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/aluminum_silicon"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/aluminium_silicon"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/beryllium_bronze"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/beryllium_bronze"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/cobalt_chrome"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/cobalt_chrome"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/duralumin"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/duralumin"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/ferromanganese"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/ferromanganese"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/gallium_arsenic"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/gallium_arsenic"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/hafnium_boride"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/hafnium_boride_alloy"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/hafnium_carbide"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/hafnium_carbide"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/inconel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/inconel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/molybdenum_steel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/molybdenum_steel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/muntsa"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/muntsa"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/nichrome"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/nichrome"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/nimonic"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/nimonic"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/niobium_titanium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/niobium_titanium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/nitinol"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/nitenol"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/osmiridium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/osmiridium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/permalloy"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/permalloy"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/red_brass"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/red_brass"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/stainless_steel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/stainless_steel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/stellite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/stellite"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/superalloy_haynes"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/superalloy_haynes"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/superalloy_rene"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/superalloy_rene"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/tantalum_tungsten_hafnium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/tantalum_tungsten_hafnium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/vanadoalumite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/vanadoalumite"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/vitalium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/vitalium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/woods"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/woods"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/yttrium_aluminum_garnet"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/yttrium_aluminium_garnet"
+                    },
+                    "count": 2
+                },
                 {
                     "ingredients": [
                         {
@@ -645,12 +1048,32 @@
                         },
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/aluminium"
+                            "tag": "c:ingots/aluminum"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:alloyingot/alcled"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/tin"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/copper"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/aluminum_bronze"
                     }
                 },
                 {
@@ -667,6 +1090,22 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:alloyingot/cobalt_chrome"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/aluminum"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/magnesium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/duralumin"
                     }
                 },
                 {
@@ -721,7 +1160,7 @@
                         },
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/aluminium"
+                            "tag": "c:ingots/aluminum"
                         }
                     ],
                     "output": {
@@ -890,7 +1329,7 @@
                         },
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/aluminium"
+                            "tag": "c:ingots/aluminum"
                         }
                     ],
                     "output": {
@@ -946,7 +1385,7 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/aluminium"
+                            "tag": "c:ingots/aluminum"
                         },
                         {
                             "type": "projecte:item",
@@ -966,6 +1405,18 @@
         },
         "base_items": {
             "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:quartz"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:charged_quartz"
+                    }
+                },
                 {
                     "ingredients": [
                         {
@@ -1171,8 +1622,707 @@
                 }
             ]
         },
+        "blockresource": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 144,
+                            "id": "industrialupgrade:iufluidtemperedglass"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:blockresource/tempered_glass"
+                    }
+                }
+            ]
+        },
+        "casing": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/adamantium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloycasing/adamantite"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/aluminum"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/arsenic"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/arsenic"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/barium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/barium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/bismuth"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/bismuth"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/bloodstone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/bloodstone"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/bronze"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/bronze"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/cadmium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/cadmium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/caravky"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/caravky"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/chromium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/chromium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/cobalt"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/cobalt"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/copper"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/copper"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/draconid"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/draconid"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/electrum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/electrium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/gadolinium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/gadolinium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/gallium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/gallium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/germanium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/germanium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/gold"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/gold"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/hafnium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/hafnium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/invar"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/invar"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/iridium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/iridium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/iron"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/iron"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/lead"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/lead"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/magnesium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/magnesium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/manganese"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/manganese"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/meteoric"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/meteoric_iron"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/mikhail"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/mikhail"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/molybdenum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/molybdenum"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/mithril"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/mythril"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/neodymium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/neodymium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/nickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/nickel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/niobium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/niobium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/orichalcum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/orichalcum"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/osmium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/osmium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/palladium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/palladium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/platinum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/platium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/polonium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/polonium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/silver"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/spinel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/spinel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/steel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/steel"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/strontium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/strontium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/tantalum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/tantalum"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/thallium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/thallium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/tin"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/tin"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/titanium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/titanium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/tungsten"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/tungsten"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/vanady"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/vanady"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/yttrium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/yttrium"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/zinc"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/zinc"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/zirconium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:casing/zirconium"
+                    },
+                    "count": 2
+                }
+            ]
+        },
         "circuit": {
             "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:flint"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/platinum"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:gems/lapis"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/steel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:circuit/advanced_part1"
+                    }
+                },
                 {
                     "ingredients": [
                         {
@@ -1766,6 +2916,18 @@
                 {
                     "ingredients": [
                         {
+                            "type": "projecte:item",
+                            "tag": "c:dusts/sulfur"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_476_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
                             "type": "projecte:fluid",
                             "amount": 10000,
                             "tag": "minecraft:water"
@@ -1899,6 +3061,48 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_655_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_505_element"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:circuit/circuit_part1"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_494_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_582_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_568_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_588_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_533_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "amount": 2,
                             "id": "industrialupgrade:crafting_elements/crafting_578_element"
                         },
@@ -1950,6 +3154,122 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:crafting_elements/crafting_538_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_578_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_570_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_593_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_571_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_572_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_539_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:circuit/advanced_part2"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_533_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_599_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_568_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_588_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_543_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_578_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_573_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_593_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_562_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_572_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_547_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_560_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_576_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_569_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:circuit/advanced_part1"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_574_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_557_element"
                     }
                 },
                 {
@@ -2024,7 +3344,7 @@
                         },
                         {
                             "type": "projecte:item",
-                            "tag": "c:ingots/aluminium"
+                            "tag": "c:ingots/aluminum"
                         },
                         {
                             "type": "projecte:item",
@@ -2312,6 +3632,32 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/nickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "industrialupgrade:iufluidnickel"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:quartz"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "industrialupgrade:iufluidquartz"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "industrialupgrade:raw_latex"
                         }
                     ],
@@ -2337,6 +3683,25 @@
                 {
                     "ingredients": [
                         {
+                            "type": "projecte:fluid",
+                            "amount": 144,
+                            "id": "industrialupgrade:iufluidwolframite"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 144,
+                            "id": "industrialupgrade:iufluidquartz"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "industrialupgrade:iufluidtemperedglass"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
                             "type": "projecte:item",
                             "tag": "c:ingots/titanium"
                         }
@@ -2344,6 +3709,38 @@
                     "output": {
                         "type": "projecte:fluid",
                         "id": "industrialupgrade:iufluidtitanium"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/tungsten"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "industrialupgrade:iufluidtungsten"
+                    },
+                    "count": 144
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 144,
+                            "id": "industrialupgrade:iufluidtungsten"
+                        },
+                        {
+                            "type": "projecte:fluid",
+                            "amount": 144,
+                            "id": "industrialupgrade:iufluidnickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:fluid",
+                        "id": "industrialupgrade:iufluidwolframite"
                     },
                     "count": 144
                 }
@@ -2562,6 +3959,22 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "id": "industrialupgrade:itemiucrafring/itemirradianturanium"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:glass/reinforced"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemiucrafring/itemirradiantglasspane"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "minecraft:glowstone"
                         },
                         {
@@ -2627,7 +4040,7 @@
                         },
                         {
                             "type": "projecte:item",
-                            "tag": "c:plates/aluminium"
+                            "tag": "c:plates/aluminum"
                         }
                     ],
                     "output": {
@@ -2645,6 +4058,218 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:itemsunnarium/sunnarium_plate"
+                    }
+                }
+            ]
+        },
+        "itemsunnariumpanel": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/ssp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/manganese"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/admsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/bsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/vanady"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/adspp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/nsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/bsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/adspp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/vitalium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/gsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnarium/sunnarium_plate"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/platinum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/hsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/gsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/caravky"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/ksp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/phsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/nickel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/nsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/admsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/cobalt"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/phsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/spsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/magnesium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/psp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/usp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/chromium"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/qsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/qsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/electrum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/spsp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/psp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/zinc"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/ssp"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:itemsunnariumpanel/hsp"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/mikhail"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemsunnariumpanel/usp"
                     }
                 }
             ]

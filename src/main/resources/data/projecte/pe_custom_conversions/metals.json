@@ -11,6 +11,11 @@
         "before": [
             {
                 "type": "projecte:item",
+                "emc_value": 32768,
+                "tag": "c:ingots/adamantite"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 128,
                 "tag": "c:ingots/aluminium"
             },
@@ -28,6 +33,11 @@
                 "type": "projecte:item",
                 "emc_value": 512,
                 "tag": "c:ingots/beryllium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/bismuth"
             },
             {
                 "type": "projecte:item",
@@ -53,6 +63,11 @@
                 "type": "projecte:item",
                 "emc_value": 512,
                 "tag": "c:ingots/hafnium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 16384,
+                "tag": "c:ingots/infernal"
             },
             {
                 "type": "projecte:item",
@@ -96,8 +111,18 @@
             },
             {
                 "type": "projecte:item",
+                "emc_value": 8192,
+                "tag": "c:ingots/palladium"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 16384,
                 "tag": "c:ingots/polonium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 2048,
+                "tag": "c:ingots/spinel"
             },
             {
                 "type": "projecte:item",

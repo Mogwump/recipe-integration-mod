@@ -9,7 +9,7 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:ores/uranium"
+                "tag": "c:ores/tantalum"
             }
         },
         {
@@ -17,24 +17,24 @@
             "value": {
                 "type": "neoforge:tag_empty",
                 "registry": "minecraft:item",
-                "tag": "c:raw_materials/uranium"
+                "tag": "c:raw_materials/tantalum"
             }
         }
     ],
     "type": "integrateddynamics:squeezer",
     "input_item": {
-        "tag": "c:ores/uranium"
+        "tag": "c:ores/tantalum"
     },
     "output_items": [
         {
             "tag": {
-                "tag": "c:raw_materials/uranium",
+                "tag": "c:raw_materials/tantalum",
                 "count": 2
             }
         },
         {
             "tag": {
-                "tag": "c:raw_materials/uranium"
+                "tag": "c:raw_materials/tantalum"
             },
             "chance": 0.75
         }

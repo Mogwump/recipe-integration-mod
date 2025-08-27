@@ -2,16 +2,12 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "pneumaticcraft"
+            "modid": "toughasnails"
         }
     ],
     "values": [
         {
-            "id": "create:copper_bars",
-            "required": false
-        },
-        {
-            "id": "#chipped:iron_bars",
+            "id": "#c:buckets/powder_snow",
             "required": false
         }
     ]

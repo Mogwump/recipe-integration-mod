@@ -103,6 +103,12 @@
 
 
         {
+            "id": "industrialupgrade:crafting_elements/crafting_287_element",
+            "required": false
+        },
+
+
+        {
             "id": "integrateddynamics:energy_battery_creative",
             "required": false
         },

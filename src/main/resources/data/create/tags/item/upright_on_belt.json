@@ -3,14 +3,6 @@
         {
             "type": "neoforge:mod_loaded",
             "modid": "create"
-        },
-        {
-            "type": "neoforge:not",
-            "value": {
-                "type": "neoforge:tag_empty",
-                "registry": "minecraft:item",
-                "tag": "create:upright_on_belt"
-            }
         }
     ],
     "values": [

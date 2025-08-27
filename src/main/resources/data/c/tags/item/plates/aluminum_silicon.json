@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "industrialupgrade:alloyplate/aluminium_silicon",
+            "required": false
+        }
+    ]
+}
