@@ -2,7 +2,7 @@ This is mostly for me to keep track of what commits I have made between versions
 
 Wood:
 * Added Astral Dimension to Farmer's Delight stripping
-* Added Advent Of Ascension, Ars Nouveau, BOP, DivineRPG, GTCEU, Nature's Aura, Nature's Spirit, Occultism to Immersive Engineering Sawmill
+* Added Advent Of Ascension, Ars Nouveau, BOP, BWG, DivineRPG, GTCEU, Nature's Aura, Nature's Spirit, Occultism to Immersive Engineering Sawmill
 
 Plates:
 * Added plates to Immersive Engineering Metal Press. Uses tags. Supported mods: Energized Power, GTCEu Modern, Industrial Upgrade (partially), Modern Industrialization, Useful Foundation. The iridium plate recipe won't load with Modern Industrialization installed in an attempt to not break progression. Some plates from Industrial Upgrade won't have the recipe just yet until I sort out the tags, since I would rather make the tags consistent first then use those rather than use inconsistent tags (different spellings for aluminum/aluminium), and no underscores in the tags making them difficult to read. If this message is in the changelog, I'll fix it before version 0.2.0
