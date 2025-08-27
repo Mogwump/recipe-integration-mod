@@ -102,6 +102,11 @@
             {
                 "type": "projecte:item",
                 "emc_value": 512,
+                "tag": "c:ingots/strontium"
+            },
+            {
+                "type": "projecte:item",
+                "emc_value": 512,
                 "tag": "c:ingots/thallium"
             },
             {
