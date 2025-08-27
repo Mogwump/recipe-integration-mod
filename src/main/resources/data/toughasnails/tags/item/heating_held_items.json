@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "toughasnails"
+        }
+    ],
     "values": [
         {
             "id": "#c:buckets/lava",

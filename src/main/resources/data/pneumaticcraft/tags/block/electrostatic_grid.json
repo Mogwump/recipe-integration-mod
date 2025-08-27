@@ -3,14 +3,6 @@
         {
             "type": "neoforge:mod_loaded",
             "modid": "pneumaticcraft"
-        },
-        {
-            "type": "neoforge:not",
-            "value": {
-                "type": "neoforge:tag_empty",
-                "registry": "minecraft:block",
-                "tag": "pneumaticcraft:electrostatic_grid"
-            }
         }
     ],
     "values": [

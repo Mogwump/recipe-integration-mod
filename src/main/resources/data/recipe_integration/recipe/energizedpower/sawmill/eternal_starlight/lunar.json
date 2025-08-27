@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "eternal_starlight:lunar_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "eternal_starlight:lunar_planks"
+    },
+    "sawdustAmount": 1
+}

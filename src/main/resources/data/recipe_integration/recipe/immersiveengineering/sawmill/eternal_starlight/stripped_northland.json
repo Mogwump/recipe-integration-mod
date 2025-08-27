@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "eternal_starlight:stripped_northland_log"
+        },
+        {
+            "item": "eternal_starlight:stripped_northland_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "eternal_starlight:northland_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}

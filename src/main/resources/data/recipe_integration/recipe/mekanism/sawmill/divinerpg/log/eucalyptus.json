@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "divinerpg"
+        }
+    ],
+
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "tag": "divinerpg:wood_types/eucalyptus"
+    },
+    "main_output": {
+        "count": 6,
+        "id": "divinerpg:eucalyptus_planks"
+    },
+    "secondary_chance": 0.25,
+    "secondary_output": {
+        "count": 1,
+        "id": "mekanism:sawdust"
+    }
+}

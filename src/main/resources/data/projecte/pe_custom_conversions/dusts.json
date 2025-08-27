@@ -8,6 +8,13 @@
 
     "comment": "EMC values based on 1 ingot : 1 dust",
     "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 64,
+                "tag": "c:dusts/sulfur"
+            }
+        ],
         "conversion": [
             {
                 "ingredients": [
@@ -71,6 +78,19 @@
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:dusts/blastproof_alloy"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "id": "minecraft:brick"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/brick"
                 },
                 "propagateTags": true
             },
@@ -188,6 +208,19 @@
                 "output": {
                     "type": "projecte:item",
                     "tag": "c:dusts/emerald"
+                },
+                "propagateTags": true
+            },
+            {
+                "ingredients": [
+                    {
+                        "type": "projecte:item",
+                        "id": "minecraft:glass"
+                    }
+                ],
+                "output": {
+                    "type": "projecte:item",
+                    "tag": "c:dusts/glass"
                 },
                 "propagateTags": true
             },

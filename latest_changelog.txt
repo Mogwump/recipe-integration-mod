@@ -1,0 +1,19 @@
+This is mostly for me to keep track of what commits I have made between versions.
+
+Wood:
+* Added Astral Dimension to Farmer's Delight stripping
+* Added Eternal Starlight to Energized Power Sawmill
+* Added Advent Of Ascension, Ars Nouveau, BOP, BWG, DivineRPG, Eternal Starlight, GTCEU, Nature's Aura, Nature's Spirit, Occultism, Regions Unexplored to Immersive Engineering Sawmill
+* Added DivineRPG to Mekanism sawmill
+* Fixed Nature's Aura log Mekanism sawmill recipe (essentially added, but technically fixed)
+
+Plates:
+* Added plates to Immersive Engineering Metal Press. Uses tags. Supported mods: Energized Power, GTCEu Modern, Industrial Upgrade (partially), Modern Industrialization, Useful Foundation. The iridium plate recipe won't load with Modern Industrialization installed in an attempt to not break progression. Some plates from Industrial Upgrade won't have the recipe just yet until I sort out the tags, since I would rather make the tags consistent first then use those rather than use inconsistent tags (different spellings for aluminum/aluminium), and no underscores in the tags making them difficult to read. If this message is in the changelog, I'll fix it before version 0.2.0
+* Fixed Create pressing some Industrial Upgrade plates and added missing ones. Some recipes won't work until tags are resolved (see above)
+
+Misc:
+* Added some more ores to the Integrated Dynamics Squeezer that were already in the Mechanical Squeezer recipes
+* Added a few more Tough As Nails tags and tweaked loading conditions for some tags
+* Added EMC values for some ingots as well as glass dusts
+* Added some EMC values for Industrial Upgrade. Changed tag names to be more readable (see above). Will break some EMC until tags are fixed.
+* Added some tags for resolving aluminium/aluminum (see above)

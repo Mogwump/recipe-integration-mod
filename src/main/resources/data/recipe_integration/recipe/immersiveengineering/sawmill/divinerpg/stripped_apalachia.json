@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "divinerpg"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "divinerpg:stripped_apalachia_log"
+        },
+        {
+            "item": "divinerpg:stripped_apalachia_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "divinerpg:apalachia_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}
