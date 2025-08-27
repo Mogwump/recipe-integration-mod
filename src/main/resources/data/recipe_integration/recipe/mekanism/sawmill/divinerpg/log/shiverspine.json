@@ -6,18 +6,18 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "natures_spirit"
+            "modid": "divinerpg"
         }
     ],
 
     "type": "mekanism:sawing",
     "input": {
         "count": 1,
-        "tag": "natures_spirit:ancient_logs"
+        "tag": "divinerpg:wood_types/shiverspine"
     },
     "main_output": {
-        "count": 3,
-        "id": "natures_spirit:ancient_planks"
+        "count": 6,
+        "id": "divinerpg:shiverspine_planks"
     },
     "secondary_chance": 0.25,
     "secondary_output": {
