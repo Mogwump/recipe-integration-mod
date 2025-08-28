@@ -161,6 +161,12 @@
 
 
         {
+            "id": "usefulmachinery:creative_power_cell",
+            "required": false
+        },
+
+
+        {
             "id": "xycraft_machines:fluid_selector",
             "required": false
         },

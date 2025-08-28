@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/cooperite"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:dusts/cooperite"
+            }
+        }
+    ],
+
+    "type": "occultism:crushing",
+    "ingredient": {
+        "tag": "c:raw_materials/cooperite"
+    },
+    "result": {
+        "type": "occultism:tag",
+        "count": 2,
+        "tag": "c:dusts/cooperite"
+    }
+}

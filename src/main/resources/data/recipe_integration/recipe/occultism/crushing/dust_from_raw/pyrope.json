@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/pyrope"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:dusts/pyrope"
+            }
+        }
+    ],
+
+    "type": "occultism:crushing",
+    "ingredient": {
+        "tag": "c:raw_materials/pyrope"
+    },
+    "result": {
+        "type": "occultism:tag",
+        "count": 6,
+        "tag": "c:dusts/pyrope"
+    }
+}

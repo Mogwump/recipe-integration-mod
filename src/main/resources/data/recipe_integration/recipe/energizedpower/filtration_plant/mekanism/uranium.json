@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+
+    "type": "energizedpower:filtration_plant",
+    "icon": "mekanism:raw_uranium",
+    "output": {
+        "output": {
+            "item": "energizedpower:stone_pebble"
+        },
+        "percentages": [
+            0.33
+        ]
+    },
+    "secondaryOutput": {
+        "output": {
+            "item": "mekanism:raw_uranium"
+        },
+        "percentages": [
+            0.005
+        ]
+    }
+}

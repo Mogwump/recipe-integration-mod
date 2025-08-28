@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "usefulmachinery"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "divinerpg"
+        }
+    ],
+    "type": "usefulmachinery:crushing",
+    "crushTime": 200,
+    "ingredient": {
+        "tag": "c:ores/torridite"
+    },
+    "primary": {
+        "count": 2,
+        "id": "divinerpg:raw_torridite"
+    },
+    "supportedUpgrades": [
+        {
+            "item": "usefulmachinery:efficiency_upgrade"
+        },
+        {
+            "item": "usefulmachinery:precision_upgrade"
+        }
+    ]
+}
