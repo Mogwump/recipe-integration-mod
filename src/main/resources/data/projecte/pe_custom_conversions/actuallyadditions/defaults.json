@@ -1,0 +1,89 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "actuallyadditions"
+        }
+    ],
+
+    "comment": "emc values for Actually Additions",
+    "groups": {
+        "default": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:redstone"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "actuallyadditions:redstonia_crystal"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:lapis_lazuli"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "actuallyadditions:palis_crystal"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "minecraft:coals"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "actuallyadditions:void_crystal"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:emerald"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "actuallyadditions:emeradic_crystal"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:iron_ingot"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "actuallyadditions:enori_crystal"
+                    }
+                }
+            ]
+        }
+    },
+    "values": {
+        "before": [
+            {
+                "type": "projecte:item",
+                "emc_value": 256,
+                "id": "actuallyadditions:black_quartz"
+            }
+        ]
+    }
+}

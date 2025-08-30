@@ -10,10 +10,56 @@
             "id": "gtceu:lv_conveyor_module",
             "required": false
         },
+        {
+            "id": "gtceu:mv_conveyor_module",
+            "required": false
+        },
+        {
+            "id": "gtceu:hv_conveyor_module",
+            "required": false
+        },
+        {
+            "id": "gtceu:ev_conveyor_module",
+            "required": false
+        },
+        {
+            "id": "gtceu:iv_conveyor_module",
+            "required": false
+        },
+        {
+            "id": "gtceu:luv_conveyor_module",
+            "required": false
+        },
+        {
+            "id": "gtceu:zpm_conveyor_module",
+            "required": false
+        },
+        {
+            "id": "gtceu:uv_conveyor_module",
+            "required": false
+        },
 
 
         {
             "id": "immersiveengineering:conveyor_basic",
+            "required": false
+        },
+
+
+        {
+            "id": "mekanism:basic_logistical_transporter",
+            "required": false
+        },
+        {
+            "id": "mekanism:advanced_logistical_transporter",
+            "required": false
+        },
+        {
+            "id": "mekanism:elite_logistical_transporter",
+            "required": false
+        },
+        {
+            "id": "mekanism:ultimate_logistical_transporter",
             "required": false
         }
     ]

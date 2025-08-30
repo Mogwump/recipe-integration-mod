@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ae2"
+        }
+    ],
+    "values": [
+        {
+            "id": "create:powered_latch",
+            "required": false
+        },
+        {
+            "id": "create:powered_toggle_latch",
+            "required": false
+        },
+        {
+            "id": "create:pulse_extender",
+            "required": false
+        },
+        {
+            "id": "create:pulse_repeater",
+            "required": false
+        },
+        {
+            "id": "create:pulse_timer",
+            "required": false
+        },
+
+
+        {
+            "id": "immersiveengineering:wirecoil_redstone",
+            "required": false
+        }
+    ]
+}

@@ -1,13 +1,13 @@
 {
     "values": [
         {
-            "id": "gtceu:aluminium_rod",
+            "id": "gtceu:raw_aluminium",
             "required": false
         },
 
 
         {
-            "id": "industrialupgrade:stick/aluminium",
+            "id": "industrialupgrade:raw_metals/raw_aluminium",
             "required": false
         }
     ]

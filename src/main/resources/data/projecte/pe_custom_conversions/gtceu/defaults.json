@@ -257,6 +257,27 @@
                 }
             ]
         },
+        "ingots": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "gtceu:electrum_ingot"
+                    },
+                    "count": 2
+                }
+            ]
+        },
         "wire": {
             "conversions": [
                 {

@@ -11,3 +11,10 @@ New recipes for existing recipe types:
 
 * Added Advent Of Ascension, DivineRPG, Lands Of Icaria, Occultism, The Undergarden to Useful Machinery crushing recipes
 * Added remaining Lands Of Icaria ores to Integrated Dynamics squeezer recipes
+* Added Integrated Dynamics to Energized Power sawmill recipes
+
+Misc:
+
+* Various EMC values for several mods
+* Tag consistency fixes for GTCEu and Industrial Upgrade (aluminium -> aluminum)
+* Some addiional tags for various AE2 p2p attunements

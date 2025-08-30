@@ -66,6 +66,11 @@
             },
             {
                 "type": "projecte:item",
+                "emc_value": 512,
+                "tag": "c:ingots/iesnium"
+            },
+            {
+                "type": "projecte:item",
                 "emc_value": 16384,
                 "tag": "c:ingots/infernal"
             },
