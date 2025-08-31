@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/titanium"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/titanium"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [],
+    "energy": 25600,
+    "input": {
+        "tag": "c:raw_materials/titanium"
+    },
+    "results": [
+        {
+            "tag": "c:ingots/titanium"
+        }
+    ],
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "tag": "c:ingots/titanium"
+            }
+        }
+    ],
+    "time": 100
+}

@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/torridite"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/torridite"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [],
+    "energy": 25600,
+    "input": {
+        "tag": "c:raw_materials/torridite"
+    },
+    "results": [
+        {
+            "tag": "c:ingots/torridite"
+        }
+    ],
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "tag": "c:ingots/torridite"
+            }
+        }
+    ],
+    "time": 100
+}

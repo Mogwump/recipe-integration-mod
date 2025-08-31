@@ -1,0 +1,48 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:storage_blocks/raw_galena"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/lead"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [],
+    "energy": 230400,
+    "input": {
+        "tag": "c:storage_blocks/raw_galena"
+    },
+    "results": [
+        {
+            "basePredicate": {
+                "tag": "c:ingots/lead"
+            },
+            "count": 13
+        }
+    ],
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "tag": "c:ingots/lead"
+            }
+        }
+    ],
+    "time": 900
+}

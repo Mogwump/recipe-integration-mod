@@ -3,15 +3,18 @@ This is mostly for me to keep track of what commits I have made between versions
 New recipe types:
 
 * Added Modern Industrialization macerator recipes (currently: Create, Lands Of Icaria, Occultism)
-* Added Immersive Engineering arc furnace recipes (raw block to ingot and ore to ingot). I have only included metal ingots, since the default recipes exclude non-metals. Supported mods: Advent Of Ascension, DivineRPG, Modern Industrialization, Occultism, The Undergarden (uses tags)
+* Added Immersive Engineering arc furnace recipes (raw block to ingot and ore to ingot). I have only included metal ingots, since the default recipes exclude non-metals. Supported mods: Advent Of Ascension, DivineRPG, GTCEu, Modern Industrialization, Occultism, The Undergarden (uses tags)
+Also going to support Industrial Upgrade
 * Added Occultism crushing recipes. Currently only raw to dust. Ratios for Gregtech ores are based on the macerator, otherwise 1 raw : 2 dust
 * Added Energized Power filtration plant recipes (Create, Immersive Engineering, Mekanism, Occultism (no Iesnium - intentional))
+* Added Modern Industrialization packer recipes (currently only for The Undergarden)
 
 New recipes for existing recipe types:
 
 * Added Advent Of Ascension, DivineRPG, Lands Of Icaria, Occultism, The Undergarden to Useful Machinery crushing recipes
 * Added remaining Lands Of Icaria ores to Integrated Dynamics squeezer recipes
 * Added Integrated Dynamics to Energized Power sawmill recipes
+* Added Undergarden ores to Integrated Dynamics squeezer recipes
 
 Misc:
 
