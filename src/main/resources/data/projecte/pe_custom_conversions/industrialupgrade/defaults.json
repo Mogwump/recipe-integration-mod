@@ -1205,6 +1205,31 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
+                            "tag": "c:dusts/coal"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/nickel"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/molybdenum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:alloyingot/permalloy"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "tag": "c:ingots/copper"
                         },
                         {
@@ -3248,6 +3273,35 @@
                         {
                             "type": "projecte:item",
                             "amount": 2,
+                            "id": "industrialupgrade:crafting_elements/crafting_578_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_590_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_593_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_595_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_575_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:crafting_elements/crafting_553_element"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "amount": 2,
                             "id": "industrialupgrade:crafting_elements/crafting_560_element"
                         },
                         {
@@ -3937,6 +3991,22 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:itemingots/electrium_ingot"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "tag": "c:ingots/nickel"
                         },
                         {
@@ -4301,13 +4371,82 @@
                         },
                         {
                             "type": "projecte:item",
+                            "tag": "c:plates/lead"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/cool"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:doubleplate/iron"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/cool1"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:doubleplate/steel"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/cool2"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:doubleplate/aluminum_silicon"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/cool3"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
                             "tag": "c:doubleplate/woods"
                         }
                     ],
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:wiring/cool4"
-                    }
+                    },
+                    "count": 4
                 },
                 {
                     "ingredients": [
@@ -4336,6 +4475,178 @@
                     "output": {
                         "type": "projecte:item",
                         "id": "industrialupgrade:wiring/copper1"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/gold"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:wiring/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_271_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/gold1"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/iron"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/iron"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:wiring/iron"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_271_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/iron1"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/pipes"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:doubleplate/aluminum"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/pipes1"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:plates/duralumin"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/pipes2"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:doubleplate/alcled"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/pipes3"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_122_element"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:doubleplate/permalloy"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/pipes4"
+                    },
+                    "count": 4
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/tin"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/tin"
+                    },
+                    "count": 3
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:wiring/tin"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "id": "industrialupgrade:crafting_elements/crafting_271_element"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "industrialupgrade:wiring/tin1"
                     }
                 }
             ]

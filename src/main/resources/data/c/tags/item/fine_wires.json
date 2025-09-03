@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "modern_industrialization:copper_fine_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:electrum_fine_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:platinum_fine_wire",
+            "required": false
+        }
+    ]
+}

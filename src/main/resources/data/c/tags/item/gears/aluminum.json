@@ -3,6 +3,12 @@
         {
             "id": "gtceu:aluminium_gear",
             "required": false
+        },
+
+
+        {
+            "id": "industrialupgrade:gear/aluminium",
+            "required": false
         }
     ]
 }

@@ -1,0 +1,68 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "projecte"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+
+    "comment": "emc values for Occultism",
+    "groups": {
+        "default": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:feather"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "occultism:awakened_feather"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:andesite"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "occultism:otherstone"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:black_dye"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "occultism:purified_ink"
+                    }
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "id": "minecraft:book"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "occultism:taboo_book"
+                    }
+                }
+            ]
+        }
+    }
+}

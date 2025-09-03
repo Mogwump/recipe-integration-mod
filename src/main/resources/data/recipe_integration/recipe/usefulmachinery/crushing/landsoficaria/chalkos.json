@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "usefulmachinery"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "landsoficaria"
+        }
+    ],
+    "type": "usefulmachinery:crushing",
+    "crushTime": 200,
+    "ingredient": {
+        "tag": "c:ores/chalkos"
+    },
+    "primary": {
+        "count": 2,
+        "id": "landsoficaria:raw_chalkos"
+    },
+    "supportedUpgrades": [
+        {
+            "item": "usefulmachinery:efficiency_upgrade"
+        },
+        {
+            "item": "usefulmachinery:precision_upgrade"
+        }
+    ]
+}

@@ -18,6 +18,23 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "createaddition:electrum_ingot"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "minecraft:bamboo"
                         }
                     ],

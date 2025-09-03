@@ -18,6 +18,23 @@
                     "ingredients": [
                         {
                             "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "immersive_engineering:electrum_ingot"
+                    },
+                    "count": 2
+                },
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
                             "id": "minecraft:iron_ingot"
                         }
                     ],
@@ -28,14 +45,5 @@
                 }
             ]
         }
-    },
-    "values": {
-        "before": [
-            {
-                "type": "projecte:item",
-                "emc_value": "free",
-                "id": "immersive_engineering:slag"
-            }
-        ]
     }
 }

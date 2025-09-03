@@ -249,6 +249,27 @@
                 }
             ]
         },
+        "ingots": {
+            "conversions": [
+                {
+                    "ingredients": [
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/gold"
+                        },
+                        {
+                            "type": "projecte:item",
+                            "tag": "c:ingots/silver"
+                        }
+                    ],
+                    "output": {
+                        "type": "projecte:item",
+                        "id": "modern_industrialization:electrum_ingot"
+                    },
+                    "count": 2
+                }
+            ]
+        },
         "rods": {
             "comment": "Rods",
             "conversions": [

@@ -1,7 +1,7 @@
 {
     "values": [
         {
-            "id": "gtceu:aluminium_rod",
+            "id": "#c:rods/aluminium",
             "required": false
         }
     ]

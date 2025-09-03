@@ -1,19 +1,29 @@
 This is mostly for me to keep track of what commits I have made between versions.
 
-Wood:
-* Added Astral Dimension to Farmer's Delight stripping
-* Added Eternal Starlight to Energized Power Sawmill
-* Added Advent Of Ascension, Ars Nouveau, BOP, BWG, DivineRPG, Eternal Starlight, GTCEU, Nature's Aura, Nature's Spirit, Occultism, Regions Unexplored to Immersive Engineering Sawmill
-* Added DivineRPG to Mekanism sawmill
-* Fixed Nature's Aura log Mekanism sawmill recipe (essentially added, but technically fixed)
+New recipe types:
 
-Plates:
-* Added plates to Immersive Engineering Metal Press. Uses tags. Supported mods: Energized Power, GTCEu Modern, Industrial Upgrade (partially), Modern Industrialization, Useful Foundation. The iridium plate recipe won't load with Modern Industrialization installed in an attempt to not break progression. Some plates from Industrial Upgrade won't have the recipe just yet until I sort out the tags, since I would rather make the tags consistent first then use those rather than use inconsistent tags (different spellings for aluminum/aluminium), and no underscores in the tags making them difficult to read. If this message is in the changelog, I'll fix it before version 0.2.0
-* Fixed Create pressing some Industrial Upgrade plates and added missing ones. Some recipes won't work until tags are resolved (see above)
+* Added Modern Industrialization macerator recipes (currently: Create, Lands Of Icaria, Occultism)
+* Added Immersive Engineering arc furnace recipes (raw block to ingot and ore to ingot). I have only included metal ingots, since the default recipes exclude non-metals. Supported mods: Advent Of Ascension, DivineRPG, GTCEu, Modern Industrialization, Occultism, The Undergarden (uses tags)
+* Added Occultism crushing recipes. Currently only raw to dust. Ratios for Gregtech ores are based on the macerator, otherwise 1 raw : 2 dust
+* Added Energized Power filtration plant recipes (Create, Immersive Engineering, Mekanism, Occultism (no Iesnium - intentional))
+* Added Modern Industrialization cutting machine recipes for logs -> planks. Currently: Biomes O Plenty, Deeper And Darker, Eternal Starlight, Evilcraft, GTCEu, Integrated Dynamics, Occultism, Oh The Biomes We've Gone, Regions Unexplored, The Undergarden
+* Added Modern Industrialization packer recipes (currently only for The Undergarden)
+* Added Productive Trees sawmill recipes (Currently: Deeper and Darker, Eternal Starlight, GTCEu, Integrated Dynamics, Occultism, Undergarden)
+
+New recipes for existing recipe types:
+
+* Added Advent Of Ascension, DivineRPG, Lands Of Icaria, Occultism, The Undergarden to Useful Machinery crushing recipes
+* Added remaining Lands Of Icaria ores to Integrated Dynamics squeezer recipes
+* Added Integrated Dynamics to Energized Power sawmill recipes
+* Added Undergarden ores to Integrated Dynamics squeezer recipes
 
 Misc:
-* Added some more ores to the Integrated Dynamics Squeezer that were already in the Mechanical Squeezer recipes
-* Added a few more Tough As Nails tags and tweaked loading conditions for some tags
-* Added EMC values for some ingots as well as glass dusts
-* Added some EMC values for Industrial Upgrade. Changed tag names to be more readable (see above). Will break some EMC until tags are fixed.
-* Added some tags for resolving aluminium/aluminum (see above)
+
+* Various EMC values for several mods
+* Tag consistency fixes (aluminium -> aluminum) - will add "aluminum" tags to any similar "aluminium" tag out of the ones added (Eg #c:plates/aluminum will be added to any items with #c:plates/aluminium). More tags coming soon.
+* Some addiional tags for various AE2 p2p attunements
+* Additional tags for Modern Industrialization wires / fine wires
+
+Notes:
+
+As mentioned in the previous changelog, some Industrial Upgrade recipes have been fixed with the tags, but not all tags have been implemented yet.

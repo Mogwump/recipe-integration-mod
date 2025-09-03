@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        }
+    ],
+
+    "type": "energizedpower:filtration_plant",
+    "icon": "occultism:raw_silver",
+    "output": {
+        "output": {
+            "item": "energizedpower:stone_pebble"
+        },
+        "percentages": [
+            0.33
+        ]
+    },
+    "secondaryOutput": {
+        "output": {
+            "item": "occultism:raw_silver"
+        },
+        "percentages": [
+            0.05
+        ]
+    }
+}

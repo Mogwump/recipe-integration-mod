@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "id": "modern_industrialization:aluminum_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:annealed_copper_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:copper_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:cupronickel_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:cupronickel_wire_magnetic",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:electrum_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:kanthal_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:platinum_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:silver_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:superconductor_wire",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:tin_wire",
+            "required": false
+        }
+    ]
+}

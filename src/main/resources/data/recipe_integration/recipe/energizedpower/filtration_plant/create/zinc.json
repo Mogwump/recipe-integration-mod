@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+
+    "type": "energizedpower:filtration_plant",
+    "icon": "create:raw_zinc",
+    "output": {
+        "output": {
+            "item": "energizedpower:stone_pebble"
+        },
+        "percentages": [
+            0.33
+        ]
+    },
+    "secondaryOutput": {
+        "output": {
+            "item": "create:raw_zinc"
+        },
+        "percentages": [
+            0.05
+        ]
+    }
+}
