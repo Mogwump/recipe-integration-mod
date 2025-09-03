@@ -45,14 +45,5 @@
                 }
             ]
         }
-    },
-    "values": {
-        "before": [
-            {
-                "type": "projecte:item",
-                "emc_value": "free",
-                "id": "immersive_engineering:slag"
-            }
-        ]
     }
 }

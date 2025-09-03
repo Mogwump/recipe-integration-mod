@@ -6,8 +6,9 @@ New recipe types:
 * Added Immersive Engineering arc furnace recipes (raw block to ingot and ore to ingot). I have only included metal ingots, since the default recipes exclude non-metals. Supported mods: Advent Of Ascension, DivineRPG, GTCEu, Modern Industrialization, Occultism, The Undergarden (uses tags)
 * Added Occultism crushing recipes. Currently only raw to dust. Ratios for Gregtech ores are based on the macerator, otherwise 1 raw : 2 dust
 * Added Energized Power filtration plant recipes (Create, Immersive Engineering, Mekanism, Occultism (no Iesnium - intentional))
-* Added Modern Industrialization sawmill recipes for logs -> planks. Currently: Biomes O Plenty, Deeper And Darker, Eternal Starlight, Evilcraft, GTCEu, Integrated Dynamics, Occultism, Oh The Biomes We've Gone, Regions Unexplored, The Undergarden
+* Added Modern Industrialization cutting machine recipes for logs -> planks. Currently: Biomes O Plenty, Deeper And Darker, Eternal Starlight, Evilcraft, GTCEu, Integrated Dynamics, Occultism, Oh The Biomes We've Gone, Regions Unexplored, The Undergarden
 * Added Modern Industrialization packer recipes (currently only for The Undergarden)
+* Added Productive Trees sawmill recipes (Currently: Deeper and Darker, Eternal Starlight, GTCEu, Integrated Dynamics, Occultism, Undergarden)
 
 New recipes for existing recipe types:
 
@@ -19,6 +20,10 @@ New recipes for existing recipe types:
 Misc:
 
 * Various EMC values for several mods
-* Tag consistency fixes for GTCEu and Industrial Upgrade (aluminium -> aluminum)
+* Tag consistency fixes (aluminium -> aluminum) - will add "aluminum" tags to any similar "aluminium" tag out of the ones added (Eg #c:plates/aluminum will be added to any items with #c:plates/aluminium). More tags coming soon.
 * Some addiional tags for various AE2 p2p attunements
 * Additional tags for Modern Industrialization wires / fine wires
+
+Notes:
+
+As mentioned in the previous changelog, some Industrial Upgrade recipes have been fixed with the tags, but not all tags have been implemented yet.

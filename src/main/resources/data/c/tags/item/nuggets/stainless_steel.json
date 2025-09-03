@@ -1,7 +1,7 @@
 {
     "values": [
         {
-            "id": "electrodynamics:nuggetstainlesssteel",
+            "id": "#c:nuggets/stainlesssteel",
             "required": false
         }
     ]

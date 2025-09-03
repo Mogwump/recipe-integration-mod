@@ -1,13 +1,7 @@
 {
     "values": [
         {
-            "id": "gtceu:aluminium_rod",
-            "required": false
-        },
-
-
-        {
-            "id": "industrialupgrade:stick/aluminium",
+            "id": "#c:rods/aluminium",
             "required": false
         }
     ]

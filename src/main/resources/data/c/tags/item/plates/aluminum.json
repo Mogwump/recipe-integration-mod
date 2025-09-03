@@ -1,12 +1,7 @@
 {
     "values": [
         {
-            "id": "gtceu:aluminium_plate",
-            "required": false
-        },
-
-        {
-            "id": "industrialupgrade:itemplates/aluminium_plate",
+            "id": "#c:plates/aluminium",
             "required": false
         }
     ]

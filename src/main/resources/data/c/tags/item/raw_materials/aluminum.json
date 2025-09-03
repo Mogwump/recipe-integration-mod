@@ -1,13 +1,7 @@
 {
     "values": [
         {
-            "id": "gtceu:raw_aluminium",
-            "required": false
-        },
-
-
-        {
-            "id": "industrialupgrade:raw_metals/raw_aluminium",
+            "id": "#c:raw_materials/aluminium",
             "required": false
         }
     ]

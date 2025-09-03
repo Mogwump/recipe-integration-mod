@@ -1,7 +1,7 @@
 {
     "values": [
         {
-            "id": "industrialupgrade:nugget/aluminium",
+            "id": "#c:nuggets/aluminium",
             "required": false
         }
     ]

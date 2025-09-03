@@ -1,7 +1,7 @@
 {
     "values": [
         {
-            "id": "industrialupgrade:raw_ingot/raw_ingot_aluminium",
+            "id": "#c:raw_ingots/aluminium",
             "required": false
         }
     ]
