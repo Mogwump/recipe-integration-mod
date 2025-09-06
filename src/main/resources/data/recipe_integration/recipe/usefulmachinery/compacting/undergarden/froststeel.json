@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "usefulmachinery"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ],
+
+    "type": "usefulmachinery:compacting",
+    "compactTime": 250,
+    "ingredient": {
+        "count": 9,
+        "tag": "c:ingots/froststeel"
+    },
+    "mode": "block",
+    "result": {
+        "id": "undergarden:froststeel_block"
+    }
+}

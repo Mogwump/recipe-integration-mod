@@ -1,10 +1,20 @@
 This is mostly for me to keep track of what commits I have made between versions.
 
+New recipe types:
+
+Added Oritech pulverizer recipes. Currently only ore to raw. Currently supported: Ice And Fire Community Edition, Modern Industrialization, Occultism, Useful Foundation, The Undergarden
+Added Useful Machinery compacting recipes. Currently: The Undergarden
+
 New mods for existing features:
 
+* Added DivineRPG to Energized Power sawmill recipes
 * Added Farmer's Delight to Modern Industrialization packer recipes
-* Added Ars Nouveau to Modern Industrialization sawmill recipes
-* Added BWG, Deep Aether, Evilcraft, to Productive Trees sawmill recipes.
+* Added Ars Nouveau, Deep Aether, Nature's Spirit, The Aether to Modern Industrialization cutting machine recipes
+* Added BOP, BWG, Deep Aether, DivineRPG, Evilcraft, Nature's Spirit, The Aether to Productive Trees sawmill recipes.
+
+Fixes for existing features:
+
+* Added missing Undergarden blocks to Modern Industrialization packer recipes
 
 Notes:
 

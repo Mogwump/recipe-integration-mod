@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ],
+
+    "type": "oritech:pulverizer",
+    "fluidInput": {
+        "amount": 0,
+        "type": "minecraft:empty"
+    },
+    "fluidOutput": {
+        "amount": 0,
+        "type": "minecraft:empty"
+    },
+    "ingredients": [
+        {
+            "tag": "c:ores/cloggrum"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "id": "undergarden:raw_cloggrum"
+        }
+    ],
+    "time": 200
+}
