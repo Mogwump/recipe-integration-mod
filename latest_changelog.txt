@@ -22,3 +22,5 @@ Fixes for existing features:
 Notes:
 
 Versioning whilst in beta will now be 0.x rather than 0.1.x, with the third number being for minor fixes if there are any broken or missing recipes that either I notice or that are reported as an issue on the github.
+
+The next update might not be for a while with uni starting. Feel free to make suggestions for which mods I should add compat for by making an issue on the github and I will prioritise those.
