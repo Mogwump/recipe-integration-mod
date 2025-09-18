@@ -13,11 +13,11 @@
     "type": "oritech:pulverizer",
     "fluidInput": {
         "amount": 0,
-        "type": "minecraft:empty"
+        "fluid": "minecraft:empty"
     },
     "fluidOutput": {
         "amount": 0,
-        "type": "minecraft:empty"
+        "fluid": "minecraft:empty"
     },
     "ingredients": [
         {
