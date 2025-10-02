@@ -2,28 +2,25 @@ This is mostly for me to keep track of what commits I have made between versions
 
 New recipe types:
 
-* Added Modern Industrialization macerator recipes (currently: Create, Lands Of Icaria, Occultism)
-* Added Immersive Engineering arc furnace recipes (raw block to ingot and ore to ingot). I have only included metal ingots, since the default recipes exclude non-metals. Supported mods: Advent Of Ascension, DivineRPG, GTCEu, Modern Industrialization, Occultism, The Undergarden (uses tags)
-* Added Occultism crushing recipes. Currently only raw to dust. Ratios for Gregtech ores are based on the macerator, otherwise 1 raw : 2 dust
-* Added Energized Power filtration plant recipes (Create, Immersive Engineering, Mekanism, Occultism (no Iesnium - intentional))
-* Added Modern Industrialization cutting machine recipes for logs -> planks. Currently: Biomes O Plenty, Deeper And Darker, Eternal Starlight, Evilcraft, GTCEu, Integrated Dynamics, Occultism, Oh The Biomes We've Gone, Regions Unexplored, The Undergarden
-* Added Modern Industrialization packer recipes (currently only for The Undergarden)
-* Added Productive Trees sawmill recipes (Currently: Deeper and Darker, Eternal Starlight, GTCEu, Integrated Dynamics, Occultism, Undergarden)
+* Added Oritech pulverizer recipes. Currently only ore to raw. Currently supported: Ice And Fire Community Edition, Modern Industrialization, Occultism, Useful Foundation, The Undergarden
+* Added Useful Machinery compacting recipes. Currently: The Undergarden
+* Added Fossils & Archaeology Legacy ancient axe bonus recipes. Currently: Evilcraft, GTCEu, Occultism
 
-New recipes for existing recipe types:
+New mods for existing features:
 
-* Added Advent Of Ascension, DivineRPG, Lands Of Icaria, Occultism, The Undergarden to Useful Machinery crushing recipes
-* Added remaining Lands Of Icaria ores to Integrated Dynamics squeezer recipes
-* Added Integrated Dynamics to Energized Power sawmill recipes
-* Added Undergarden ores to Integrated Dynamics squeezer recipes
+* Added DivineRPG, Fossils & Archaeology Legacy to Energized Power sawmill recipes
+* Added Farmer's Delight to Modern Industrialization packer recipes
+* Added Ars Nouveau, Deep Aether, Fossils & Archaeology Legacy, Nature's Spirit, The Aether to Modern Industrialization cutting machine recipes
+* Added BOP, BWG, Deep Aether, DivineRPG, Evilcraft, Fossils & Archaeology Legacy, Nature's Spirit, The Aether to Productive Trees sawmill recipes.
 
-Misc:
+* Also added Fossila & Archaeology legacy to: Farmer's Delight cutting, Immersive Engineering Sawmill, Mekanism Sawmill
 
-* Various EMC values for several mods
-* Tag consistency fixes (aluminium -> aluminum) - will add "aluminum" tags to any similar "aluminium" tag out of the ones added (Eg #c:plates/aluminum will be added to any items with #c:plates/aluminium). More tags coming soon.
-* Some addiional tags for various AE2 p2p attunements
-* Additional tags for Modern Industrialization wires / fine wires
+Fixes for existing features:
+
+* Added missing Undergarden blocks to Modern Industrialization packer recipes
 
 Notes:
 
-As mentioned in the previous changelog, some Industrial Upgrade recipes have been fixed with the tags, but not all tags have been implemented yet.
+Versioning whilst in beta will now be 0.x rather than 0.1.x, with the third number being for minor fixes if there are any broken or missing recipes that either I notice or that are reported as an issue on the github.
+
+The next update might not be for a while with uni starting. Feel free to make suggestions for which mods I should add compat for by making an issue on the github and I will prioritise those.

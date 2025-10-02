@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "oritech:pulverizer",
+    "fluidInput": {
+        "amount": 0,
+        "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+        "amount": 0,
+        "fluid": "minecraft:empty"
+    },
+    "ingredients": [
+        {
+            "tag": "c:ores/antimony"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "id": "modern_industrialization:raw_antimony"
+        }
+    ],
+    "time": 200
+}

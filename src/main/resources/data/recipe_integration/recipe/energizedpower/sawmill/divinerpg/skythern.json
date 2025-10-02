@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "divinerpg"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "divinerpg:wood_types/skythern"
+    },
+    "output": {
+        "count": 6,
+        "item": "divinerpg:skythern_planks"
+    },
+    "sawdustAmount": 1
+}

@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "productivetrees"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+
+    "type": "productivetrees:sawmill",
+    "input": {
+        "tag": "biomeswevegone:mahogany_logs"
+    },
+    "output": {
+        "count": 6,
+        "id": "biomeswevegone:mahogany_planks"
+    },
+    "secondary": {
+        "count": 2,
+        "id": "productivetrees:sawdust"
+    },
+    "tertiary": {}
+}

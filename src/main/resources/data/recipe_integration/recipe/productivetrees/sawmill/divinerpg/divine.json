@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "productivetrees"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "divinerpg"
+        }
+    ],
+
+    "type": "productivetrees:sawmill",
+    "input": {
+        "tag": "divinerpg:wood_types/divine"
+    },
+    "output": {
+        "count": 6,
+        "id": "divinerpg:divine_planks"
+    },
+    "secondary": {
+        "count": 2,
+        "id": "productivetrees:sawdust"
+    },
+    "tertiary": {}
+}

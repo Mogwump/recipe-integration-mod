@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "productivetrees"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+
+    "type": "productivetrees:sawmill",
+    "input": {
+        "tag": "deep_aether:cruderoot_logs"
+    },
+    "output": {
+        "count": 6,
+        "id": "deep_aether:cruderoot_planks"
+    },
+    "secondary": {
+        "count": 2,
+        "id": "productivetrees:sawdust"
+    },
+    "tertiary": {}
+}
