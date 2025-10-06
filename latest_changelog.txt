@@ -1,26 +1,17 @@
 This is mostly for me to keep track of what commits I have made between versions.
 
-New recipe types:
+### New recipe types:
 
-* Added Oritech pulverizer recipes. Currently only ore to raw. Currently supported: Ice And Fire Community Edition, Modern Industrialization, Occultism, Useful Foundation, The Undergarden
-* Added Useful Machinery compacting recipes. Currently: The Undergarden
-* Added Fossils & Archaeology Legacy ancient axe bonus recipes. Currently: Evilcraft, GTCEu, Occultism
+None so far... (note to self: change this for the modrinth changelog)
 
-New mods for existing features:
+### New mods for existing features:
 
-* Added DivineRPG, Fossils & Archaeology Legacy to Energized Power sawmill recipes
-* Added Farmer's Delight to Modern Industrialization packer recipes
-* Added Ars Nouveau, Deep Aether, Fossils & Archaeology Legacy, Nature's Spirit, The Aether to Modern Industrialization cutting machine recipes
-* Added BOP, BWG, Deep Aether, DivineRPG, Evilcraft, Fossils & Archaeology Legacy, Nature's Spirit, The Aether to Productive Trees sawmill recipes.
+* Added Autumnity to: Energized Power Sawmill, IE sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
 
-* Also added Fossila & Archaeology legacy to: Farmer's Delight cutting, Immersive Engineering Sawmill, Mekanism Sawmill
+### Fixes for existing features:
 
-Fixes for existing features:
+* TODO: add stripped archwood to IE sawmill
 
-* Added missing Undergarden blocks to Modern Industrialization packer recipes
+### Notes:
 
-Notes:
-
-Versioning whilst in beta will now be 0.x rather than 0.1.x, with the third number being for minor fixes if there are any broken or missing recipes that either I notice or that are reported as an issue on the github.
-
-The next update might not be for a while with uni starting. Feel free to make suggestions for which mods I should add compat for by making an issue on the github and I will prioritise those.
+Since the last update, I have fixed the links to the github on the Modrinth page so feel free to make mod recommendations!
