@@ -2,17 +2,18 @@ This is mostly for me to keep track of what commits I have made between versions
 
 ### New recipe types:
 
-* Added Alloy Smelter (TODO: add every tier). Currently: Occultism
+* Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Energized Power, Extreme Reactors, Ice And Fire Community Edition, Occultism, Silent Gear, Stellaris, The Undergarden
 
 ### New mods for existing features:
 
-* Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, IE sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
+* Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
 Todo: Northstar
 
 ### Fixes for existing features:
 
 * TODO: add stripped archwood to IE sawmill
 * TODO: Fix Productive Trees mod name in energized power sawmill
+* Fixed recipe ID for GTCEU rubber log stripping with Farmer's Delight
 
 ### Notes:
 

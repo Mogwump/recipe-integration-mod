@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alloy_smelter"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "stellaris"
+        }
+    ],
+
+    "type": "alloy_smelter:smelting",
+    "ingredients": [
+        {
+            "ingredient": {"item": "minecraft:iron_ingot"},
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "stellaris:heavy_metal_ingot",
+        "count": 1
+    },
+    "smeltingTime": 60,
+    "fuelPerTick": 1,
+    "requiredTier": 3
+}
