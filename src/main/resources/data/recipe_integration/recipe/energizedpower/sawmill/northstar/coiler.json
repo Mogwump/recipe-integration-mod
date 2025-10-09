@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "northstar"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "northstar:coiler_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "northstar:coiler_planks"
+    },
+    "sawdustAmount": 1
+}

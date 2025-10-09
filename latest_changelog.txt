@@ -7,7 +7,8 @@ This is mostly for me to keep track of what commits I have made between versions
 ### New mods for existing features:
 
 * Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
-Todo: Northstar
+Todo: Northstar (done EP)
+* Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because nbt)
 
 ### Fixes for existing features:
 
