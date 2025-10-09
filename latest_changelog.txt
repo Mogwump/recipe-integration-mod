@@ -2,15 +2,17 @@ This is mostly for me to keep track of what commits I have made between versions
 
 ### New recipe types:
 
-None so far... (note to self: change this for the modrinth changelog)
+* Added Alloy Smelter (TODO: add every tier). Currently: Occultism
 
 ### New mods for existing features:
 
-* Added Autumnity to: Energized Power Sawmill, IE sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
+* Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, IE sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
+Todo: Northstar
 
 ### Fixes for existing features:
 
 * TODO: add stripped archwood to IE sawmill
+* TODO: Fix Productive Trees mod name in energized power sawmill
 
 ### Notes:
 

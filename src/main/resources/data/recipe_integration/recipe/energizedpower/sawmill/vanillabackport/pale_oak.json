@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "vanillabackport"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "vanillabackport:pale_oak_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "vanillabackport:pale_oak_planks"
+    },
+    "sawdustAmount": 1
+}
