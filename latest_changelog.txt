@@ -2,18 +2,21 @@ This is mostly for me to keep track of what commits I have made between versions
 
 ### New recipe types:
 
-* Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Energized Power, Extreme Reactors, Ice And Fire Community Edition, Occultism, Silent Gear, Stellaris, The Undergarden
+* Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Create: TFMG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Occultism, Silent Gear, Stellaris, The Undergarden
+* Added Umbra Poor Ores water bucket crafting for: The Aether, Forbidden & Arcanus
 
 ### New mods for existing features:
 
-* Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
-Todo: Northstar (done EP)
+* Added Autumnity, Create: Northstar - Redux, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
+* Added Northstar to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
+* Added some Productive Trees logs to the Energized Power sawmill. More coming soon. (Done 24/162)
 * Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because nbt)
 
-### Fixes for existing features:
+### Fixes/Tweaks for existing features:
 
-* TODO: add stripped archwood to IE sawmill
-* TODO: Fix Productive Trees mod name in energized power sawmill
+* Reduced time for Modern Industrialization packer recipes for Farmer's Delight from 10 seconds to 5 seconds
+* Added stripped archwood to IE sawmill
+* Fixed Productive Trees mod name in energized power sawmill, so the recipes should actually exist now.
 * Fixed recipe ID for GTCEU rubber log stripping with Farmer's Delight
 
 ### Notes:

@@ -6,17 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "productivetree"
+            "modid": "productivetrees"
         }
     ],
 
     "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "productivetree:banana_logs"
+        "tag": "productivetrees:banana_logs"
     },
     "output": {
         "count": 6,
-        "item": "productivetree:banana_planks"
+        "item": "productivetrees:banana_planks"
     },
     "sawdustAmount": 1
 }

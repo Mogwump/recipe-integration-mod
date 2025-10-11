@@ -6,17 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "productivetree"
+            "modid": "productivetrees"
         }
     ],
 
     "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "productivetree:blackthorn_logs"
+        "tag": "productivetrees:blackthorn_logs"
     },
     "output": {
         "count": 6,
-        "item": "productivetree:blackthorn_planks"
+        "item": "productivetrees:blackthorn_planks"
     },
     "sawdustAmount": 1
 }
