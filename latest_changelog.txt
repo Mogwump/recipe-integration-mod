@@ -2,7 +2,7 @@ This is mostly for me to keep track of what commits I have made between versions
 
 ### New recipe types:
 
-* Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Create: TFMG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Occultism, Silent Gear, Stellaris, The Undergarden
+* Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Create: TFMG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Mekanism, Occultism, Silent Gear, Stellaris, The Undergarden
 * Added Umbra Poor Ores water bucket crafting for: The Aether, Forbidden & Arcanus
 
 ### New mods for existing features:
