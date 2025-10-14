@@ -4,17 +4,21 @@ This is mostly for me to keep track of what commits I have made between versions
 
 * Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Create: TFMG, DivineRPG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Immersive Engineering, Mekanism, Modern Industrialization, Occultism, Oritech, Silent Gear, Stellaris, The Undergarden
 * Added Umbra Poor Ores water bucket crafting for: The Aether, Forbidden & Arcanus
+* Added Clayworks kiln recipes. Currently only smooth sandstones from: Biomes O' Plenty, Nature's Spirit, Oh The Biomes We've Gone, Yung's Cave Biomes
+Todo: IE garden cloche (flowers & crops)
 
 ### New mods for existing features:
 
-* Added Autumnity, Create: Northstar - Redux, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
-* Added Northstar to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine
+* Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine.
+Atmospheric: EP, FD, Mek, MI (partially IE)
+* Added Create: Northstar - Redux to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
 * Added some Productive Trees logs to the Energized Power sawmill. More coming soon. (Done 24/162)
 * Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because nbt)
 
 ### Fixes/Tweaks for existing features:
 
 * Reduced time for Modern Industrialization packer recipes for Farmer's Delight from 10 seconds to 5 seconds
+* Reduced time for Oritech pulverizer for silver ores to match existing compat recipes (200 ticks -> 120 ticks, now same as built-in immersive engineering silver)
 * Added stripped archwood to IE sawmill
 * Fixed Productive Trees mod name in energized power sawmill, so the recipes should actually exist now.
 * Fixed recipe ID for GTCEU rubber log stripping with Farmer's Delight
