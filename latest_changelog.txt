@@ -11,8 +11,9 @@ This is mostly for me to keep track of what commits I have made between versions
 
 * Added Atmospheric, Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine.
 * Added Create: Northstar - Redux to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
-* Added some Productive Trees logs to the Energized Power sawmill. More coming soon. (Done 48/162)
-* Added Occultism to Modern Industrialization packer recipes (ignored materials already in Modern Industrialization)
+* Added some Productive Trees logs to the Energized Power sawmill. More coming soon. (Done 61/162)
+* Added Integrated Dynamics, Occultism to Modern Industrialization packer recipes (ignored materials already in Modern Industrialization)
+* Added wood & stripped wood packing recipes to Modern Industrialization for: The Aether, Ars Elemental, Ars Nouveau, Atmospheric, Deeper and Darker, Evilcraft, Integrated Dynamics, Vanilla Backport (more coming soon)
 * Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because nbt)
 
 ### Fixes/Tweaks for existing features:
