@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "atmospheric:gilia"
+    },
+    "renderer": {
+        "type": "immersiveengineering:generic",
+        "block": "atmospheric:gilia"
+    },
+    "results": [
+        {
+            "id": "atmospheric:gilia"
+        }
+    ],
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 480
+}

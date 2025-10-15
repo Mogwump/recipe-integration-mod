@@ -5,14 +5,14 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added Alloy Smelter recipes from the mod Alloy Smelter. Currently: Create: TFMG, DivineRPG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Immersive Engineering, Mekanism, Modern Industrialization, Occultism, Oritech, Silent Gear, Stellaris, The Undergarden
 * Added Umbra Poor Ores water bucket crafting for: The Aether, Forbidden & Arcanus
 * Added Clayworks kiln recipes. Currently only smooth sandstones from: Biomes O' Plenty, Nature's Spirit, Oh The Biomes We've Gone, Yung's Cave Biomes
-Todo: IE garden cloche (flowers & crops)
+* Added Immersive Engineering Garden Cloche recipes for flowers and crops. Currently: The Aether, Ars Nouveau, Atmospheric, Occultism. Many more mods planned.
 
 ### New mods for existing features:
 
-* Added Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine.
-Atmospheric: EP, FD, Mek, MI (partially IE)
+* Added Atmospheric, Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine.
 * Added Create: Northstar - Redux to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
-* Added some Productive Trees logs to the Energized Power sawmill. More coming soon. (Done 24/162)
+* Added some Productive Trees logs to the Energized Power sawmill. More coming soon. (Done 48/162)
+* Added Occultism to Modern Industrialization packer recipes (ignored materials already in Modern Industrialization)
 * Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because nbt)
 
 ### Fixes/Tweaks for existing features:
