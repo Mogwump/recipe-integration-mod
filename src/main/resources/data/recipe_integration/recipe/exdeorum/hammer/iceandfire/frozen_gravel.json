@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "iceandfire"
+        }
+    ],
+    "type": "exdeorum:hammer",
+    "ingredient": [
+        {
+            "item": "iceandfire:frozen_cobblestone"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "iceandfire:frozen_gravel"
+    },
+    "result_amount": 1.0
+}

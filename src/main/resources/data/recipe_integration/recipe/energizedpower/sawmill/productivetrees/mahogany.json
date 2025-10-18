@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "productivetrees"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "productivetrees:mahogany_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "productivetrees:mahogany_planks"
+    },
+    "sawdustAmount": 1
+}
