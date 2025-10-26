@@ -14,7 +14,7 @@
     "input": {
         "item": "atmospheric:firethorn"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:generic",
         "block": "atmospheric:firethorn"
     },

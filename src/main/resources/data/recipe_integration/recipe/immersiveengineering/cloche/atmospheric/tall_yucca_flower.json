@@ -14,7 +14,7 @@
     "input": {
         "item": "atmospheric:tall_yucca_flower"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:doubleflower",
         "block": "atmospheric:tall_yucca_flower"
     },

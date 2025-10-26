@@ -14,7 +14,7 @@
     "input": {
         "item": "atmospheric:water_hyacinth"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:doubleflower",
         "block": "atmospheric:water_hyacinth"
     },

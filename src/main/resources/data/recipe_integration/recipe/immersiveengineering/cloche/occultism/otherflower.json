@@ -14,7 +14,7 @@
     "input": {
         "item": "occultism:otherflower"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:generic",
         "block": "occultism:otherflower"
     },

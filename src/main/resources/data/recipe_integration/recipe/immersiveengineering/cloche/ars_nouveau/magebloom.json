@@ -14,7 +14,7 @@
     "input": {
         "item": "ars_nouveau:magebloom_crop"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:crop",
         "block": "ars_nouveau:magebloom_crop"
     },

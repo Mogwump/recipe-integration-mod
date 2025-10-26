@@ -14,7 +14,7 @@
     "input": {
         "item": "atmospheric:warm_monkey_brush"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:generic",
         "block": "atmospheric:warm_monkey_brush"
     },

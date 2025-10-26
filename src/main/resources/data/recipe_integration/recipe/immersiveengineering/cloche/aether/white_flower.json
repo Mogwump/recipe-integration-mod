@@ -14,7 +14,7 @@
     "input": {
         "item": "aether:white_flower"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:generic",
         "block": "aether:white_flower"
     },

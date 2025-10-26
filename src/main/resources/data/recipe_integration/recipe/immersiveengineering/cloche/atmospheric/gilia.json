@@ -14,7 +14,7 @@
     "input": {
         "item": "atmospheric:gilia"
     },
-    "renderer": {
+    "render": {
         "type": "immersiveengineering:generic",
         "block": "atmospheric:gilia"
     },
