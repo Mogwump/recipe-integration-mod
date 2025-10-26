@@ -6,17 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "productivetree"
+            "modid": "productivetrees"
         }
     ],
 
     "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "productivetree:aquilaria_logs"
+        "tag": "productivetrees:aquilaria_logs"
     },
     "output": {
         "count": 6,
-        "item": "productivetree:aquilaria_planks"
+        "item": "productivetrees:aquilaria_planks"
     },
     "sawdustAmount": 1
 }

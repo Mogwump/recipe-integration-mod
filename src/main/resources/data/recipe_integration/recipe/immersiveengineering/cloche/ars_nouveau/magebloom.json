@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "ars_nouveau:magebloom_crop"
+    },
+    "render": {
+        "type": "immersiveengineering:crop",
+        "block": "ars_nouveau:magebloom_crop"
+    },
+    "results": [
+        {
+            "count": 2,
+            "id": "ars_nouveau:magebloom"
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "id": "ars_nouveau:magebloom_crop"
+            }
+        }
+    ],
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 480
+}

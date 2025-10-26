@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 1600,
+    "input": {
+        "item": "atmospheric:grimwood"
+    },
+    "result": {
+        "basePredicate": {
+            "item": "atmospheric:grimwood_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "stripped": {
+        "item": "atmospheric:stripped_grimwood"
+    },
+    "strippingSecondaries": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ]
+}

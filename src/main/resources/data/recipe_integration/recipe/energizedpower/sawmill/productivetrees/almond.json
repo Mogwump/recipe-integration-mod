@@ -6,17 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "productivetree"
+            "modid": "productivetrees"
         }
     ],
 
     "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "productivetree:almond_logs"
+        "tag": "productivetrees:almond_logs"
     },
     "output": {
         "count": 6,
-        "item": "productivetree:almond_planks"
+        "item": "productivetrees:almond_planks"
     },
     "sawdustAmount": 1
 }

@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "atmospheric:grimwood_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "atmospheric:grimwood_planks"
+    },
+    "sawdustAmount": 1
+}

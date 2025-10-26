@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "atmospheric:water_hyacinth"
+    },
+    "render": {
+        "type": "immersiveengineering:doubleflower",
+        "block": "atmospheric:water_hyacinth"
+    },
+    "results": [
+        {
+            "id": "atmospheric:water_hyacinth"
+        }
+    ],
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 480
+}

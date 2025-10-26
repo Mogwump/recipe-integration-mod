@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "atmospheric:forsythia"
+    },
+    "render": {
+        "type": "immersiveengineering:generic",
+        "block": "atmospheric:forsythia"
+    },
+    "results": [
+        {
+            "id": "atmospheric:forsythia"
+        }
+    ],
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 480
+}

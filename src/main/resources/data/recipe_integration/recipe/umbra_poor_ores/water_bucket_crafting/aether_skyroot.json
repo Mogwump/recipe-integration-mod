@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "umbra_poor_ores"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " a ",
+        "aba",
+        " a "
+    ],
+    "key": {
+        "a": {
+            "item": "umbra_poor_ores:small_water"
+        },
+        "b": {
+            "item": "aether:skyroot_bucket"
+        }
+    },
+    "result": {
+        "id": "aether:skyroot_water_bucket",
+        "count": 1
+    }
+}

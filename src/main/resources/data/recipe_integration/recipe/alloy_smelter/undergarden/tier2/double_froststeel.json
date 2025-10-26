@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alloy_smelter"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ],
+
+    "type": "alloy_smelter:smelting",
+    "ingredients": [
+        {
+            "ingredient": {"item": "undergarden:raw_froststeel"},
+            "count": 1
+        },
+        {
+            "ingredient": {"item": "undergarden:raw_froststeel"},
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "undergarden:froststeel_ingot",
+        "count": 2
+    },
+    "smeltingTime": 100,
+    "fuelPerTick": 1,
+    "requiredTier": 2
+}

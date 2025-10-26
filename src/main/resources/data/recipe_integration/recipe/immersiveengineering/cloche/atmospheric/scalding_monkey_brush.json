@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "atmospheric:scalding_monkey_brush"
+    },
+    "render": {
+        "type": "immersiveengineering:generic",
+        "block": "atmospheric:scalding_monkey_brush"
+    },
+    "results": [
+        {
+            "id": "atmospheric:scalding_monkey_brush"
+        }
+    ],
+    "soil": {
+        "item": "minecraft:dirt"
+    },
+    "time": 480
+}

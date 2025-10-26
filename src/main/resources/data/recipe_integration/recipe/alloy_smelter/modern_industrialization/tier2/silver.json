@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alloy_smelter"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "alloy_smelter:smelting",
+    "ingredients": [
+        {
+            "ingredient": {"item": "modern_industrialization:raw_silver"},
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "modern_industrialization:silver_ingot",
+        "count": 1
+    },
+    "smeltingTime": 100,
+    "fuelPerTick": 1,
+    "requiredTier": 2
+}

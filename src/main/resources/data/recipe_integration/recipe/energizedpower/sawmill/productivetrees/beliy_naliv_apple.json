@@ -6,17 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "productivetree"
+            "modid": "productivetrees"
         }
     ],
 
     "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "productivetree:beliy_naliv_apple_logs"
+        "tag": "productivetrees:beliy_naliv_apple_logs"
     },
     "output": {
         "count": 6,
-        "item": "productivetree:beliy_naliv_apple_planks"
+        "item": "productivetrees:beliy_naliv_apple_planks"
     },
     "sawdustAmount": 1
 }

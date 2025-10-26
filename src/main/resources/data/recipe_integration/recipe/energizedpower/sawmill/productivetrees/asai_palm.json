@@ -6,17 +6,17 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "productivetree"
+            "modid": "productivetrees"
         }
     ],
 
     "type": "energizedpower:sawmill",
     "ingredient": {
-        "tag": "productivetree:asai_palm_logs"
+        "tag": "productivetrees:asai_palm_logs"
     },
     "output": {
         "count": 6,
-        "item": "productivetree:asai_palm_planks"
+        "item": "productivetrees:asai_palm_planks"
     },
     "sawdustAmount": 1
 }

@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alloy_smelter"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "type": "alloy_smelter:smelting",
+    "ingredients": [
+        {
+            "ingredient": {"item": "modern_industrialization:raw_lead"},
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "modern_industrialization:lead_ingot",
+        "count": 1
+    },
+    "smeltingTime": 140,
+    "fuelPerTick": 1,
+    "requiredTier": 1
+}

@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "vanillabackport"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "vanillabackport:stripped_pale_oak_log"
+        },
+        {
+            "item": "vanillabackport:stripped_pale_oak_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "vanillabackport:pale_oak_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}

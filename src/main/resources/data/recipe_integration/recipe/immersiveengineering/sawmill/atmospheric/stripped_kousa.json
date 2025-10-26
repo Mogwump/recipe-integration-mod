@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "atmospheric:stripped_kousa_log"
+        },
+        {
+            "item": "atmospheric:stripped_kousa_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "atmospheric:kousa_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}
