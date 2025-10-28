@@ -1,32 +1,29 @@
 This is mostly for me to keep track of what commits I have made between versions.
 
-### New recipe types:
+# New recipe types:
 
-* Added Alloy Smelter smelting recipes from the mod Alloy Smelter. Currently: Create: TFMG, DivineRPG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Immersive Engineering, Mekanism, Modern Industrialization, Occultism, Oritech, Silent Gear, Stellaris, The Undergarden
-* Added Umbra Poor Ores water and lava bucket crafting for: The Aether, Forbidden & Arcanus
-* Added Clayworks kiln recipes. Currently only smooth sandstones from: Biomes O' Plenty, Nature's Spirit, Oh The Biomes We've Gone, Yung's Cave Biomes
-* Added Immersive Engineering Garden Cloche recipes for flowers and crops. Currently: The Aether, Ars Nouveau, Atmospheric, Occultism. Many more mods planned.
+None so far
 
-### New mods for existing features:
+# New mods for existing features:
 
-* Added Atmospheric, Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine.
-* Added Create: Northstar - Redux to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
-* Added Productive Trees logs to the Energized Power sawmill.
-* Added Integrated Dynamics, Occultism to Modern Industrialization packer recipes (ignored materials already in Modern Industrialization)
-* Added wood & stripped wood packing recipes to Modern Industrialization for: The Aether, Ars Elemental, Ars Nouveau, Atmospheric, Biomes O' Plenty, Deep Aether, Deeper and Darker, Eternal Starlight, Evilcraft, Integrated Dynamics, Oh The Biomes We've Gone, Regions Unexplored, Vanilla Backport
-* Added Ice And Fire Community Edition frozen cobblestone to frozen gravel crushing with Ex Deorum
-* Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because of nbt)
+### Wood
 
-### Fixes/Tweaks for existing features:
+* Added Environmental to: Energized Power sawmill, Farmer's Delight stripping, todo IE, Mekanism sawmill, Modern Industrialization cutting machine, Productive Trees sawmill
+would: ep, fd, todo ie, Mek, MI, PT (merge with line above once all have been done)
+* Added Occultism to Farmer's Delight stripping
+* Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
 
-* Reduced time for Modern Industrialization packer recipes for Farmer's Delight from 10 seconds to 5 seconds
-* Reduced time for Oritech pulverizer for silver ores to match existing compat recipes (200 ticks -> 120 ticks, now same as built-in immersive engineering silver)
-* Added stripped archwood to IE sawmill
-* Fixed Productive Trees mod name in energized power sawmill, so the recipes should actually exist now.
-* Fixed recipe ID for GTCEU rubber log stripping with Farmer's Delight
+### Misc
 
-### Notes:
 
-Since the last update, I have fixed the links to the github on the Modrinth page so feel free to make mod recommendations!
 
-Probably going to add MI unpacker recipes next and add some more various mod compatability for the packer and unpacker. Possibly some Oritech. Might also add load conditions to not load some recipes with JAOPCA. Also I might tweak some macerating yields for some ores to be the same as in JAOPCA.
+# Fixes/Tweaks for existing features:
+
+None so far
+
+# Notes:
+
+TODO: MI unpacker + more mods, JAOPCA, Oritech?
+
+todo: test moving bz_bee_queen_trades under recipe_integration rather than bumblezone for consistency
+todo: test why there is magnolia_logs tag for regions unexplored

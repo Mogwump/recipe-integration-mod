@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "farmersdelight"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "would"
+        }
+    ],
+
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "item": "would:stripped_ebony_log"
+        }
+    ],
+    "result": [
+        {
+            "item": {
+                "count": 1,
+                "id": "would:ebony_heartwood_log"
+            }
+        }
+    ],
+    "sound": {
+        "sound_id": "minecraft:item.axe.strip"
+    },
+    "tool": {
+        "type": "farmersdelight:item_ability",
+        "action": "axe_strip"
+    }
+}
