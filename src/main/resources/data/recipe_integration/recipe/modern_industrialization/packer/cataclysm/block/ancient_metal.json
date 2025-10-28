@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+
+    "type": "modern_industrialization:packer",
+    "duration": 200,
+    "eu": 2,
+    "item_inputs": [
+        {
+            "amount": 9,
+            "item": "ancient_metal_ingot"
+        },
+        {
+            "amount": 1,
+            "item": "modern_industrialization:packer_block_template",
+            "probability": 0.0
+        }
+    ],
+    "item_outputs": [
+        {
+            "amount": 1,
+            "item": "cataclysm:ancient_metal_block"
+        }
+    ]
+}

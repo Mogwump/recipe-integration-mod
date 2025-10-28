@@ -15,7 +15,10 @@ would: ep, fd, todo ie, Mek, MI, PT (merge with line above once all have been do
 
 ### Misc
 
+* Added Advanced Netherite, Cataclysm, Silent Gear to Modern Industrialization packer, as well as additional recipes for: The Aether, Deep Aether
+todo: Powah, Many More Ores and Crafts, megacells, railcraft, more integrateddynamics (chorus), pneumaticcraft, iceandfire, enderio, environmental, bigreactors, undergarden rogdorium, oritech, biomeswevegone?, draconicevolution, mysticalagriculture, stellaris, forbidden_arcanus, landsoficaria, silentgems, productivetrees?, actuallyadditions
 
+* Added Crimson Iron to Ars Nouveau scry ritual
 
 # Fixes/Tweaks for existing features:
 
@@ -24,6 +27,8 @@ None so far
 # Notes:
 
 TODO: MI unpacker + more mods, JAOPCA, Oritech?
+TODO: add nugget to ingot packing recipes for Silent Gear (check other mods)
+todo: MI vacuum freezer or Aether freezer for decorative frozen blocks? Icicle duplication recipe with water?
 
 todo: test moving bz_bee_queen_trades under recipe_integration rather than bumblezone for consistency
 todo: test why there is magnolia_logs tag for regions unexplored
