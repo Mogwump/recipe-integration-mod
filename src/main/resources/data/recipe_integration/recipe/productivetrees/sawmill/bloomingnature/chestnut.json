@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "productivetrees"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "bloomingnature"
+        }
+    ],
+
+    "type": "productivetrees:sawmill",
+    "input": {
+        "tag": "bloomingnature:chestnut_logs"
+    },
+    "output": {
+        "count": 6,
+        "id": "bloomingnature:chestnut_planks"
+    },
+    "secondary": {
+        "count": 2,
+        "id": "productivetrees:sawdust"
+    },
+    "tertiary": {}
+}

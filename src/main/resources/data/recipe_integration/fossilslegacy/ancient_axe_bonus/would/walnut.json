@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "fossilslegacy"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "would"
+        }
+    ],
+
+    "input": "would:walnut_log",
+    "max_drop": 3,
+    "min_drop": 1,
+    "output": {
+        "id": "would:walnut_planks"
+    }
+}

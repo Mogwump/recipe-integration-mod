@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "fossilslegacy"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "integrateddynamics"
+        }
+    ],
+
+    "input": "integrateddynamics:menril_log_filled",
+    "max_drop": 3,
+    "min_drop": 1,
+    "output": {
+        "id": "integrateddynamics:menril_planks"
+    }
+}

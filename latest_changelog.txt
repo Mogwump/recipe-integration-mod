@@ -1,24 +1,35 @@
 This is mostly for me to keep track of what commits I have made between versions.
 
-# New recipe types:
+# New recipe types/features:
 
-None so far
+### Copper
+
+* Added Create Crafts & Additions charging recipes (copper deoxidising). Currently: Fossils and Archaeology Legacy
+* Added Mekanism combining recipes (waxing). Currently: Fossils and Archaeology Legacy
+
+## Misc
+
+* Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
 
 # New mods for existing features:
 
 ### Wood
 
-* Added Environmental to: Energized Power sawmill, Farmer's Delight stripping, todo IE, Mekanism sawmill, Modern Industrialization cutting machine, Productive Trees sawmill
-would: ep, fd, todo ie, Mek, MI, PT (merge with line above once all have been done)
+* Added [Let's Do] BloomingNature (incomplete, see below), Environmental, Would to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Productive Trees sawmill
+let's do bloomingnature: ep, FD, todo faal, todo ie (do cactus at 800), Mek, MI, PT (merge with above when done)
+* Added Ars Elemental, Ars Nouveau, Atmospheric, Ice And Fire Community Edition, Integrated Dynamics to Fossils and Archaeology Legacy ancient axe bonus
 * Added Occultism to Farmer's Delight stripping
 * Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
+
+todo: more mods for FaAL axe bonus
+todo: infinity nexus?
 
 ### Misc
 
 * Added Advanced Netherite, Cataclysm, Silent Gear to Modern Industrialization packer, as well as additional recipes for: The Aether, Deep Aether
 todo: Powah, Many More Ores and Crafts, megacells, railcraft, more integrateddynamics (chorus), pneumaticcraft, iceandfire, enderio, environmental, bigreactors, undergarden rogdorium, oritech, biomeswevegone?, draconicevolution, mysticalagriculture, stellaris, forbidden_arcanus, landsoficaria, silentgems, productivetrees?, actuallyadditions
 
-* Added Crimson Iron to Ars Nouveau scry ritual
+* Added Crimson Iron, Inferium to Ars Nouveau scry ritual (todo: more silent gems?)
 
 # Fixes/Tweaks for existing features:
 
@@ -26,9 +37,21 @@ None so far
 
 # Notes:
 
+* Changed recipe ID for Create Crafts & Additions rolling from rolling_rods to rolling to better match existing IDs.
 TODO: MI unpacker + more mods, JAOPCA, Oritech?
 TODO: add nugget to ingot packing recipes for Silent Gear (check other mods)
 todo: MI vacuum freezer or Aether freezer for decorative frozen blocks? Icicle duplication recipe with water?
+todo: more fossils and archaeology ancient axe bonus recipes
+
+todo: Create deploying copper scraping+waxing?
+todo: Mekanism copper waxing/weathering/scraping?
+todo: modern Industrialization oxidation?
+todo: more modern industrialization wax crafting
 
 todo: test moving bz_bee_queen_trades under recipe_integration rather than bumblezone for consistency
 todo: test why there is magnolia_logs tag for regions unexplored
+
+todo: test/check data load conditions for tags (randomium blacklist, projecte ignore missing emc) - not working?
+todo: add gregtech to energizedpower sawmill? - gtceu currently crashing so can't test
+
+CHECK SQUARE BRACKETS FOR LET'S DO BEFORE POSTING CHANGELOG (Modrinth uses markdown)

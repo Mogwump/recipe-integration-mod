@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "bloomingnature"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "bloomingnature:swamp_oak_logs"
+    },
+    "output": {
+        "count": 6,
+        "item": "bloomingnature:swamp_oak_planks"
+    },
+    "sawdustAmount": 1
+}

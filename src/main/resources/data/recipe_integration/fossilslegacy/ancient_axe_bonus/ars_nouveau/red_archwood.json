@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "fossilslegacy"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+
+    "input": "ars_nouveau:red_archwood_log",
+    "max_drop": 3,
+    "min_drop": 1,
+    "output": {
+        "id": "ars_nouveau:archwood_planks"
+    }
+}

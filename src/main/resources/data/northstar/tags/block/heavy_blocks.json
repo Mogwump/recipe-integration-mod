@@ -1,0 +1,16 @@
+{
+    "values": [
+        {
+            "id": "#c:storage_blocks/lead",
+            "required": false
+        },
+        {
+            "id": "#c:storage_blocks/stainless_steel",
+            "required": false
+        },
+        {
+            "id": "#c:storage_blocks/steel",
+            "required": false
+        }
+    ]
+}
