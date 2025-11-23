@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+
+    "type": "energizedpower:plant_growth_chamber",
+    "ingredient": {
+        "item": "aether:purple_flower"
+    },
+    "outputs": [
+        {
+            "output": {
+                "item": "aether:purple_flower"
+            },
+            "percentages": [
+                1.0,
+                1.0,
+                0.33
+            ]
+        }
+    ],
+    "ticks": 16000
+}

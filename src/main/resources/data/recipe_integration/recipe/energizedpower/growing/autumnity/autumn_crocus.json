@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "autumnity"
+        }
+    ],
+
+    "type": "energizedpower:plant_growth_chamber",
+    "ingredient": {
+        "item": "autumnity:autumn_crocus"
+    },
+    "outputs": [
+        {
+            "output": {
+                "item": "autumnity:autumn_crocus"
+            },
+            "percentages": [
+                1.0,
+                1.0,
+                0.33
+            ]
+        }
+    ],
+    "ticks": 16000
+}

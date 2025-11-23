@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+
+    "type": "energizedpower:plant_growth_chamber",
+    "ingredient": {
+        "item": "deep_aether:sky_tulips"
+    },
+    "outputs": [
+        {
+            "output": {
+                "item": "deep_aether:sky_tulips"
+            },
+            "percentages": [
+                1.0,
+                1.0,
+                0.33
+            ]
+        }
+    ],
+    "ticks": 16000
+}
