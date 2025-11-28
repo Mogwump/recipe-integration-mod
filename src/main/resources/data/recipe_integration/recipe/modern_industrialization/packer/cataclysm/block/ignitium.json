@@ -16,7 +16,7 @@
     "item_inputs": [
         {
             "amount": 9,
-            "item": "ignitium_ingot"
+            "item": "cataclysm:ignitium_ingot"
         },
         {
             "amount": 1,

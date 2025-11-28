@@ -16,7 +16,7 @@
     "item_inputs": [
         {
             "amount": 9,
-            "item": "zanite_gemstone"
+            "item": "aether:zanite_gemstone"
         },
         {
             "amount": 1,

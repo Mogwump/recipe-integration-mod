@@ -16,7 +16,7 @@
     "item_inputs": [
         {
             "amount": 9,
-            "item": "netherite_gold_ingot"
+            "item": "advancednetherite:netherite_gold_ingot"
         },
         {
             "amount": 1,

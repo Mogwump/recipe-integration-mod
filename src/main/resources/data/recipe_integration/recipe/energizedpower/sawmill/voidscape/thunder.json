@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "voidscape"
+        }
+    ],
+
+    "type": "energizedpower:sawmill",
+    "ingredient": {
+        "tag": "voidscape:thunder_stems"
+    },
+    "output": {
+        "count": 6,
+        "item": "voidscape:thunder_planks"
+    },
+    "sawdustAmount": 1
+}

@@ -16,7 +16,7 @@
     "item_inputs": [
         {
             "amount": 9,
-            "item": "ambrosium_shard"
+            "item": "aether:ambrosium_shard"
         },
         {
             "amount": 1,

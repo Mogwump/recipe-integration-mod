@@ -6,7 +6,7 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "advancednetherite"
+            "modid": "mca"
         }
     ],
 
@@ -16,7 +16,7 @@
     "item_inputs": [
         {
             "amount": 9,
-            "item": "advancednetherite:netherite_iron_ingot"
+            "item": "mcca:rose_gold_ingot"
         },
         {
             "amount": 1,
@@ -27,7 +27,7 @@
     "item_outputs": [
         {
             "amount": 1,
-            "item": "advancednetherite:netherite_iron_block"
+            "item": "mca:rose_gold_block"
         }
     ]
 }

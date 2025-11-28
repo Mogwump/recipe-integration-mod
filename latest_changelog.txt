@@ -22,7 +22,8 @@ This is mostly for me to keep track of what commits I have made between versions
 
 * Added [Let's Do] BloomingNature (incomplete, see below), Environmental, Would to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Productive Trees sawmill
 let's do bloomingnature: ep, FD, faal, todo ie (do cactus at 800), Mek, MI, PT (merge with above when done)
-cobblemon: ep
+cobblemon: ep, mek, MI, PT
+Voidscape: ep, mek, MI, PT
 * Added Ars Elemental, Ars Nouveau, Atmospheric, Autumnity, Ice And Fire Community Edition, Integrated Dynamics, [Let's Do] BloomingNature, [Let's Do] Vinery, Nature's Spirit, Northstar Redux, Regions Unexplored, Silent Gear to Fossils and Archaeology Legacy ancient axe bonus
 * Added Occultism to Farmer's Delight stripping
 * Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
@@ -33,15 +34,15 @@ todo: farm and charm mincer stripping? Ore macerating?
 
 ### Misc
 
-* Added Advanced Netherite, Cataclysm, Silent Gear to Modern Industrialization packer, as well as additional recipes for: The Aether, Deep Aether
+* Added Advanced Netherite, Cataclysm, Minecraft Comes Alive, Silent Gear to Modern Industrialization packer, as well as additional recipes for: The Aether, Deep Aether
 todo: Powah, Many More Ores and Crafts, megacells, railcraft, more integrateddynamics (chorus), pneumaticcraft, iceandfire, enderio, environmental, bigreactors, undergarden rogdorium, oritech, biomeswevegone?, draconicevolution, mysticalagriculture, stellaris, forbidden_arcanus, landsoficaria, silentgems, productivetrees?, actuallyadditions
 todo: cobblemon in MI packer
 * Added more ores to Immersive Engineering arc furnace recipes
-* Added Crimson Iron, Inferium to Ars Nouveau scry ritual (todo: more silent gems?)
+* Added Crimson Iron, Inferium and Cobblemon stones to Ars Nouveau scry ritual (todo: more silent gems?)
 
 # Fixes/Tweaks for existing features:
 
-None so far
+* Started to add JAOPCA load conditions
 
 # Notes:
 
