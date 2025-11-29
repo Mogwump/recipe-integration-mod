@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "fossilslegacy"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+
+    "input": "eternal_starlight:starlight_mangrove_log",
+    "max_drop": 3,
+    "min_drop": 1,
+    "output": {
+        "id": "eternal_starlight:starlight_mangrove_planks"
+    }
+}
