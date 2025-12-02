@@ -15,50 +15,62 @@ This is mostly for me to keep track of what commits I have made between versions
 ### Misc
 
 * Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
+* Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
 
 # New mods for existing features:
 
 ### Wood
 
-* Added [Let's Do] BloomingNature, Environmental (todo), Would (todo) to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Modern Industrialization packer, Productive Trees sawmill
+* Added [Let's Do] BloomingNature, End's Phantasm (todo), Environmental (todo), Would (todo) to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Modern Industrialization packer, Productive Trees sawmill
 todo: MI packer for all of these (done bloomingnature, cobblemon, voidscape)
-cobblemon: ep, FD, mek, MI cut+pack, PT
-Voidscape: ep, FD, mek, MI cut+pack, PT
+phantasm: ep, MI cut+pack
+cobblemon: ep, FD, faal, mek, MI cut+pack, PT
+Voidscape: ep, FD, faal, ie, mek, MI cut+pack, PT
 * Added Ars Elemental, Ars Nouveau, Atmospheric, Autumnity, Biomes O' Plenty, Eternal Starlight, Ice And Fire Community Edition, Integrated Dynamics, [Let's Do] BloomingNature, [Let's Do] Vinery, Nature's Spirit, Northstar Redux, Oh The Biomes We've Gone, Regions Unexplored, Silent Gear to Fossils and Archaeology Legacy ancient axe bonus
 * Added Occultism to Farmer's Delight stripping
 * Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
 
-todo: more mods for FaAL axe bonus (Eternal Starlight)
 todo: infinity nexus greenhouse? (and flowers in the greenhouse?)
 todo: farm and charm mincer stripping? Ore macerating?
 
 ### Misc
 
 * Added Advanced Netherite, Advent Of Ascension, Autumnity, Cataclysm, Cobblemon, Eternal Starlight, Minecraft Comes Alive, PneumaticCraft: Repressurized, Silent Gear, Stargate Journey, Voidscape to Modern Industrialization packer, as well as additional recipes for: The Aether, Deep Aether
-todo: Powah, Many More Ores and Crafts, megacells, railcraft, more integrateddynamics (chorus), pneumaticcraft, iceandfire, enderio, environmental, bigreactors, undergarden rogdorium, oritech, biomeswevegone?, draconicevolution, mysticalagriculture, stellaris, forbidden_arcanus, landsoficaria, silentgems, productivetrees?, actuallyadditions
 * Added more ores to Immersive Engineering arc furnace recipes
 * Added Crimson Iron, Inferium and Cobblemon stones to Ars Nouveau scry ritual (todo: more silent gems?)
 
 # Fixes/Tweaks for existing features:
 
+* Added Eternal Starlight cradlewood to: MI cutting machine (todo others)
 * Started to add JAOPCA load conditions
+* Added load conditions for material tags. Should help with JAOPCA compatability.
+* Added Regions Unexplored silver birch log/wood to Modern Industrialization packer recipes
+* Fixed Silent Gear planks in the Modern Industrialization cutting machine
 
 # Notes:
 
 * Changed recipe ID for Create Crafts & Additions rolling from rolling_rods to rolling to better match existing IDs.
-TODO: MI unpacker + more mods, JAOPCA, Oritech?
-TODO: add nugget to ingot packing recipes for Silent Gear (check other mods)
-todo: MI vacuum freezer or Aether freezer for decorative frozen blocks? Icicle duplication recipe with water?
-todo: more fossils and archaeology ancient axe bonus recipes
+* Added a link to the Modrinth page for the mod homepage
 
 todo: Create deploying copper scraping+waxing?
 todo: Mekanism copper waxing/weathering/scraping?
 todo: modern Industrialization oxidation?
 todo: more modern industrialization wax crafting
 
-todo: test moving bz_bee_queen_trades under recipe_integration rather than bumblezone for consistency
-todo: test why there is magnolia_logs tag for regions unexplored
-
 todo: test/check data load conditions for tags (randomium blacklist, projecte ignore missing emc) - not working?
-todo: add gregtech to energizedpower sawmill? - gtceu currently crashing so can't test
 
+# Info about next version
+
+I might start learning java so I can rewrite the mod to use datagen soon. This will make adding compat much easier in the future, since it is starting to get a bit tedious, but it would likely take a while to set up.
+
+Once the mod is set up, I would be able to add support for many more mods, since adding them would be much faster, since I would only have to add a single mod ID and material name in the right place, like "phantasm" and "pream" and it would do all the wood recipes for End's Phantasm.
+
+However, I might deprecate some mods/features to refine the scope of this mod and improve compatability. Most notably ProjectE custom conversions. I will still add world transmutations, but [ProjectE Integration](https://modrinth.com/mod/projecte-integration) does a better job at handling the EMC values.
+
+Ore processing will also become a lower priority since JAOPCA does a better job at handling that. I will still add some recipes (with the appropriate load conditions from the beginning) and a few that aren't handled by JAOPCA like drilling for ores with Modern Industrialization, which will be a bit more of a stylized tweak.
+
+Basically, don't expect any major updates soon. There won't be an ETA. It could be a month or it could be a year. The mod is currently set up to work on any Minecraft version above 1.21, so unless there are any breaking changes, all I need to do is update the version on Modrinth for it to show for new versions, but it'll work anyway if you install the mod manually.
+
+I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21.
+
+I'll probably also change the license to MIT for the rewrite.

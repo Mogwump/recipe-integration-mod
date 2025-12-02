@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
     "values": [
         {
             "id": "deep_aether:skyjade_ore",

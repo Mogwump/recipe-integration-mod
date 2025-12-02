@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+
+    "type": "modern_industrialization:cutting_machine",
+    "duration": 100,
+    "eu": 2,
+    "fluid_inputs": [
+        {
+            "amount": 1,
+            "fluid": "modern_industrialization:lubricant"
+        }
+    ],
+    "item_inputs": [
+        {
+            "amount": 1,
+            "item": "cataclysm:chorus_stem"
+        }
+    ],
+    "item_outputs": [
+        {
+            "amount": 3,
+            "item": "cataclysm:chorus_planks"
+        }
+    ]
+}

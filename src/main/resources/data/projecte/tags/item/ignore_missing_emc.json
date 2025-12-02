@@ -161,6 +161,12 @@
 
 
         {
+            "id": "superbwarfare:creative_upgrade",
+            "required": false
+        },
+
+
+        {
             "id": "usefulmachinery:creative_power_cell",
             "required": false
         },

@@ -6,7 +6,7 @@
         },
         {
             "type": "neoforge:mod_loaded",
-            "modid": "vanillabackport"
+            "modid": "silentgear"
         }
     ],
 
@@ -22,13 +22,13 @@
     "item_inputs": [
         {
             "amount": 1,
-            "tag": "vanillabackport:netherwood_logs"
+            "tag": "silentgear:netherwood_logs"
         }
     ],
     "item_outputs": [
         {
             "amount": 6,
-            "item": "vanillabackport:netherwood_planks"
+            "item": "silentgear:netherwood_planks"
         }
     ]
 }

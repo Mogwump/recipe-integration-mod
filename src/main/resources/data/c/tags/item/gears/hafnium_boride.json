@@ -1,4 +1,13 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:gears/hafnium_boride"
+            }
+        }
+    ],
     "values": [
         {
             "id": "industrialupgrade:alloygear/hafnium_boride_alloy",
