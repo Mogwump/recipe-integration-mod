@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "productivetrees"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "phantasm"
+        }
+    ],
+
+    "type": "productivetrees:sawmill",
+    "input": {
+        "tag": "phantasm:pream_logs"
+    },
+    "output": {
+        "count": 6,
+        "id": "phantasm:pream_planks"
+    },
+    "secondary": {
+        "count": 2,
+        "id": "productivetrees:sawdust"
+    },
+    "tertiary": {}
+}

@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "redstone-capacitor"
+        }
+    ],
+
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "RCT",
+        "###"
+    ],
+    "key": {
+        "C": {"tag": "c:plates/brass"},
+        "R": {"item": "minecraft:amethyst_shard"},
+        "T": {"item": "minecraft:redstone_torch"},
+        "#": {"item": "eternal_starlight:cinder_brick"}
+    },
+    "result": {
+        "id": "create:pulse_timer",
+        "count": 3
+    }
+}

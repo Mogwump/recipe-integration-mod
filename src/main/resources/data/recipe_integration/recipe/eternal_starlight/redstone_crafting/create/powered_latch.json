@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "redstone-capacitor"
+        }
+    ],
+
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        " T ",
+        "RCR",
+        "###"
+    ],
+    "key": {
+        "C": {"item": "minecraft:lever"},
+        "R": {"tag": "c:dusts/redstone"},
+        "T": {"item": "minecraft:redstone_torch"},
+        "#": {"item": "eternal_starlight:cinder_brick"}
+    },
+    "result": {
+        "id": "create:powered_latch",
+        "count": 3
+    }
+}
