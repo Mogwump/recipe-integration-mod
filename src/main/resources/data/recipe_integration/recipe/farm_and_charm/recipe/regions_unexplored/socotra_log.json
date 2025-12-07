@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "regions_unexplored"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "regions_unexplored:socotra_log"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "regions_unexplored:stripped_socotra_log",
+        "count": 1
+    }
+}

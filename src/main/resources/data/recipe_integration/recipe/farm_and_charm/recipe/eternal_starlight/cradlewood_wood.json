@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "eternal_starlight:cradlewood_wood"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "eternal_starlight:stripped_cradlewood_wood",
+        "count": 1
+    }
+}

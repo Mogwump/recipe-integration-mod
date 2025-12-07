@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "phantasm"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "phantasm:pream_wood"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "phantasm:stripped_pream_wood",
+        "count": 1
+    }
+}
