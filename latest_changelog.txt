@@ -12,6 +12,11 @@ This is mostly for me to keep track of what commits I have made between versions
 
 * Added Energized Power Plant Growth Chamber recipes for modded flowers. Currently: The Aether, Autumnity, Deep Aether, Environmental (more mods coming soon)
 
+### Wood
+
+* Added Farm and Charm mincer stripping recipes. Currently: Cobblemon, Voidscape
+* TODO: Added stripped logs to Modern Industrialization cutting machine. Currently: Cobblemon, Regions Unexplored, Voidscape
+
 ### Misc
 
 * Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor
@@ -28,9 +33,6 @@ todo: MI packer for all of these (done bloomingnature, cobblemon, voidscape)
 * Added Ars Elemental, Ars Nouveau, Atmospheric, Autumnity, Biomes O' Plenty, Eternal Starlight, Ice And Fire Community Edition, Integrated Dynamics, [Let's Do] BloomingNature, [Let's Do] Vinery, Nature's Spirit, Northstar Redux, Oh The Biomes We've Gone, Regions Unexplored, Silent Gear to Fossils and Archaeology Legacy ancient axe bonus
 * Added Occultism to Farmer's Delight stripping
 * Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
-
-todo: infinity nexus greenhouse? (and flowers in the greenhouse?)
-todo: farm and charm mincer stripping? Ore macerating?
 
 ### Misc
 
@@ -52,7 +54,8 @@ todo: farm and charm mincer stripping? Ore macerating?
 * Added a link to the Modrinth page for the mod homepage
 
 # Known Bugs:
-Load conditions for tags don't seem to be working (randomium blacklist, projecte ignore missing emc) (check this with new mod jar)
+
+Load conditions for tags don't seem to be working (randomium blacklist, projecte ignore missing emc). This means the tags will be loaded even if the respective mod isn't. This won't cause any issues other than unnecessary bloat in the tags. (check this with new mod jar)
 
 # Info about next version
 
