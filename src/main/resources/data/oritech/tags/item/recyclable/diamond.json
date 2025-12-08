@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        }
+    ],
+    "values": [
+        {
+            "id": "crittersandcompanions:diamond_dragonfly_armor",
+            "required": false
+        },
+
+
+        {
+            "id": "sgjourney:diamond_iris",
+            "required": false
+        },
+
+
+        {
+            "id": "superbwarfare:diamond_hammer",
+            "required": false
+        }
+    ]
+}

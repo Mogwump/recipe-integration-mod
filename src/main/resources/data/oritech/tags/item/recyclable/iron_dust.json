@@ -1,0 +1,44 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        }
+    ],
+    "values": [
+        {
+            "id": "crittersandcompanions:iron_dragonfly_armor",
+            "required": false
+        },
+
+
+        {
+            "id": "mcwbridges:iron_bridge",
+            "required": false
+        },
+        {
+            "id": "mcwbridges:iron_bridge_stair",
+            "required": false
+        },
+
+
+        {
+            "id": "sgjourney:iron_iris",
+            "required": false
+        },
+
+
+        {
+            "id": "superbwarfare:hammer",
+            "required": false
+        },
+        {
+            "id": "superbwarfare:iron_spring",
+            "required": false
+        },
+        {
+            "id": "superbwarfare:iron_trigger",
+            "required": false
+        }
+    ]
+}
