@@ -17,6 +17,10 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added Farm and Charm mincer stripping recipes. Currently: Cobblemon, End's Phantasm, Eternal Starlight, [Let's Do] Vinery, Occultism, Regions Unexplored, Voidscape
 * TODO: Added stripped logs to Modern Industrialization cutting machine. Currently: Cobblemon, Regions Unexplored, Voidscape
 
+### Ores
+
+* Added Farm and Charm mincer recipes for ores. Currently: Create: TFMG, Irons' Spells 'n Spellbooks
+
 ### Misc
 
 * Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor

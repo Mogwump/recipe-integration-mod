@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "occultism"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "occultism:iesnium_ore"
+    },
+    "recipe_type": "METAL",
+    "result": {
+        "id": "occultism:raw_iesnium",
+        "count": 3
+    }
+}

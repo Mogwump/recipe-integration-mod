@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "irons_spellbooks:deepslate_mithril_ore"
+    },
+    "recipe_type": "METAL",
+    "result": {
+        "id": "irons_spellbooks:raw_mithril",
+        "count": 3
+    }
+}
