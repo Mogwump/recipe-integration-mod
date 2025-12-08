@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "stellaris"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "jaopca"
+        },
+        {
+            "type": "neoforge:item_exists",
+            "item": "jaopca:oritech_gems.neptunium"
+        }
+    ],
+
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {"item": "jaopca:oritech_gems.neptunium"},
+        {"item": "jaopca:oritech_gems.neptunium"}
+    ],
+    "results": [
+        {
+            "id": "stellaris:neptunium_ingot",
+            "count": 3
+        }
+    ]
+}

@@ -26,6 +26,9 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor
 * Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
 * Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
+* Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
+* Added Superb Warfare tags. Currently: [Let's Do] Farm & Charm, Tomato Mod
+* Added supplementaries hourglass sands tag to Stargate Journey sulfur sand.
 
 # New mods for existing features:
 
@@ -73,8 +76,8 @@ Ore processing will also become a lower priority since JAOPCA does a better job 
 
 Basically, don't expect any **major** updates soon. There won't be an ETA. It could be a month or it could be a year. The mod is currently set up to work on any Minecraft version above 1.21, so unless there are any breaking changes, all I need to do is update the version on Modrinth for it to show for new versions, but it'll work anyway if you install the mod manually.
 
-There will still be a few smaller changes and additions to the current mod whilst the rewrite is in development, but not any big new features.
+There will still be a few smaller changes and additions to the current mod whilst the rewrite is in development, but not any big new features. I will primarily be focusing on a few select mods (ones that are in a private modpack for me and some friends).
 
-I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21.
+I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21 (like 1.20.1). Still unlikely, but much more likely than before.
 
-I'll probably also change the license to MIT for the rewrite.
+I'll probably also change the license to Apache 2.0 for the rewrite.

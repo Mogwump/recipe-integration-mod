@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "computercraft"
+        }
+    ],
+    "values": [
+        {
+            "id": "tomato:tomato_block",
+            "required": false
+        }
+    ]
+}
