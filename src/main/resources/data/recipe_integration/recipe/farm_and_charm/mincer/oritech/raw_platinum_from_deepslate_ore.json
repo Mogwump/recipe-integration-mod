@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "oritech"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "oritech:deepslate_platinum_ore"
+    },
+    "recipe_type": "METAL",
+    "result": {
+        "id": "oritech:raw_platinum",
+        "count": 3
+    }
+}

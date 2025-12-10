@@ -5,8 +5,8 @@ This is mostly for me to keep track of what commits I have made between versions
 ### Copper
 
 * Added Create Crafts & Additions charging recipes (copper deoxidising). Currently: Fossils and Archaeology Legacy
-* Added Mekanism combining recipes (waxing). Currently: Fossils and Archaeology Legacy (todo create?)
-* Added Mekanism injecting recipes (oxidizing). Currently: Create (todo faal?)
+* Added Mekanism combining recipes (waxing). Currently: Fossils and Archaeology Legacy. (Create coming soon)
+* Added Mekanism injecting recipes (oxidizing). Currently: Create. (Fossils and Archaeology Legacy coming soon)
 
 ### Plants
 
@@ -15,11 +15,11 @@ This is mostly for me to keep track of what commits I have made between versions
 ### Wood
 
 * Added Farm and Charm mincer stripping recipes. Currently: Cobblemon, End's Phantasm, Eternal Starlight, [Let's Do] Vinery, Occultism, Regions Unexplored, Voidscape
-* TODO: Added stripped logs to Modern Industrialization cutting machine. Currently: Cobblemon, Regions Unexplored, Voidscape
 
 ### Ores
 
-* Added Farm and Charm mincer recipes for ores. Currently: Create: TFMG, Irons' Spells 'n Spellbooks
+* Added Farm and Charm mincer recipes for ores. Currently: Create: TFMG, Irons' Spells 'n Spellbooks, Oritech, Stargate Journey
+* Added Create mixing recipes for Oritech gems added by JAOPCA. Each mod is not guaranteed to be fully complete. Currently: Create, Create: TFMG, Eternal Starlight, Iron's Spells 'n Spellbooks, Modern Industrialization, Occultism, Stellaris
 
 ### Misc
 
@@ -28,7 +28,8 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
 * Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
 * Added Superb Warfare tags. Currently: [Let's Do] Farm & Charm, Tomato Mod
-* Added supplementaries hourglass sands tag to Stargate Journey sulfur sand.
+* Added supplementaries hourglass sands tag to Stargate Journey sulfur sand
+* Added Oritech recycling tags to several mods. Currently: Create, Critters And Companions, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, Stargate Journey, Superb Warfare, Supplementaries
 
 # New mods for existing features:
 
@@ -43,7 +44,7 @@ todo: MI packer for all of these (done bloomingnature, cobblemon, voidscape)
 
 ### Misc
 
-* Added Advanced Netherite, Advent Of Ascension, Autumnity, Cataclysm, Cobblemon, Eternal Starlight, Minecraft Comes Alive, PneumaticCraft: Repressurized, Silent Gear, Stargate Journey, Voidscape to Modern Industrialization packer, as well as additional recipes for: The Aether, Deep Aether
+* Added Advanced Netherite, Advent Of Ascension, Autumnity, Cataclysm, Cobblemon, Eternal Starlight, Minecraft Comes Alive, PneumaticCraft: Repressurized, Silent Gear, Stargate Journey, Voidscape to Modern Industrialization packer, as well as additional recipes for: The Aether, Cobblemon, Deep Aether
 * Added more ores to Immersive Engineering arc furnace recipes
 * Added Crimson Iron, Inferium and Cobblemon stones to Ars Nouveau scry ritual (todo: more silent gems?)
 
@@ -81,3 +82,9 @@ There will still be a few smaller changes and additions to the current mod whils
 I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21 (like 1.20.1). Still unlikely, but much more likely than before.
 
 I'll probably also change the license to Apache 2.0 for the rewrite.
+
+TODO:
+
+* MI unpacker for cobblemon coins + all the other stuff
+* Stripped logs in MI cutting machine
+* copper recipes (faal in mek injecting, Create in mek combining)
