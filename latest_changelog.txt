@@ -24,12 +24,17 @@ This is mostly for me to keep track of what commits I have made between versions
 ### Misc
 
 * Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor
+* Added Create milling recipes. Currently Stellaris venus sandstone -> venus sand
+* Added Occultism nature paste crafting. Currently: Regions Unexplored mossy stone
 * Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
 * Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
 * Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
 * Added Superb Warfare tags. Currently: [Let's Do] Farm & Charm, Tomato Mod
 * Added supplementaries hourglass sands tag to Stargate Journey sulfur sand
+* Added supplementaries throwable bricks tag to Eternal Starlight, TFMG
 * Added Oritech recycling tags to several mods. Currently: Create, Critters And Companions, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, Stargate Journey, Superb Warfare, Supplementaries
+* Added fuel values from Modern Industrialization to a few fluids
+* Added Minecraft stone tool materials tag to cobblestones from Stellaris
 
 # New mods for existing features:
 
@@ -37,7 +42,7 @@ This is mostly for me to keep track of what commits I have made between versions
 
 * Added [Let's Do] BloomingNature, Cobblemon, End's Phantasm, Environmental (check what's done), Voidscape, Would (check what's done) to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Modern Industrialization packer, Productive Trees sawmill
 (Note: End's Phantsm was already in Farmer's Delight stripping and Immersive Engineering sawmill recipes)
-todo: MI packer for all of these (done bloomingnature, cobblemon, voidscape)
+todo: MI packer for Environmental, Would
 * Added Ars Elemental, Ars Nouveau, Atmospheric, Autumnity, Biomes O' Plenty, Eternal Starlight, Ice And Fire Community Edition, Integrated Dynamics, [Let's Do] BloomingNature, [Let's Do] Vinery, Nature's Spirit, Northstar Redux, Oh The Biomes We've Gone, Regions Unexplored, Silent Gear to Fossils and Archaeology Legacy ancient axe bonus
 * Added Occultism to Farmer's Delight stripping
 * Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
@@ -77,7 +82,7 @@ Ore processing will also become a lower priority since JAOPCA does a better job 
 
 Basically, don't expect any **major** updates soon. There won't be an ETA. It could be a month or it could be a year. The mod is currently set up to work on any Minecraft version above 1.21, so unless there are any breaking changes, all I need to do is update the version on Modrinth for it to show for new versions, but it'll work anyway if you install the mod manually.
 
-There will still be a few smaller changes and additions to the current mod whilst the rewrite is in development, but not any big new features. I will primarily be focusing on a few select mods (ones that are in a private modpack for me and some friends).
+There will still be a few smaller changes and additions to the current mod whilst the rewrite is in development, but not any big new features. I will primarily be focusing on a few select mods.
 
 I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21 (like 1.20.1). Still unlikely, but much more likely than before.
 

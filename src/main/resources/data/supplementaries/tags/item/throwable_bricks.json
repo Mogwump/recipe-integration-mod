@@ -7,7 +7,12 @@
     ],
     "values": [
         {
-            "id": "sgjourney:sulfur_sand",
+            "id": "eternal_starlight:cinder_brick",
+            "required": false
+        },
+
+        {
+            "id": "tfmg:fireproof_brick",
             "required": false
         }
     ]
