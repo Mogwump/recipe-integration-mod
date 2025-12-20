@@ -2,13 +2,16 @@ You may:
 
 * Use this mod in any Minecraft modpack, then redistribute that modpack however you see fit.
 * Fork and redistribute this mod if and only if it is to a modloader other than Neoforge.
+* Introduce new terms into the license for any forked versions of this mod.
 * Contribute to the mod on the github page. This does not entitle you to any ownership over the mod.
 
 You may not:
 
-* Claim ownership to this mod
-* Redistribute this mod's source
-* Redistribute the compiled mod on its own (i.e. not in a Minecraft modpack)
+* Claim ownership to this mod.
+* Redistribute this mod's source.
+* Redistribute the compiled mod on its own (i.e. not in a Minecraft modpack).
+* Use this project to train generative AI.
+* Remove any terms from this license for any forked versions of this mod.
 
 All Rights Reserved
 
