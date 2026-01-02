@@ -14,6 +14,7 @@ This is mostly for me to keep track of what commits I have made between versions
 
 ### Wood
 
+* Addes Aether skyroot planks crafting recipes. Currently: Chipped, Galosphere. TODO: Mekanism (+extras), Actually Additions, Farmer's Delight, etc
 * Added Farm and Charm mincer stripping recipes. Currently: Cobblemon, End's Phantasm, Eternal Starlight, [Let's Do] Vinery, Occultism, Regions Unexplored, Voidscape
 
 ### Ores
@@ -63,6 +64,8 @@ todo: MI packer for Environmental, Would
 
 # Notes:
 
+### Removed Productive Trees support. See below for reasoning.
+
 * Changed recipe ID for Create Crafts & Additions rolling from rolling_rods to rolling to better match existing IDs.
 * Added a link to the Modrinth page for the mod homepage
 
@@ -86,7 +89,36 @@ There will still be a few smaller changes and additions to the current mod whils
 
 I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21 (like 1.20.1). Still unlikely, but much more likely than before.
 
-I'll probably also change the license to Apache 2.0 for the rewrite.
+# Why did I remove Productive Trees and Allthemodium support?
+
+TW: suicide
+
+The creator of Productive Trees and one of the developers for AllTheMods packs, [LobsterJonn](https://modrinth.com/user/LobsterJonn), made a mod called "It's A Kid's Game", which "Removes gender related content from other mods". He has since deleted it, but let me give some info about why this is homophobic if you're confused.
+
+- LGBTQ+ youth are more than four times as likely to attempt suicide
+- 39% of LGBTQ+ young people seriously considered attempting suicide in the past year, including roughly half of transgender and nonbinary youth.
+- The Trevor Project estimates that more than 1.8 million LGBTQ+ young people (ages 13-24) seriously consider suicide each year in the U.S. — and at least one attempts suicide every 45 seconds.
+- Transgender and nonbinary youth are 2 to 2.5 times as likely to experience depressive symptoms, seriously consider suicide, and attempt suicide compared to their cisgender LGBQ peers, who are ALREADY at a much higher risk.
+
+These people are questioning their entire identity and existence. When everyone on the news claims that they're perverts for simply existing, or that they're unnatural, or that they're delusional, the causes are obvious.
+
+Preventing children from seeing anything gender-related and looking into it and possibly finding an explanation as to why they feel so different only worsens the issue.
+
+Put simply (and somewhat harshly, but still realistic): LobsterJonn is contributing to killing a demographic of children.
+
+I will not support homophobia or transphobia. I will not endorse it. I will not even stand idle. I did not realise it was LobsterJonn who made the mod.
+
+## Will this even do anything?
+
+Unlikely. My mod has 4k downloads, and I doubt many people are even reading this. But if everyone has the mentality of "I'm just one person. How can I change anything?", then nothing will be done. Collective action works. Boycotts work.
+
+You can share the statistics. You can spread awareness. You can spread the truth. You can donate to charities like the Trevor Project that helps LGBTQ+ youth. And you can openly express your support so that if someone you know is questioning their identity, they feel safe to talk about it.
+
+## Info and sources:
+
+https://www.reddit.com/r/feedthememes/comments/1jnpeoj/a_third_atm_homophobia_scandal_has_hit_the_modded/
+
+https://www.thetrevorproject.org/resources/article/facts-about-lgbtq-youth-suicide/
 
 TODO:
 

@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "chipped"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {"item": "minecraft:crafting_table"},
+        "A": {"item": "minecraft:iron_axe"},
+        "I": {"item": "minecraft:iron_ingot"},
+        "P": {"tag": "aether:planks_crafting"}
+    },
+    "pattern": [
+        "A I",
+        "P#P",
+        "PPP"
+    ],
+    "result": {
+        "count": 1,
+        "id": "chipped:carpenters_table"
+    }
+}
