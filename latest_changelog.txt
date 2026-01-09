@@ -32,7 +32,7 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
 * Added Superb Warfare tags. Currently: [Let's Do] Farm & Charm, Tomato Mod
 * Added supplementaries hourglass sands tag to Stargate Journey sulfur sand
-* Added supplementaries throwable bricks tag to Eternal Starlight, TFMG
+* Added supplementaries throwable bricks tag to Eternal Starlight, TerraFirmaCraft, TFMG
 * Added Oritech recycling tags to several mods. Currently: Create, Critters And Companions, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, Stargate Journey, Superb Warfare, Supplementaries
 * Added fuel values from Modern Industrialization to a few fluids
 * Added Minecraft stone tool materials tag to cobblestones from Stellaris

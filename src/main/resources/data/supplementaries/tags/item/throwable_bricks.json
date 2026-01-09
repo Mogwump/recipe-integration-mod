@@ -12,6 +12,96 @@
         },
 
         {
+            "id": "modern_industrialization:fire_clay_brick",
+            "required": false
+        },
+
+        {
+            "id": "tfc:brick/granite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/diorite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/gabbro",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/shale",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/claystone",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/limestone",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/conglomerate",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/dolomite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/chert",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/chalk",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/tuff",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/rhyolite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/basalt",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/andesite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/dacite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/quartzite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/slate",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/phyllite",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/schist",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/gneiss",
+            "required": false
+        },
+        {
+            "id": "tfc:brick/marble",
+            "required": false
+        },
+
+        {
             "id": "tfmg:fireproof_brick",
             "required": false
         }
