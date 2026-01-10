@@ -13,35 +13,31 @@
 
 
         {
-            "id": "aether:golden_ring",
+            "id": "aether:golden_pendant",
+            "required": false
+        },
+        {
+            "id": "create:golden_sheet",
             "required": false
         },
 
 
         {
-            "id": "crittersandcompanions:gold_dragonfly_armor",
+            "id": "mcwlights:golden_chain",
+            "required": false
+        },
+        {
+            "id": "mcwlights:golden_curtain_rod",
             "required": false
         },
 
 
         {
-            "id": "sgjourney:golden_iris",
-            "required": false
-        },
-
-
-        {
-            "id": "superbwarfare:golden_hammer",
-            "required": false
-        },
-
-
-        {
-            "id": "supplementaries:gold_door",
+            "id": "modern_industrialization:gold_curved_plate",
             "required": false
         },
         {
-            "id": "supplementaries:gold_trapdoor",
+            "id": "modern_industrialization:gold_plate",
             "required": false
         }
     ]

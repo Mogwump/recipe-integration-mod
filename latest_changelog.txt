@@ -22,18 +22,22 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added Farm and Charm mincer recipes for ores. Currently: Create: TFMG, Irons' Spells 'n Spellbooks, Oritech, Stargate Journey
 * Added Create mixing recipes for Oritech gems added by JAOPCA. Each mod is not guaranteed to be fully complete. Currently: Create, Create: TFMG, Eternal Starlight, Iron's Spells 'n Spellbooks, Modern Industrialization, Occultism, Stellaris
 
+### Plates
+
+* Added Railcraft Reborn metal rolling for plates from: Create Crafts & Additions, Energized Power, Modern Industrialization
+
 ### Misc
 
 * Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor
 * Added Create milling recipes. Currently Stellaris venus sandstone -> venus sand
-* Added Occultism nature paste crafting. Currently: Regions Unexplored mossy stone
+* Added Occultism nature paste crafting. Currently: The Aether, Deep Aether, [Let's Do] BloomingNature, Nature's Spirit, Oh The Biomes We've Gone, Regions Unexplored
 * Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
 * Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
 * Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
 * Added Superb Warfare tags. Currently: [Let's Do] Farm & Charm, Tomato Mod
 * Added supplementaries hourglass sands tag to Stargate Journey sulfur sand
 * Added supplementaries throwable bricks tag to Eternal Starlight, TerraFirmaCraft, TFMG
-* Added Oritech recycling tags to several mods. Currently: Create, Critters And Companions, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, Stargate Journey, Superb Warfare, Supplementaries
+* Added Oritech recycling tags to several mods. Currently: The Aether, Create, Critters And Companions, Energized Power, Ice And Fire Community Edition, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, PneumaticCraft, Stargate Journey, Superb Warfare, Supplementaries
 * Added fuel values from Modern Industrialization to a few fluids
 * Added Minecraft stone tool materials tag to cobblestones from Stellaris
 
@@ -41,7 +45,7 @@ This is mostly for me to keep track of what commits I have made between versions
 
 ### Wood
 
-* Added [Let's Do] BloomingNature, Cobblemon, End's Phantasm, Environmental (check what's done), Voidscape, Would (check what's done) to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Modern Industrialization packer, Productive Trees sawmill
+* Added [Let's Do] BloomingNature, Cobblemon, End's Phantasm, Environmental (check what's done), Nexus, Voidscape, Would (check what's done) to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Modern Industrialization packer
 (Note: End's Phantsm was already in Farmer's Delight stripping and Immersive Engineering sawmill recipes)
 todo: MI packer for Environmental, Would
 * Added Ars Elemental, Ars Nouveau, Atmospheric, Autumnity, Biomes O' Plenty, Eternal Starlight, Ice And Fire Community Edition, Integrated Dynamics, [Let's Do] BloomingNature, [Let's Do] Vinery, Nature's Spirit, Northstar Redux, Oh The Biomes We've Gone, Regions Unexplored, Silent Gear to Fossils and Archaeology Legacy ancient axe bonus
@@ -125,3 +129,4 @@ TODO:
 * MI unpacker for cobblemon coins + all the other stuff
 * Stripped logs in MI cutting machine
 * copper recipes (faal in mek injecting, Create in mek combining)
+* Check Oritech recyclable tags between regular dust and small dust
