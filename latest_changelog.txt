@@ -31,6 +31,7 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor
 * Added Create milling recipes. Currently Stellaris venus sandstone -> venus sand
 * Added Occultism nature paste crafting. Currently: The Aether, Deep Aether, [Let's Do] BloomingNature, Nature's Spirit, Oh The Biomes We've Gone, Regions Unexplored
+* Added Biomes O' Plenty willow vine crafting. Currently: The Aether, Nature's Spirit, Regions Unexplored
 * Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
 * Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
 * Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
@@ -116,7 +117,7 @@ I will not support homophobia or transphobia. I will not endorse it. I will not 
 
 Unlikely. My mod has 4k downloads, and I doubt many people are even reading this. But if everyone has the mentality of "I'm just one person. How can I change anything?", then nothing will be done. Collective action works. Boycotts work.
 
-You can share the statistics. You can spread awareness. You can spread the truth. You can donate to charities like the Trevor Project that helps LGBTQ+ youth. And you can openly express your support so that if someone you know is questioning their identity, they feel safe to talk about it.
+You can share the statistics. You can spread awareness. You can donate to charities like the Trevor Project that helps LGBTQ+ youth. And you can openly express your support so that if someone you know is questioning their identity, they feel safe to talk about it.
 
 ## Info and sources:
 
@@ -130,3 +131,4 @@ TODO:
 * Stripped logs in MI cutting machine
 * copper recipes (faal in mek injecting, Create in mek combining)
 * Check Oritech recyclable tags between regular dust and small dust
+* Finish Biomes O' Plenty willow vine crafting

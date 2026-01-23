@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "deep_aether"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "deep_aether:holystone_tiles"
+        },
+        {
+            "item": "biomesoplenty:willow_vine"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "deep_aether:mossy_holystone_tiles"
+    }
+}

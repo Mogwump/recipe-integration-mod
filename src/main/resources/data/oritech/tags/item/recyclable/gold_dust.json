@@ -19,7 +19,23 @@
 
 
         {
+            "id": "create_ironworks:gold_hammer",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:gold_paxel",
+            "required": false
+        },
+
+
+        {
             "id": "crittersandcompanions:gold_dragonfly_armor",
+            "required": false
+        },
+
+
+        {
+            "id": "modern_industrialization:gold_drill_head",
             "required": false
         },
 

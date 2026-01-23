@@ -1,0 +1,20 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        }
+    ],
+    "values": [
+        {
+            "id": "aether:iron_pendant",
+            "required": false
+        },
+
+
+        {
+            "id": "projectred_core:iron_coil",
+            "required": false
+        }
+    ]
+}

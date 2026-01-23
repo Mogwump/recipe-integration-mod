@@ -26,8 +26,10 @@
             "id": "mcwlights:golden_chain",
             "required": false
         },
+
+
         {
-            "id": "mcwlights:golden_curtain_rod",
+            "id": "mcwwindows:golden_curtain_rod",
             "required": false
         },
 

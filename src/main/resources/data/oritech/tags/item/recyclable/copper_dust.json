@@ -7,77 +7,59 @@
     ],
     "values": [
         {
-            "id": "aether:iron_ring",
+            "id": "#c:gears/copper",
             "required": false
         },
 
 
         {
-            "id": "create_ironworks:iron_hammer",
+            "id": "create_ironworks:copper_sword",
             "required": false
         },
         {
-            "id": "create_ironworks:iron_paxel",
-            "required": false
-        },
-
-
-        {
-            "id": "createoreexcavation:drill",
-            "required": false
-        },
-
-
-        {
-            "id": "crittersandcompanions:iron_dragonfly_armor",
-            "required": false
-        },
-
-
-        {
-            "id": "immersiveengineering:drillhead_iron",
-            "required": false
-        },
-
-
-        {
-            "id": "mcwbridges:iron_bridge",
+            "id": "create_ironworks:copper_hammer",
             "required": false
         },
         {
-            "id": "mcwbridges:iron_bridge_stair",
+            "id": "create_ironworks:copper_paxel",
             "required": false
         },
-
-
         {
-            "id": "railcraft:iron_electrode",
+            "id": "create_ironworks:copper_pickaxe",
             "required": false
         },
-
-
         {
-            "id": "sgjourney:iron_iris",
+            "id": "create_ironworks:copper_axe",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:copper_shovel",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:copper_hoe",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:copper_armor_helmet",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:copper_armor_chestplate",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:copper_armor_leggings",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:copper_armor_boots",
             "required": false
         },
 
 
         {
-            "id": "superbwarfare:hammer",
-            "required": false
-        },
-        {
-            "id": "superbwarfare:iron_spring",
-            "required": false
-        },
-        {
-            "id": "superbwarfare:iron_trigger",
-            "required": false
-        },
-
-
-        {
-            "id": "vampirism:crucifix_enhanced",
+            "id": "sgjourney:copper_iris",
             "required": false
         }
     ]
