@@ -40,6 +40,7 @@ This is mostly for me to keep track of what commits I have made between versions
 * Added supplementaries throwable bricks tag to Eternal Starlight, TerraFirmaCraft, TFMG
 * Added Oritech recycling tags to several mods. Currently: The Aether, Create, Critters And Companions, Energized Power, Ice And Fire Community Edition, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, PneumaticCraft, Stargate Journey, Superb Warfare, Supplementaries
 * Added fuel values from Modern Industrialization to a few fluids
+* Added tags for the mod "Bingo" for various mods
 * Added Minecraft stone tool materials tag to cobblestones from Stellaris
 
 # New mods for existing features:
@@ -115,7 +116,7 @@ I will not support homophobia or transphobia. I will not endorse it. I will not 
 
 ## Will this even do anything?
 
-Unlikely. My mod has 4k downloads, and I doubt many people are even reading this. But if everyone has the mentality of "I'm just one person. How can I change anything?", then nothing will be done. Collective action works. Boycotts work.
+Unlikely. My mod has 7k downloads, and I doubt many people are even reading this. But if everyone has the mentality of "I'm just one person. How can I change anything?", then nothing will be done. Collective action works. Boycotts work.
 
 You can share the statistics. You can spread awareness. You can donate to charities like the Trevor Project that helps LGBTQ+ youth. And you can openly express your support so that if someone you know is questioning their identity, they feel safe to talk about it.
 
@@ -131,4 +132,5 @@ TODO:
 * Stripped logs in MI cutting machine
 * copper recipes (faal in mek injecting, Create in mek combining)
 * Check Oritech recyclable tags between regular dust and small dust
+* Lithereal planks + ore recipes
 * Finish Biomes O' Plenty willow vine crafting
