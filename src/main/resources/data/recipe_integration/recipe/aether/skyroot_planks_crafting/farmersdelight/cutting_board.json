@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "tag": "aether:planks_crafting"
+        },
+        "/": {
+            "item": "aether:skyroot_stick"
+        }
+    },
+    "pattern": [
+        "/##",
+        "/##"
+    ],
+    "result": {
+        "count": 1,
+        "item": "farmersdelight:cutting_board"
+    },
+    "show_notification": true
+}

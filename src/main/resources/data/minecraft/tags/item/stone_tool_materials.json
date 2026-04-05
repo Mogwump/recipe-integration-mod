@@ -1,0 +1,20 @@
+{
+    "values": [
+        {
+            "id": "stellaris:mars_cobblestone",
+            "required": false
+        },
+        {
+            "id": "stellaris:mercury_cobblestone",
+            "required": false
+        },
+        {
+            "id": "stellaris:moon_cobblestone",
+            "required": false
+        },
+        {
+            "id": "stellaris:venus_cobblestone",
+            "required": false
+        }
+    ]
+}

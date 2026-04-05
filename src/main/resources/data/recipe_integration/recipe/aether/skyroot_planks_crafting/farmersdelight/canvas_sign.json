@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "farmersdelight:canvas"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "w": {
+            "tag": "aether:planks_crafting"
+        }
+    },
+    "pattern": [
+        "w#w",
+        "w#w",
+        " / "
+    ],
+    "result": {
+        "count": 3,
+        "item": "farmersdelight:canvas_sign"
+    },
+    "show_notification": true
+}

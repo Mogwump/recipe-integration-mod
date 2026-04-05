@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "railcraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createaddition"
+        }
+    ],
+    "type": "railcraft:rolling",
+    "key": {
+        "a": {
+            "tag": "c:ingots/electrum"
+        }
+    },
+    "pattern": [
+        "aa",
+        "aa"
+    ],
+    "result": {
+        "count": 4,
+        "id": "createaddition:electrum_plate"
+    }
+}

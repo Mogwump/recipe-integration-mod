@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "eternal_starlight"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "jaopca"
+        },
+        {
+            "type": "neoforge:item_exists",
+            "item": "jaopca:oritech_gems.deepsilver"
+        }
+    ],
+
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {"item": "jaopca:oritech_gems.deepsilver"},
+        {"item": "jaopca:oritech_gems.deepsilver"}
+    ],
+    "results": [
+        {
+            "id": "eternal_starlight:deepsilver_ingot",
+            "count": 3
+        }
+    ]
+}

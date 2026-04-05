@@ -1,0 +1,182 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "bingo"
+        }
+    ],
+    "values": [
+        {
+            "id": "aether:gold_dungeon_key",
+            "required": false
+        },
+        {
+            "id": "aether:golden_gloves",
+            "required": false
+        },
+        {
+            "id": "aether:golden_gummy_swet",
+            "required": false
+        },
+        {
+            "id": "aether:golden_parachute",
+            "required": false
+        },
+        {
+            "id": "aether:golden_pendant",
+            "required": false
+        },
+        {
+            "id": "aether:golden_ring",
+            "required": false
+        },
+
+
+        {
+            "id": "create:crushed_raw_gold",
+            "required": false
+        },
+        {
+            "id": "create:golden_sheet",
+            "required": false
+        },
+
+
+        {
+            "id": "create_ironworks:gold_hammer",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:gold_paxel",
+            "required": false
+        },
+
+
+        {
+            "id": "createaddition:gold_rod",
+            "required": false
+        },
+        {
+            "id": "createaddition:gold_spool",
+            "required": false
+        },
+        {
+            "id": "createaddition:gold_wire",
+            "required": false
+        },
+
+
+        {
+            "id": "deeperdarker:gloomslate_gold_ore",
+            "required": false
+        },
+        {
+            "id": "deeperdarker:sculk_stone_gold_ore",
+            "required": false
+        },
+
+
+        {
+            "id": "energizedpower:energized_gold_cable",
+            "required": false
+        },
+        {
+            "id": "energizedpower:energized_gold_ingot",
+            "required": false
+        },
+        {
+            "id": "energizedpower:energized_gold_plate",
+            "required": false
+        },
+        {
+            "id": "energizedpower:energized_gold_wire",
+            "required": false
+        },
+        {
+            "id": "energizedpower:gold_cable",
+            "required": false
+        },
+        {
+            "id": "energizedpower:gold_dust",
+            "required": false
+        },
+        {
+            "id": "energizedpower:gold_plate",
+            "required": false
+        },
+        {
+            "id": "energizedpower:gold_wire",
+            "required": false
+        },
+        {
+            "id": "energizedpower:golden_fluid_pipe",
+            "required": false
+        },
+        {
+            "id": "energizedpower:golden_hammer",
+            "required": false
+        },
+
+
+        {
+            "id": "evilcraft:promise_acceptor_gold",
+            "required": false
+        },
+
+
+        {
+            "id": "iceandfire:dragonarmor_gold_head",
+            "required": false
+        },
+        {
+            "id": "iceandfire:dragonarmor_gold_neck",
+            "required": false
+        },
+        {
+            "id": "iceandfire:dragonarmor_gold_body",
+            "required": false
+        },
+        {
+            "id": "iceandfire:dragonarmor_gold_tail",
+            "required": false
+        },
+        {
+            "id": "iceandfire:gold_hippogryph_armor",
+            "required": false
+        },
+        {
+            "id": "iceandfire:gold_pile",
+            "required": false
+        },
+
+
+        {
+            "id": "mcwwindows:golden_curtain_rod",
+            "required": false
+        },
+
+
+        {
+            "id": "nexus:gold_nexus_portal_core",
+            "required": false
+        },
+
+
+        {
+            "id": "sgjourney:golden_idol",
+            "required": false
+        },
+        {
+            "id": "sgjourney:golden_iris",
+            "required": false
+        },
+        {
+            "id": "sgjourney:red_sandstone_with_gold",
+            "required": false
+        },
+        {
+            "id": "sgjourney:sandstone_with_gold",
+            "required": false
+        }
+    ]
+}

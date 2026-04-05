@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "regions_unexplored"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "minecraft:stone"
+        },
+        {
+            "item": "biomesoplenty:willow_vine"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "regions_unexplored:mossy_stone"
+    }
+}

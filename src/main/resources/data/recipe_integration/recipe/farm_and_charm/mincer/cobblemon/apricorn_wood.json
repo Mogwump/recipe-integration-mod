@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "cobblemon"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "cobblemon:apricorn_wood"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "cobblemon:stripped_apricorn_wood",
+        "count": 1
+    }
+}

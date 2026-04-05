@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "vinery"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "vinery:dark_cherry_log"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "vinery:stripped_dark_cherry_log",
+        "count": 1
+    }
+}

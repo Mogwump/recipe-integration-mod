@@ -1,4 +1,13 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:fine_wires/platinum"
+            }
+        }
+    ],
     "values": [
         {
             "id": "modern_industrialization:platinum_fine_wire",

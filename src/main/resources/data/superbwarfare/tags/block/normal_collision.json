@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "superbwarfare"
+        }
+    ],
+    "values": [
+        {
+            "id": "farm_and_charm:barley_ball",
+            "required": false
+        },
+        {
+            "id": "farm_and_charm:oat_ball",
+            "required": false
+        },
+
+        {
+            "id": "tomato:tomato_block",
+            "required": false
+        }
+    ]
+}

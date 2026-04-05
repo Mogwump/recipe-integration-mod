@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "railcraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+    "type": "railcraft:rolling",
+    "key": {
+        "a": {
+            "tag": "c:ingots/stainless_steel"
+        }
+    },
+    "pattern": [
+        "aa",
+        "aa"
+    ],
+    "result": {
+        "count": 4,
+        "id": "modern_industrialization:stainless_steel_plate"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+
+    "values": {
+        "#c:crude_oil": {"eu_per_mb": 16},
+        "#c:naphtha": {"eu_per_mb": 80},
+
+
+        "tfmg:creosote": {"eu_per_mb": 160}
+    }
+}

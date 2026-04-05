@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "natures_spirit"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "natures_spirit:cobbled_travertine"
+        },
+        {
+            "item": "occultism:nature_paste"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "natures_spirit:mossy_cobbled_travertine"
+    }
+}

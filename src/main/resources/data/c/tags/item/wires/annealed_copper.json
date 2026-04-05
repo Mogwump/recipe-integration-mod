@@ -1,4 +1,13 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:wires/annealed_copper"
+            }
+        }
+    ],
     "values": [
         {
             "id": "modern_industrialization:annealed_copper_wire",

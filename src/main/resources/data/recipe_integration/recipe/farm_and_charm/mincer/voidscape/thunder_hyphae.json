@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "voidscape"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "voidscape:thunder_hyphae"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "voidscape:thunder_hyphae_stripped",
+        "count": 1
+    }
+}

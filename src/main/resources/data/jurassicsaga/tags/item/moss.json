@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "jurassicsaga"
+        }
+    ],
+    "values": [
+        {
+            "id": "biomesoplenty:willow_vine",
+            "required": false
+        }
+    ]
+}

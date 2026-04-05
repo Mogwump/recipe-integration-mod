@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "occultism"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "occultism:otherworld_log"
+    },
+    "recipe_type": "WOOD",
+    "result": {
+        "id": "occultism:stripped_otherworld_log",
+        "count": 1
+    }
+}

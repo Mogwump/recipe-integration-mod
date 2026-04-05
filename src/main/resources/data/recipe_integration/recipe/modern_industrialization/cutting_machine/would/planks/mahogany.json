@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "would"
+        }
+    ],
+
+    "type": "modern_industrialization:cutting_machine",
+    "duration": 100,
+    "eu": 2,
+    "fluid_inputs": [
+        {
+            "amount": 1,
+            "fluid": "modern_industrialization:lubricant"
+        }
+    ],
+    "item_inputs": [
+        {
+            "amount": 1,
+            "tag": "would:mahogany_logs"
+        }
+    ],
+    "item_outputs": [
+        {
+            "amount": 6,
+            "item": "would:mahogany_planks"
+        }
+    ]
+}

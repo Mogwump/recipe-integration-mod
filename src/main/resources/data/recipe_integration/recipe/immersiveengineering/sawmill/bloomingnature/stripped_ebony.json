@@ -1,0 +1,35 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "bloomingnature"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "bloomingnature:stripped_ebony_log"
+        },
+        {
+            "item": "bloomingnature:stripped_ebony_wood"
+        }
+    ],
+    "result": {
+        "basePredicate": {
+            "item": "bloomingnature:ebony_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "strippingSecondaries": []
+}

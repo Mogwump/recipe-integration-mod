@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "railcraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "modern_industrialization"
+        }
+    ],
+    "type": "railcraft:rolling",
+    "key": {
+        "a": {
+            "tag": "c:ingots/aluminum"
+        }
+    },
+    "pattern": [
+        "aa",
+        "aa"
+    ],
+    "result": {
+        "count": 4,
+        "id": "modern_industrialization:aluminum_plate"
+    }
+}

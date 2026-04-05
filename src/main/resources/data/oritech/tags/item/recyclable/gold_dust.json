@@ -1,0 +1,64 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        }
+    ],
+    "values": [
+        {
+            "id": "#c:gears/gold",
+            "required": false
+        },
+
+
+        {
+            "id": "aether:golden_ring",
+            "required": false
+        },
+
+
+        {
+            "id": "create_ironworks:gold_hammer",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:gold_paxel",
+            "required": false
+        },
+
+
+        {
+            "id": "crittersandcompanions:gold_dragonfly_armor",
+            "required": false
+        },
+
+
+        {
+            "id": "modern_industrialization:gold_drill_head",
+            "required": false
+        },
+
+
+        {
+            "id": "sgjourney:golden_iris",
+            "required": false
+        },
+
+
+        {
+            "id": "superbwarfare:golden_hammer",
+            "required": false
+        },
+
+
+        {
+            "id": "supplementaries:gold_door",
+            "required": false
+        },
+        {
+            "id": "supplementaries:gold_trapdoor",
+            "required": false
+        }
+    ]
+}

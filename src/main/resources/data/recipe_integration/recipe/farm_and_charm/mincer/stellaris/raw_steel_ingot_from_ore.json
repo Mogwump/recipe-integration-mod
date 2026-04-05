@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "farm_and_charm"
+        },
+        {
+            "type": "neoforge:mod_laoded",
+            "modid": "stellaris"
+        }
+    ],
+    "type": "farm_and_charm:mincer",
+    "ingredient": {
+        "item": "stellaris:steel_ore"
+    },
+    "recipe_type": "METAL",
+    "result": {
+        "id": "stellaris:raw_steel_ingot",
+        "count": 3
+    }
+}

@@ -7,6 +7,13 @@
         {
             "type": "neoforge:mod_loaded",
             "modid": "occultism"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:mod_loaded",
+                "modid": "jaopca"
+            }
         }
     ],
 

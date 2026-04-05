@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        }
+    ],
+    "values": [
+        {
+            "id": "#c:gears/netherite",
+            "required": false
+        },
+
+
+        {
+            "id": "create_ironworks:netherite_hammer",
+            "required": false
+        },
+        {
+            "id": "create_ironworks:netherite_paxel",
+            "required": false
+        },
+
+
+        {
+            "id": "sgjourney:netherite_iris",
+            "required": false
+        }
+    ]
+}

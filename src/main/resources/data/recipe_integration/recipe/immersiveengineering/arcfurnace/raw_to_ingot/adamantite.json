@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:raw_materials/adamantite"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "registry": "minecraft:item",
+                "tag": "c:ingots/adamantite"
+            }
+        }
+    ],
+
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [],
+    "energy": 25600,
+    "input": {
+        "tag": "c:raw_materials/adamantite"
+    },
+    "results": [
+        {
+            "tag": "c:ingots/adamantite"
+        }
+    ],
+    "secondaries": [
+        {
+            "chance": 0.5,
+            "output": {
+                "tag": "c:ingots/adamantite"
+            }
+        }
+    ],
+    "time": 100
+}

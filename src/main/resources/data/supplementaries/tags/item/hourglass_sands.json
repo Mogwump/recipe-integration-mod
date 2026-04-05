@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "supplementaries"
+        }
+    ],
+    "values": [
+        {
+            "id": "sgjourney:sulfur_sand",
+            "required": false
+        }
+    ]
+}

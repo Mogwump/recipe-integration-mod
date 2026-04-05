@@ -1,32 +1,136 @@
 This is mostly for me to keep track of what commits I have made between versions.
 
-### New recipe types:
+# New recipe types/features:
 
-* Added Alloy Smelter smelting recipes from the mod Alloy Smelter. Currently: Create: TFMG, DivineRPG, Energized Power, Eternal Starlight, Extreme Reactors, Ice And Fire Community Edition, Immersive Engineering, Mekanism, Modern Industrialization, Occultism, Oritech, Silent Gear, Stellaris, The Undergarden
-* Added Umbra Poor Ores water and lava bucket crafting for: The Aether, Forbidden & Arcanus
-* Added Clayworks kiln recipes. Currently only smooth sandstones from: Biomes O' Plenty, Nature's Spirit, Oh The Biomes We've Gone, Yung's Cave Biomes
-* Added Immersive Engineering Garden Cloche recipes for flowers and crops. Currently: The Aether, Ars Nouveau, Atmospheric, Occultism. Many more mods planned.
+### Copper
 
-### New mods for existing features:
+* Added Create Crafts & Additions charging recipes (copper deoxidising). Currently: Fossils and Archaeology Legacy
+* Added Mekanism combining recipes (waxing). Currently: Fossils and Archaeology Legacy. (Create coming soon)
+* Added Mekanism injecting recipes (oxidizing). Currently: Create. (Fossils and Archaeology Legacy coming soon)
 
-* Added Atmospheric, Autumnity, Silent Gear, Vanilla Backport to: Energized Power Sawmill, Farmer's Delight cutting, Immersive Engineering sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine.
-* Added Create: Northstar - Redux to: Energized Power Sawmill, Mekanism Sawmill, Modern Industrialization Cutting Machine. Note: Calorian Planks from Northstar were not added since they do not currently have a recipe
-* Added Productive Trees logs to the Energized Power sawmill.
-* Added Integrated Dynamics, Occultism to Modern Industrialization packer recipes (ignored materials already in Modern Industrialization)
-* Added wood & stripped wood packing recipes to Modern Industrialization for: The Aether, Ars Elemental, Ars Nouveau, Atmospheric, Biomes O' Plenty, Deep Aether, Deeper and Darker, Eternal Starlight, Evilcraft, Integrated Dynamics, Oh The Biomes We've Gone, Regions Unexplored, Vanilla Backport
-* Added Ice And Fire Community Edition frozen cobblestone to frozen gravel crushing with Ex Deorum
-* Added Actually Additions lamps to Bumblezone queen bee colour randomizer trades (might add drills in a later update, would probably need to test first because of nbt)
+### Plants
 
-### Fixes/Tweaks for existing features:
+* Added Energized Power Plant Growth Chamber recipes for modded flowers. Currently: The Aether, Autumnity, Deep Aether, Environmental (more mods coming soon)
 
-* Reduced time for Modern Industrialization packer recipes for Farmer's Delight from 10 seconds to 5 seconds
-* Reduced time for Oritech pulverizer for silver ores to match existing compat recipes (200 ticks -> 120 ticks, now same as built-in immersive engineering silver)
-* Added stripped archwood to IE sawmill
-* Fixed Productive Trees mod name in energized power sawmill, so the recipes should actually exist now.
-* Fixed recipe ID for GTCEU rubber log stripping with Farmer's Delight
+### Wood
 
-### Notes:
+* Addes Aether skyroot planks crafting recipes. Currently: Chipped, Galosphere. TODO: Mekanism (+extras), Actually Additions, Farmer's Delight, etc
+* Added Farm and Charm mincer stripping recipes. Currently: Cobblemon, End's Phantasm, Eternal Starlight, [Let's Do] Vinery, Occultism, Regions Unexplored, Voidscape
 
-Since the last update, I have fixed the links to the github on the Modrinth page so feel free to make mod recommendations!
+### Ores
 
-Probably going to add MI unpacker recipes next and add some more various mod compatability for the packer and unpacker. Possibly some Oritech. Might also add load conditions to not load some recipes with JAOPCA. Also I might tweak some macerating yields for some ores to be the same as in JAOPCA.
+* Added Farm and Charm mincer recipes for ores. Currently: Create: TFMG, Irons' Spells 'n Spellbooks, Oritech, Stargate Journey
+* Added Create mixing recipes for Oritech gems added by JAOPCA. Each mod is not guaranteed to be fully complete. Currently: Create, Create: TFMG, Eternal Starlight, Iron's Spells 'n Spellbooks, Modern Industrialization, Occultism, Stellaris
+
+### Plates
+
+* Added Railcraft Reborn metal rolling for plates from: Create Crafts & Additions, Energized Power, Modern Industrialization
+
+### Misc
+
+* Added redstone component crafting with Eternal Starlight cinder bricks. Currently: Create, Redstone Capacitor
+* Added Create milling recipes. Currently Stellaris venus sandstone -> venus sand
+* Added Occultism nature paste crafting. Currently: The Aether, Deep Aether, [Let's Do] BloomingNature, Nature's Spirit, Oh The Biomes We've Gone, Regions Unexplored
+* Added Biomes O' Plenty willow vine crafting. Currently: The Aether, Nature's Spirit, Regions Unexplored
+* Added some Northstar tags for blocks (heavy_blocks, super_heavy_blocks, tier_1_heat_resistance)
+* Added #create:fan_transparent tag for blocks from Eternal Starlight and The Bumblezone
+* Added some CC:Tweaked turtle harvestable tags. Currently: Tomato Mod (by BurritoBandit28 - releasing soon)
+* Added Superb Warfare tags. Currently: [Let's Do] Farm & Charm, Tomato Mod
+* Added supplementaries hourglass sands tag to Stargate Journey sulfur sand
+* Added supplementaries throwable bricks tag to Eternal Starlight, TerraFirmaCraft, TFMG
+* Added Oritech recycling tags to several mods. Currently: The Aether, Create, Critters And Companions, Energized Power, Ice And Fire Community Edition, Macaw's Bridges, Macaw's Lights and Lamps, Modern Industrialization, PneumaticCraft, Stargate Journey, Superb Warfare, Supplementaries
+* Added fuel values from Modern Industrialization to a few fluids
+* Added tags for the mod "Bingo" for various mods
+* Added Minecraft stone tool materials tag to cobblestones from Stellaris
+
+# New mods for existing features:
+
+### Wood
+
+* Added [Let's Do] BloomingNature, Cobblemon, End's Phantasm, Environmental (check what's done), Nexus, Voidscape, Would (check what's done) to: Energized Power sawmill, Farmer's Delight stripping, Fossils and Archaeology Legacy ancient axe bonus, Immersive Engineering sawmill, Mekanism sawmill, Modern Industrialization cutting machine, Modern Industrialization packer
+(Note: End's Phantsm was already in Farmer's Delight stripping and Immersive Engineering sawmill recipes)
+todo: MI packer for Environmental, Would
+* Added Ars Elemental, Ars Nouveau, Atmospheric, Autumnity, Biomes O' Plenty, Eternal Starlight, Ice And Fire Community Edition, Integrated Dynamics, [Let's Do] BloomingNature, [Let's Do] Vinery, Nature's Spirit, Northstar Redux, Oh The Biomes We've Gone, Regions Unexplored, Silent Gear to Fossils and Archaeology Legacy ancient axe bonus
+* Added Occultism to Farmer's Delight stripping
+* Added Ars Nouveau, Atmospheric, Autumnity, Regions Unexplored to Productive Trees sawmill
+
+### Misc
+
+* Added Advanced Netherite, Advent Of Ascension, Autumnity, Cataclysm, Cobblemon, Eternal Starlight, Minecraft Comes Alive, PneumaticCraft: Repressurized, Silent Gear, Stargate Journey, Voidscape to Modern Industrialization packer, as well as additional recipes for: The Aether, Cobblemon, Deep Aether
+* Added more ores to Immersive Engineering arc furnace recipes
+* Added Crimson Iron, Inferium and Cobblemon stones to Ars Nouveau scry ritual (todo: more silent gems?)
+
+# Fixes/Tweaks for existing features:
+
+* Added Eternal Starlight cradlewood to: MI cutting machine (todo others)
+* Started to add JAOPCA load conditions
+* Added load conditions for material tags. Should help with JAOPCA compatability.
+* Added Regions Unexplored silver birch log/wood to Modern Industrialization packer recipes
+* Fixed Silent Gear planks in the Modern Industrialization cutting machine
+
+# Notes:
+
+### Removed Productive Trees support. See below for reasoning.
+
+* Changed recipe ID for Create Crafts & Additions rolling from rolling_rods to rolling to better match existing IDs.
+* Added a link to the Modrinth page for the mod homepage
+
+# Known Bugs:
+
+Load conditions for tags don't seem to be working (randomium blacklist, projecte ignore missing emc). This means the tags will be loaded even if the respective mod isn't. This won't cause any issues other than unnecessary bloat in the tags. (check this with new mod jar)
+
+# Info about next version
+
+I might start learning java so I can rewrite the mod to use datagen soon. This will make adding compat much easier in the future, since it is starting to get a bit tedious, but it would likely take a while to set up.
+
+Once the mod is set up, I would be able to add support for many more mods, since adding them would be much faster, since I would only have to add a single mod ID and material name in the right place, like "phantasm" and "pream" and it would do all the wood recipes for End's Phantasm.
+
+However, I might deprecate some mods/features to refine the scope of this mod and improve compatability. Most notably ProjectE custom conversions. I will still add world transmutations, but [ProjectE Integration](https://modrinth.com/mod/projecte-integration) does a better job at handling the EMC values.
+
+Ore processing will also become a lower priority since JAOPCA does a better job at handling that. I will still add some recipes (with the appropriate load conditions from the beginning) and a few that aren't handled by JAOPCA like drilling for ores with Modern Industrialization, which will be a bit more of a stylized tweak.
+
+Basically, don't expect any **major** updates soon. There won't be an ETA. It could be a month or it could be a year. The mod is currently set up to work on any Minecraft version above 1.21, so unless there are any breaking changes, all I need to do is update the version on Modrinth for it to show for new versions, but it'll work anyway if you install the mod manually.
+
+There will still be a few smaller changes and additions to the current mod whilst the rewrite is in development, but not any big new features. I will primarily be focusing on a few select mods.
+
+I will likely make the mod using something like [Architectury](modrinth.com/mod/architectury-api) so it's available natively on forge, neoforge, fabric and quilt. There _might_ also be versions below 1.21 (like 1.20.1). Still unlikely, but much more likely than before.
+
+# Why did I remove Productive Trees and Allthemodium support?
+
+TW: suicide
+
+The creator of Productive Trees and one of the developers for AllTheMods packs, [LobsterJonn](https://modrinth.com/user/LobsterJonn), made a mod called "It's A Kid's Game", which "Removes gender related content from other mods". He has since deleted it, but let me give some info about why this is homophobic if you're confused.
+
+- LGBTQ+ youth are more than four times as likely to attempt suicide
+- 39% of LGBTQ+ young people seriously considered attempting suicide in the past year, including roughly half of transgender and nonbinary youth.
+- The Trevor Project estimates that more than 1.8 million LGBTQ+ young people (ages 13-24) seriously consider suicide each year in the U.S. — and at least one attempts suicide every 45 seconds.
+- Transgender and nonbinary youth are 2 to 2.5 times as likely to experience depressive symptoms, seriously consider suicide, and attempt suicide compared to their cisgender LGBQ peers, who are ALREADY at a much higher risk.
+
+These people are questioning their entire identity and existence. When everyone on the news claims that they're perverts for simply existing, or that they're unnatural, or that they're delusional, the causes are obvious.
+
+Preventing children from seeing anything gender-related and looking into it and possibly finding an explanation as to why they feel so different only worsens the issue.
+
+Put simply (and somewhat harshly, but still realistic): LobsterJonn is contributing to killing a demographic of children.
+
+I will not support homophobia or transphobia. I will not endorse it. I will not even stand idle. I did not realise it was LobsterJonn who made the mod.
+
+## Will this even do anything?
+
+Unlikely. My mod has 7k downloads, and I doubt many people are even reading this. But if everyone has the mentality of "I'm just one person. How can I change anything?", then nothing will be done. Collective action works. Boycotts work.
+
+You can share the statistics. You can spread awareness. You can donate to charities like the Trevor Project that helps LGBTQ+ youth. And you can openly express your support so that if someone you know is questioning their identity, they feel safe to talk about it.
+
+## Info and sources:
+
+https://www.reddit.com/r/feedthememes/comments/1jnpeoj/a_third_atm_homophobia_scandal_has_hit_the_modded/
+
+https://www.thetrevorproject.org/resources/article/facts-about-lgbtq-youth-suicide/
+
+TODO:
+
+* MI unpacker for cobblemon coins + all the other stuff
+* Stripped logs in MI cutting machine
+* copper recipes (faal in mek injecting, Create in mek combining)
+* Check Oritech recyclable tags between regular dust and small dust
+* Lithereal planks + ore recipes
+* Finish Biomes O' Plenty willow vine crafting

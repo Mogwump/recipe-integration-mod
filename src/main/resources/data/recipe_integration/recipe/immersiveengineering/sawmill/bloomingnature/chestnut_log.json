@@ -1,0 +1,37 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "immersiveengineering"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "bloomingnature"
+        }
+    ],
+
+    "type": "immersiveengineering:sawmill",
+    "energy": 1600,
+    "input": {
+        "item": "bloomingnature:chestnut_log"
+    },
+    "result": {
+        "basePredicate": {
+            "item": "bloomingnature:chestnut_planks"
+        },
+        "count": 6
+    },
+    "secondaryOutputs": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ],
+    "stripped": {
+        "item": "bloomingnature:stripped_chestnut_log"
+    },
+    "strippingSecondaries": [
+        {
+            "tag": "c:dusts/wood"
+        }
+    ]
+}

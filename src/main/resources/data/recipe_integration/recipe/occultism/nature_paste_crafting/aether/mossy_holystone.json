@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "occultism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "aether:holystone"
+        },
+        {
+            "item": "occultism:nature_paste"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "aether:mossy_holystone"
+    }
+}

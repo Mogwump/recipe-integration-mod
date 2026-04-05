@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "#c:storage_blocks/steel",
+            "required": false
+        },
+        {
+            "id": "#c:storage_blocks/refined_obsidian",
+            "required": false
+        }
+    ]
+}

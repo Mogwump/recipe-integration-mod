@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "chemical": "mekanism:oxygen",
+        "amount": 1
+    },
+    "item_input": {
+        "item": "create:exposed_copper_shingle_slab",
+        "count": 1
+    },
+    "output": {
+        "id": "create:weathered_copper_shingle_slab",
+        "count": 1
+    },
+    "per_tick_usage": true
+}

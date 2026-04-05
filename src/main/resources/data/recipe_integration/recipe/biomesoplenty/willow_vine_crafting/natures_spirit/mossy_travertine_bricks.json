@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "natures_spirit"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "natures_spirit:travertine_bricks"
+        },
+        {
+            "item": "biomesoplenty:willow_vine"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "natures_spirit:mossy_travertine_bricks"
+    }
+}

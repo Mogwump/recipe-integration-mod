@@ -1,0 +1,82 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        }
+    ],
+    "values": [
+        {
+            "id": "#c:gears/diamond",
+            "required": false
+        },
+
+
+        {
+            "id": "aether:diamond_gloves",
+            "required": false
+        },
+
+
+        {
+            "id": "crittersandcompanions:diamond_dragonfly_armor",
+            "required": false
+        },
+
+
+        {
+            "id": "energizedpower:diamond_hammer",
+            "required": false
+        },
+
+
+        {
+            "id": "iceandfire:dragonarmor_diamond_head",
+            "required": false
+        },
+        {
+            "id": "iceandfire:dragonarmor_diamond_neck",
+            "required": false
+        },
+        {
+            "id": "iceandfire:dragonarmor_diamond_body",
+            "required": false
+        },
+        {
+            "id": "iceandfire:dragonarmor_diamond_tail",
+            "required": false
+        },
+        {
+            "id": "iceandfire:diamond_hippogryph_armor",
+            "required": false
+        },
+
+
+        {
+            "id": "modern_industrialization:diamond_hammer",
+            "required": false
+        },
+        {
+            "id": "modern_industrialization:diamond_large_plate",
+            "required": false
+        },
+
+
+        {
+            "id": "pneumaticcraft:drill_bit_diamond",
+            "required": false
+        },
+
+
+        {
+            "id": "sgjourney:diamond_iris",
+            "required": false
+        },
+
+
+        {
+            "id": "superbwarfare:diamond_hammer",
+            "required": false
+        }
+    ]
+}
